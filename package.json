@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "gatsby": "^2.24.11",
+    "gatsby-source-graphql": "^2.6.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
@@ -35,6 +36,7 @@
     "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^3.7.0",
     "@typescript-eslint/parser": "^3.7.0",
+    "dotenv": "^8.2.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
