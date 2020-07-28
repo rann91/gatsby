@@ -15,7 +15,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "generate": "graphql-codegen --config codegen.yml"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "1.17.6",
     "@types/node": "^12.12.53",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
@@ -49,6 +51,8 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "prettier-config-standard": "^1.0.1",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "@graphql-codegen/typescript": "1.17.6",
+    "@graphql-codegen/typescript-operations": "1.17.6"
   }
 }
