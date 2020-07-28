@@ -1,6 +1,10 @@
 require('dotenv').config()
 
 module.exports = {
+  siteMetadata: {
+    title: 'Gatsby',
+    description: 'Gatsby example project'
+  },
   plugins: [
     {
       resolve: 'gatsby-source-graphql',

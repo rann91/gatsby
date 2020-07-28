@@ -33,6 +33,7 @@
                 "args": "none"
             }
         ],
+        "camelcase": "off",
         "react/no-unescaped-entities": "off",
         "prettier/prettier": "error"
     },

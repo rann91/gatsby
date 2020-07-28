@@ -1,29 +1,30 @@
 import { graphql, PageProps } from 'gatsby'
 import React from 'react'
-import { Strapi_Homepage } from '../types/graphql'
+import { Strapi_Page } from '../../types/graphql'
 
 interface Props extends PageProps {
   data: {
     strapi: {
-      homepage: Strapi_Homepage
+      page: Strapi_Page
     }
   }
 }
 
-const Home = ({ data }: Props) => {
+const Page = ({ data }: Props) => {
   console.log(data)
-  return <h1>Home</h1>
+  return <h1>Page</h1>
 }
 
 export const query = graphql`
-  query {
+  query($id: ID!) {
     strapi {
-      homepage {
+      page(id: $id) {
         id
-        title
         meta {
           ...Meta
         }
+        title
+        slug
         content {
           ...Cta
           ...Hero
@@ -43,4 +44,4 @@ export const query = graphql`
   }
 `
 
-export default Home
+export default Page

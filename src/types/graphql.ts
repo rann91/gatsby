@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 export type Maybe<T> = T | null
 export type Exact<T extends { [key: string]: any }> = { [K in keyof T]: T[K] }
 /** All built-in and custom scalars, mapped to their actual values */
@@ -991,6 +990,7 @@ export type QueryAllSitePageArgs = {
 
 export type QuerySiteArgs = {
   buildTime?: Maybe<DateQueryOperatorInput>
+  siteMetadata?: Maybe<SiteSiteMetadataFilterInput>
   port?: Maybe<IntQueryOperatorInput>
   host?: Maybe<StringQueryOperatorInput>
   polyfill?: Maybe<BooleanQueryOperatorInput>
@@ -1063,6 +1063,7 @@ export type QueryAllSitePluginArgs = {
 export type Site = Node & {
   __typename?: 'Site'
   buildTime?: Maybe<Scalars['Date']>
+  siteMetadata?: Maybe<SiteSiteMetadata>
   port?: Maybe<Scalars['Int']>
   host?: Maybe<Scalars['String']>
   polyfill?: Maybe<Scalars['Boolean']>
@@ -1265,6 +1266,8 @@ export type SiteEdge = {
 
 export enum SiteFieldsEnum {
   BuildTime = 'buildTime',
+  SiteMetadataTitle = 'siteMetadata___title',
+  SiteMetadataDescription = 'siteMetadata___description',
   Port = 'port',
   Host = 'host',
   Polyfill = 'polyfill',
@@ -1359,6 +1362,7 @@ export enum SiteFieldsEnum {
 
 export type SiteFilterInput = {
   buildTime?: Maybe<DateQueryOperatorInput>
+  siteMetadata?: Maybe<SiteSiteMetadataFilterInput>
   port?: Maybe<IntQueryOperatorInput>
   host?: Maybe<StringQueryOperatorInput>
   polyfill?: Maybe<BooleanQueryOperatorInput>
@@ -1886,6 +1890,17 @@ export type SitePluginSortInput = {
   order?: Maybe<Array<Maybe<SortOrderEnum>>>
 }
 
+export type SiteSiteMetadata = {
+  __typename?: 'SiteSiteMetadata'
+  title?: Maybe<Scalars['String']>
+  description?: Maybe<Scalars['String']>
+}
+
+export type SiteSiteMetadataFilterInput = {
+  title?: Maybe<StringQueryOperatorInput>
+  description?: Maybe<StringQueryOperatorInput>
+}
+
 export type SiteSortInput = {
   fields?: Maybe<Array<Maybe<SiteFieldsEnum>>>
   order?: Maybe<Array<Maybe<SortOrderEnum>>>
@@ -2153,8 +2168,8 @@ export enum Strapi_CacheControlScope {
   Private = 'PRIVATE'
 }
 
-export type Strapi_ComponentContentArticleOverview = {
-  __typename?: 'STRAPI_ComponentContentArticleOverview'
+export type Strapi_ComponentContentArticleList = {
+  __typename?: 'STRAPI_ComponentContentArticleList'
   id: Scalars['ID']
   _id: Scalars['ID']
   createdAt: Scalars['STRAPI_DateTime']
@@ -2163,7 +2178,7 @@ export type Strapi_ComponentContentArticleOverview = {
   subtitle?: Maybe<Scalars['String']>
 }
 
-export type Strapi_ComponentContentArticleOverviewInput = {
+export type Strapi_ComponentContentArticleListInput = {
   title?: Maybe<Scalars['String']>
   subtitle?: Maybe<Scalars['String']>
 }
@@ -2568,7 +2583,7 @@ export type Strapi_EditArticleInput = {
   slug?: Maybe<Scalars['String']>
 }
 
-export type Strapi_EditComponentContentArticleOverviewInput = {
+export type Strapi_EditComponentContentArticleListInput = {
   id?: Maybe<Scalars['ID']>
   title?: Maybe<Scalars['String']>
   subtitle?: Maybe<Scalars['String']>
@@ -2807,7 +2822,6 @@ export type Strapi_HomepageContentDynamicZone =
   | Strapi_ComponentContentCta
   | Strapi_ComponentContentHero
   | Strapi_ComponentContentHighlight
-  | Strapi_ComponentSharedService
   | Strapi_ComponentContentServicelist
   | Strapi_ComponentContentText
   | Strapi_ComponentContentPersonList
@@ -2816,6 +2830,7 @@ export type Strapi_HomepageContentDynamicZone =
   | Strapi_ComponentContentProjectList
   | Strapi_ComponentContentMaps
   | Strapi_ComponentContentPersonContactList
+  | Strapi_ComponentContentArticleList
 
 export type Strapi_HomepageInput = {
   meta?: Maybe<Strapi_ComponentStructureMetaInput>
@@ -2964,7 +2979,7 @@ export type Strapi_Morph =
   | Strapi_CreateUserPayload
   | Strapi_UpdateUserPayload
   | Strapi_DeleteUserPayload
-  | Strapi_ComponentContentArticleOverview
+  | Strapi_ComponentContentArticleList
   | Strapi_ComponentContentContactForm
   | Strapi_ComponentContentCta
   | Strapi_ComponentContentHero
@@ -3073,7 +3088,7 @@ export type Strapi_PageContentDynamicZone =
   | Strapi_ComponentContentMaps
   | Strapi_ComponentContentPersonContactList
   | Strapi_ComponentContentCta
-  | Strapi_ComponentContentArticleOverview
+  | Strapi_ComponentContentArticleList
 
 export type Strapi_PageGroupBy = {
   __typename?: 'STRAPI_PageGroupBy'
@@ -3921,5 +3936,183 @@ export type PagesQueryQueryVariables = Exact<{ [key: string]: never }>
 export type PagesQueryQuery = { __typename?: 'Query' } & {
   allSitePage: { __typename?: 'SitePageConnection' } & {
     nodes: Array<{ __typename?: 'SitePage' } & Pick<SitePage, 'path'>>
+  }
+}
+
+export type LinkFragment = { __typename?: 'STRAPI_ComponentSharedLink' } & Pick<
+  Strapi_ComponentSharedLink,
+  'id' | 'label' | 'newWindow' | 'url'
+>
+
+export type ImageFragment = { __typename?: 'STRAPI_UploadFile' } & Pick<
+  Strapi_UploadFile,
+  'alternativeText' | 'id' | 'name' | 'url'
+>
+
+export type MetaFragment = {
+  __typename?: 'STRAPI_ComponentStructureMeta'
+} & Pick<
+  Strapi_ComponentStructureMeta,
+  'id' | 'metaDescription' | 'metaTitle'
+> & { metaImage?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment> }
+
+export type CtaFragment = { __typename?: 'STRAPI_ComponentContentCta' } & Pick<
+  Strapi_ComponentContentCta,
+  'id' | 'title'
+> & {
+    link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
+  }
+
+export type HeroFragment = {
+  __typename?: 'STRAPI_ComponentContentHero'
+} & Pick<Strapi_ComponentContentHero, 'id' | 'title'> & {
+    image?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment>
+    link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
+  }
+
+export type TextFragment = {
+  __typename?: 'STRAPI_ComponentContentText'
+} & Pick<Strapi_ComponentContentText, 'id' | 'subtitle' | 'text' | 'title'>
+
+export type HighlightFragment = {
+  __typename?: 'STRAPI_ComponentContentHighlight'
+} & Pick<
+  Strapi_ComponentContentHighlight,
+  'id' | 'reverse' | 'subtitle' | 'text' | 'title'
+> & {
+    image?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment>
+    link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
+  }
+
+export type ServiceFragment = {
+  __typename?: 'STRAPI_ComponentSharedService'
+} & Pick<Strapi_ComponentSharedService, 'description' | 'id' | 'title'> & {
+    icon?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment>
+  }
+
+export type ServiceListFragment = {
+  __typename?: 'STRAPI_ComponentContentServicelist'
+} & Pick<Strapi_ComponentContentServicelist, 'id' | 'subtitle' | 'title'> & {
+    services?: Maybe<
+      Array<
+        Maybe<
+          { __typename?: 'STRAPI_ComponentSharedService' } & ServiceFragment
+        >
+      >
+    >
+  }
+
+export type PersonFragment = { __typename?: 'STRAPI_Person' } & Pick<
+  Strapi_Person,
+  'email' | 'id' | 'job' | 'name' | 'phone'
+> & { image?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment> }
+
+export type PersonListFragment = {
+  __typename?: 'STRAPI_ComponentContentPersonList'
+} & Pick<Strapi_ComponentContentPersonList, 'id' | 'subtitle' | 'title'> & {
+    persons?: Maybe<
+      Array<Maybe<{ __typename?: 'STRAPI_Person' } & PersonFragment>>
+    >
+  }
+
+export type PersonContactListFragment = {
+  __typename?: 'STRAPI_ComponentContentPersonContactList'
+} & Pick<
+  Strapi_ComponentContentPersonContactList,
+  'id' | 'title' | 'subtitle'
+> & {
+    persons?: Maybe<
+      Array<Maybe<{ __typename?: 'STRAPI_Person' } & PersonFragment>>
+    >
+  }
+
+export type LatestArticleListFragment = {
+  __typename?: 'STRAPI_ComponentContentLatestArticleList'
+} & Pick<
+  Strapi_ComponentContentLatestArticleList,
+  'id' | 'limit' | 'subtitle' | 'title'
+>
+
+export type ArticleListFragment = {
+  __typename?: 'STRAPI_ComponentContentArticleList'
+} & Pick<Strapi_ComponentContentArticleList, 'id' | 'subtitle' | 'title'>
+
+export type MapsFragment = {
+  __typename?: 'STRAPI_ComponentContentMaps'
+} & Pick<Strapi_ComponentContentMaps, 'id' | 'embedUrl'>
+
+export type ContactFormFragment = {
+  __typename?: 'STRAPI_ComponentContentContactForm'
+} & Pick<Strapi_ComponentContentContactForm, 'id' | 'description' | 'title'> & {
+    contactDetail?: Maybe<
+      Array<
+        Maybe<
+          { __typename?: 'STRAPI_ComponentSharedContactDetail' } & Pick<
+            Strapi_ComponentSharedContactDetail,
+            'id' | 'content' | 'title'
+          >
+        >
+      >
+    >
+  }
+
+export type ProjectListFragment = {
+  __typename?: 'STRAPI_ComponentContentProjectList'
+} & Pick<Strapi_ComponentContentProjectList, 'id' | 'subtitle' | 'title'>
+
+export type HomepageQueryVariables = Exact<{ [key: string]: never }>
+
+export type HomepageQuery = { __typename?: 'Query' } & {
+  strapi: { __typename?: 'STRAPI' } & {
+    homepage?: Maybe<
+      { __typename?: 'STRAPI_Homepage' } & Pick<
+        Strapi_Homepage,
+        'id' | 'title'
+      > & {
+          meta?: Maybe<
+            { __typename?: 'STRAPI_ComponentStructureMeta' } & MetaFragment
+          >
+          content?: Maybe<
+            Array<
+              Maybe<
+                | ({ __typename?: 'STRAPI_ComponentContentCta' } & CtaFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentHero'
+                  } & HeroFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentHighlight'
+                  } & HighlightFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentServicelist'
+                  } & ServiceListFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentText'
+                  } & TextFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentPersonList'
+                  } & PersonListFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentContactForm'
+                  } & ContactFormFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentLatestArticleList'
+                  } & LatestArticleListFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentProjectList'
+                  } & ProjectListFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentMaps'
+                  } & MapsFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentPersonContactList'
+                  } & PersonContactListFragment)
+                | ({
+                    __typename?: 'STRAPI_ComponentContentArticleList'
+                  } & ArticleListFragment)
+              >
+            >
+          >
+        }
+    >
   }
 }
