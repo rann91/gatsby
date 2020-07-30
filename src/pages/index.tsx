@@ -1,18 +1,22 @@
 import { graphql, PageProps } from 'gatsby'
 import React from 'react'
+import Seo from '../components/Seo'
 import { Strapi_Homepage } from '../types/graphql'
 
-interface Props extends PageProps {
-  data: {
-    strapi: {
-      homepage: Strapi_Homepage
-    }
+type Props = PageProps<{
+  strapi: {
+    homepage: Strapi_Homepage
   }
-}
+}>
 
-const Home = ({ data }: Props) => {
+const Home = ({ data, location }: Props) => {
   console.log(data)
-  return <h1>Home</h1>
+  return (
+    <>
+      <Seo meta={data.strapi.homepage.meta} location={location} />
+      <h1>Home</h1>
+    </>
+  )
 }
 
 export const query = graphql`

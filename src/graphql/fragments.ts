@@ -11,10 +11,13 @@ export const FRAGMENT_LINK = graphql`
 
 export const FRAGMENT_IMAGE = graphql`
   fragment Image on STRAPI_UploadFile {
-    alternativeText
     id
-    name
+    alternativeText
     url
+    file {
+      id
+      publicURL
+    }
   }
 `
 
