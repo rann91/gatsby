@@ -9,15 +9,18 @@ export const FRAGMENT_LINK = graphql`
   }
 `
 
+export const FRAGMENT_FILE = graphql`
+  fragment File on File {
+    id
+    publicURL
+  }
+`
+
 export const FRAGMENT_IMAGE = graphql`
   fragment Image on STRAPI_UploadFile {
     id
     alternativeText
     url
-    file {
-      id
-      publicURL
-    }
   }
 `
 
@@ -28,6 +31,14 @@ export const FRAGMENT_META = graphql`
     metaTitle
     metaImage {
       ...Image
+      file {
+        ...File
+        childImageSharp {
+          resize(height: 630, width: 1200) {
+            src
+          }
+        }
+      }
     }
   }
 `
@@ -47,6 +58,14 @@ export const FRAGMENT_HERO = graphql`
     id
     image {
       ...Image
+      file {
+        ...File
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
     link {
       ...Link
@@ -69,6 +88,14 @@ export const FRAGMENT_HIGHLIGHT = graphql`
     id
     image {
       ...Image
+      file {
+        ...File
+        childImageSharp {
+          fluid(maxWidth: 740) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
     link {
       ...Link
@@ -85,6 +112,9 @@ export const FRAGMENT_SERVICE = graphql`
     description
     icon {
       ...Image
+      file {
+        ...File
+      }
     }
     id
     title
@@ -108,6 +138,14 @@ export const FRAGMENT_PERSON = graphql`
     id
     image {
       ...Image
+      file {
+        ...File
+        childImageSharp {
+          fluid(maxWidth: 340) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
     job
     name
