@@ -4,7 +4,7 @@ documents:
   - './src/**/*.{ts,tsx}'
   - './node_modules/gatsby*/!(node_modules)/**/*.js'
 generates:
-  src/types/graphql.ts:
+  src/typings/graphql.d.ts:
     plugins:
       - 'typescript'
       - 'typescript-operations'

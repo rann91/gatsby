@@ -1,7 +1,7 @@
 import { graphql, PageProps } from 'gatsby'
-import React from 'react'
+import React, { Fragment } from 'react'
 import Seo from '../components/Seo'
-import { Strapi_Homepage } from '../types/graphql'
+import { Strapi_Homepage } from '../typings/graphql'
 
 type Props = PageProps<{
   strapi: {
@@ -12,10 +12,14 @@ type Props = PageProps<{
 const Home = ({ data, location }: Props) => {
   console.log(data)
   return (
-    <>
-      <Seo meta={data.strapi.homepage.meta} location={location} />
+    <Fragment>
+      <Seo
+        pageTitle={data.strapi.homepage.title}
+        meta={data.strapi.homepage.meta}
+        location={location}
+      />
       <h1>Home</h1>
-    </>
+    </Fragment>
   )
 }
 

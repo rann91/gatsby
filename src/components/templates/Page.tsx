@@ -1,14 +1,12 @@
 import { graphql, PageProps } from 'gatsby'
 import React from 'react'
-import { Strapi_Page } from '../../types/graphql'
+import { Strapi_Page } from '../../typings/graphql'
 
-interface Props extends PageProps {
-  data: {
-    strapi: {
-      page: Strapi_Page
-    }
+type Props = PageProps<{
+  strapi: {
+    page: Strapi_Page
   }
-}
+}>
 
 const Page = ({ data }: Props) => {
   console.log(data)

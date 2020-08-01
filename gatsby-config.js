@@ -10,31 +10,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-plugin-layout',
-      options: {
-        component: require.resolve('./src/components/Layout.tsx')
-      }
-    },
-    {
-      resolve: 'gatsby-source-graphql',
-      options: {
-        typeName: 'STRAPI',
-        fieldName: 'strapi',
-        url: `${process.env.GATSBY_API_URL}/graphql`
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: `${__dirname}/src/images/`
-      }
-    },
-    {
-      resolve: 'gatsby-strapi-file-loader',
-      options: { baseUrl: process.env.GATSBY_API_URL }
-    },
+    'gatsby-plugin-theme-ui',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -46,6 +22,31 @@ module.exports = {
         display: 'standalone',
         icon: 'src/images/icon.png'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve('./src/components/Layout.tsx')
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images/`
+      }
+    },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'STRAPI',
+        fieldName: 'strapi',
+        url: `${process.env.GATSBY_API_URL}/graphql`
+      }
+    },
+    {
+      resolve: 'gatsby-strapi-file-loader',
+      options: { baseUrl: process.env.GATSBY_API_URL }
     }
   ]
 }

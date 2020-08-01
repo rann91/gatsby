@@ -9,11 +9,19 @@ export type Scalars = {
   Float: number
   /** A date string, such as 2007-12-03, compliant with the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
   Date: any
-  /** A date-time string at UTC, such as 2007-12-03T10:15:30Z, compliant with the `date-time` format outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
+  /**
+   * A date-time string at UTC, such as 2007-12-03T10:15:30Z, compliant with the
+   * `date-time` format outlined in section 5.6 of the RFC 3339 profile of the ISO
+   * 8601 standard for representation of dates and times using the Gregorian calendar.
+   */
   STRAPI_DateTime: any
   /** The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf). */
   STRAPI_JSON: any
-  /** A date string, such as 2007-12-03, compliant with the `full-date` format outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
+  /**
+   * A date string, such as 2007-12-03, compliant with the `full-date` format
+   * outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for
+   * representation of dates and times using the Gregorian calendar.
+   */
   STRAPI_Date: any
   /** Input type for dynamic zone content of Footer */
   STRAPI_FooterContentDynamicZoneInput: any
@@ -23,10 +31,10 @@ export type Scalars = {
   STRAPI_PageContentDynamicZoneInput: any
   /** The `Upload` scalar type represents a file upload. */
   STRAPI_Upload: any
-  /** A time string with format: HH:mm:ss.SSS */
-  STRAPI_Time: any
   /** The `Long` scalar type represents 52-bit integers */
   STRAPI_Long: any
+  /** A time string with format: HH:mm:ss.SSS */
+  STRAPI_Time: any
   /** The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf). */
   JSON: any
 }
@@ -2244,12 +2252,7 @@ export enum SitePageFieldsEnum {
   PluginCreatorResolve = 'pluginCreator___resolve',
   PluginCreatorName = 'pluginCreator___name',
   PluginCreatorVersion = 'pluginCreator___version',
-  PluginCreatorPluginOptionsTypeName = 'pluginCreator___pluginOptions___typeName',
-  PluginCreatorPluginOptionsFieldName = 'pluginCreator___pluginOptions___fieldName',
-  PluginCreatorPluginOptionsUrl = 'pluginCreator___pluginOptions___url',
   PluginCreatorPluginOptionsName = 'pluginCreator___pluginOptions___name',
-  PluginCreatorPluginOptionsPath = 'pluginCreator___pluginOptions___path',
-  PluginCreatorPluginOptionsBaseUrl = 'pluginCreator___pluginOptions___baseUrl',
   PluginCreatorPluginOptionsShortName = 'pluginCreator___pluginOptions___short_name',
   PluginCreatorPluginOptionsStartUrl = 'pluginCreator___pluginOptions___start_url',
   PluginCreatorPluginOptionsBackgroundColor = 'pluginCreator___pluginOptions___background_color',
@@ -2261,6 +2264,12 @@ export enum SitePageFieldsEnum {
   PluginCreatorPluginOptionsLegacy = 'pluginCreator___pluginOptions___legacy',
   PluginCreatorPluginOptionsThemeColorInHead = 'pluginCreator___pluginOptions___theme_color_in_head',
   PluginCreatorPluginOptionsCacheDigest = 'pluginCreator___pluginOptions___cacheDigest',
+  PluginCreatorPluginOptionsComponent = 'pluginCreator___pluginOptions___component',
+  PluginCreatorPluginOptionsPath = 'pluginCreator___pluginOptions___path',
+  PluginCreatorPluginOptionsTypeName = 'pluginCreator___pluginOptions___typeName',
+  PluginCreatorPluginOptionsFieldName = 'pluginCreator___pluginOptions___fieldName',
+  PluginCreatorPluginOptionsUrl = 'pluginCreator___pluginOptions___url',
+  PluginCreatorPluginOptionsBaseUrl = 'pluginCreator___pluginOptions___baseUrl',
   PluginCreatorPluginOptionsPathCheck = 'pluginCreator___pluginOptions___pathCheck',
   PluginCreatorNodeApIs = 'pluginCreator___nodeAPIs',
   PluginCreatorBrowserApIs = 'pluginCreator___browserAPIs',
@@ -2451,12 +2460,7 @@ export enum SitePluginFieldsEnum {
   Resolve = 'resolve',
   Name = 'name',
   Version = 'version',
-  PluginOptionsTypeName = 'pluginOptions___typeName',
-  PluginOptionsFieldName = 'pluginOptions___fieldName',
-  PluginOptionsUrl = 'pluginOptions___url',
   PluginOptionsName = 'pluginOptions___name',
-  PluginOptionsPath = 'pluginOptions___path',
-  PluginOptionsBaseUrl = 'pluginOptions___baseUrl',
   PluginOptionsShortName = 'pluginOptions___short_name',
   PluginOptionsStartUrl = 'pluginOptions___start_url',
   PluginOptionsBackgroundColor = 'pluginOptions___background_color',
@@ -2468,6 +2472,12 @@ export enum SitePluginFieldsEnum {
   PluginOptionsLegacy = 'pluginOptions___legacy',
   PluginOptionsThemeColorInHead = 'pluginOptions___theme_color_in_head',
   PluginOptionsCacheDigest = 'pluginOptions___cacheDigest',
+  PluginOptionsComponent = 'pluginOptions___component',
+  PluginOptionsPath = 'pluginOptions___path',
+  PluginOptionsTypeName = 'pluginOptions___typeName',
+  PluginOptionsFieldName = 'pluginOptions___fieldName',
+  PluginOptionsUrl = 'pluginOptions___url',
+  PluginOptionsBaseUrl = 'pluginOptions___baseUrl',
   PluginOptionsPathCheck = 'pluginOptions___pathCheck',
   NodeApIs = 'nodeAPIs',
   BrowserApIs = 'browserAPIs',
@@ -2588,12 +2598,7 @@ export type SitePluginPackageJsonPeerDependenciesFilterListInput = {
 
 export type SitePluginPluginOptions = {
   __typename?: 'SitePluginPluginOptions'
-  typeName?: Maybe<Scalars['String']>
-  fieldName?: Maybe<Scalars['String']>
-  url?: Maybe<Scalars['String']>
   name?: Maybe<Scalars['String']>
-  path?: Maybe<Scalars['String']>
-  baseUrl?: Maybe<Scalars['String']>
   short_name?: Maybe<Scalars['String']>
   start_url?: Maybe<Scalars['String']>
   background_color?: Maybe<Scalars['String']>
@@ -2605,16 +2610,17 @@ export type SitePluginPluginOptions = {
   legacy?: Maybe<Scalars['Boolean']>
   theme_color_in_head?: Maybe<Scalars['Boolean']>
   cacheDigest?: Maybe<Scalars['String']>
+  component?: Maybe<Scalars['String']>
+  path?: Maybe<Scalars['String']>
+  typeName?: Maybe<Scalars['String']>
+  fieldName?: Maybe<Scalars['String']>
+  url?: Maybe<Scalars['String']>
+  baseUrl?: Maybe<Scalars['String']>
   pathCheck?: Maybe<Scalars['Boolean']>
 }
 
 export type SitePluginPluginOptionsFilterInput = {
-  typeName?: Maybe<StringQueryOperatorInput>
-  fieldName?: Maybe<StringQueryOperatorInput>
-  url?: Maybe<StringQueryOperatorInput>
   name?: Maybe<StringQueryOperatorInput>
-  path?: Maybe<StringQueryOperatorInput>
-  baseUrl?: Maybe<StringQueryOperatorInput>
   short_name?: Maybe<StringQueryOperatorInput>
   start_url?: Maybe<StringQueryOperatorInput>
   background_color?: Maybe<StringQueryOperatorInput>
@@ -2626,6 +2632,12 @@ export type SitePluginPluginOptionsFilterInput = {
   legacy?: Maybe<BooleanQueryOperatorInput>
   theme_color_in_head?: Maybe<BooleanQueryOperatorInput>
   cacheDigest?: Maybe<StringQueryOperatorInput>
+  component?: Maybe<StringQueryOperatorInput>
+  path?: Maybe<StringQueryOperatorInput>
+  typeName?: Maybe<StringQueryOperatorInput>
+  fieldName?: Maybe<StringQueryOperatorInput>
+  url?: Maybe<StringQueryOperatorInput>
+  baseUrl?: Maybe<StringQueryOperatorInput>
   pathCheck?: Maybe<BooleanQueryOperatorInput>
 }
 
@@ -5006,31 +5018,41 @@ export type LinkFragment = { __typename?: 'STRAPI_ComponentSharedLink' } & Pick<
   'id' | 'label' | 'newWindow' | 'url'
 >
 
+export type FileFragment = { __typename?: 'File' } & Pick<
+  File,
+  'id' | 'publicURL'
+>
+
 export type ImageFragment = { __typename?: 'STRAPI_UploadFile' } & Pick<
   Strapi_UploadFile,
   'id' | 'alternativeText' | 'url'
-> & {
-    file?: Maybe<
-      { __typename?: 'File' } & Pick<File, 'id' | 'publicURL'> & {
-          childImageSharp?: Maybe<
-            { __typename?: 'ImageSharp' } & {
-              fluid?: Maybe<
-                {
-                  __typename?: 'ImageSharpFluid'
-                } & GatsbyImageSharpFluidFragment
-              >
-            }
-          >
-        }
-    >
-  }
+>
 
 export type MetaFragment = {
   __typename?: 'STRAPI_ComponentStructureMeta'
 } & Pick<
   Strapi_ComponentStructureMeta,
   'id' | 'metaDescription' | 'metaTitle'
-> & { metaImage?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment> }
+> & {
+    metaImage?: Maybe<
+      { __typename?: 'STRAPI_UploadFile' } & {
+        file?: Maybe<
+          { __typename?: 'File' } & {
+            childImageSharp?: Maybe<
+              { __typename?: 'ImageSharp' } & {
+                resize?: Maybe<
+                  { __typename?: 'ImageSharpResize' } & Pick<
+                    ImageSharpResize,
+                    'src'
+                  >
+                >
+              }
+            >
+          } & FileFragment
+        >
+      } & ImageFragment
+    >
+  }
 
 export type CtaFragment = { __typename?: 'STRAPI_ComponentContentCta' } & Pick<
   Strapi_ComponentContentCta,
@@ -5042,7 +5064,23 @@ export type CtaFragment = { __typename?: 'STRAPI_ComponentContentCta' } & Pick<
 export type HeroFragment = {
   __typename?: 'STRAPI_ComponentContentHero'
 } & Pick<Strapi_ComponentContentHero, 'id' | 'title'> & {
-    image?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment>
+    image?: Maybe<
+      { __typename?: 'STRAPI_UploadFile' } & {
+        file?: Maybe<
+          { __typename?: 'File' } & {
+            childImageSharp?: Maybe<
+              { __typename?: 'ImageSharp' } & {
+                fluid?: Maybe<
+                  {
+                    __typename?: 'ImageSharpFluid'
+                  } & GatsbyImageSharpFluidFragment
+                >
+              }
+            >
+          } & FileFragment
+        >
+      } & ImageFragment
+    >
     link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
   }
 
@@ -5056,14 +5094,34 @@ export type HighlightFragment = {
   Strapi_ComponentContentHighlight,
   'id' | 'reverse' | 'subtitle' | 'text' | 'title'
 > & {
-    image?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment>
+    image?: Maybe<
+      { __typename?: 'STRAPI_UploadFile' } & {
+        file?: Maybe<
+          { __typename?: 'File' } & {
+            childImageSharp?: Maybe<
+              { __typename?: 'ImageSharp' } & {
+                fluid?: Maybe<
+                  {
+                    __typename?: 'ImageSharpFluid'
+                  } & GatsbyImageSharpFluidFragment
+                >
+              }
+            >
+          } & FileFragment
+        >
+      } & ImageFragment
+    >
     link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
   }
 
 export type ServiceFragment = {
   __typename?: 'STRAPI_ComponentSharedService'
 } & Pick<Strapi_ComponentSharedService, 'description' | 'id' | 'title'> & {
-    icon?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment>
+    icon?: Maybe<
+      { __typename?: 'STRAPI_UploadFile' } & {
+        file?: Maybe<{ __typename?: 'File' } & FileFragment>
+      } & ImageFragment
+    >
   }
 
 export type ServiceListFragment = {
@@ -5081,7 +5139,25 @@ export type ServiceListFragment = {
 export type PersonFragment = { __typename?: 'STRAPI_Person' } & Pick<
   Strapi_Person,
   'email' | 'id' | 'job' | 'name' | 'phone'
-> & { image?: Maybe<{ __typename?: 'STRAPI_UploadFile' } & ImageFragment> }
+> & {
+    image?: Maybe<
+      { __typename?: 'STRAPI_UploadFile' } & {
+        file?: Maybe<
+          { __typename?: 'File' } & {
+            childImageSharp?: Maybe<
+              { __typename?: 'ImageSharp' } & {
+                fluid?: Maybe<
+                  {
+                    __typename?: 'ImageSharpFluid'
+                  } & GatsbyImageSharpFluidFragment
+                >
+              }
+            >
+          } & FileFragment
+        >
+      } & ImageFragment
+    >
+  }
 
 export type PersonListFragment = {
   __typename?: 'STRAPI_ComponentContentPersonList'
