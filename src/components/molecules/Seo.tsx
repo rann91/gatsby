@@ -1,9 +1,9 @@
 import { WindowLocation } from '@reach/router'
-import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import metaImage from '../images/meta.jpg'
-import { Query, Strapi_ComponentStructureMeta } from '../typings/graphql'
+import useSiteMetadata from '../../hooks/use-site-metadata'
+import metaImage from '../../images/meta.jpg'
+import { Strapi_ComponentStructureMeta } from '../../typings/graphql'
 
 interface Props {
   pageTitle?: string | null
@@ -13,23 +13,11 @@ interface Props {
 }
 
 const Seo = ({ pageTitle, meta, article, location }: Props) => {
-  const { site } = useStaticQuery<Query>(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-          titleTemplate
-          description
-        }
-      }
-    }
-  `)
+  const siteMetadata = useSiteMetadata()
   const title = String(pageTitle)
   const metaTitle = String(meta?.metaTitle)
-  const titleTemplate = String(site!.siteMetadata!.titleTemplate)
-  const description = String(
-    meta?.metaDescription || site!.siteMetadata!.description
-  )
+  const titleTemplate = String(siteMetadata.titleTemplate)
+  const description = String(meta?.metaDescription || siteMetadata.description)
   const image: string = `${location.origin}${
     meta?.metaImage?.file?.childImageSharp?.resize?.src || metaImage
   }`

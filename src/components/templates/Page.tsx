@@ -10,7 +10,7 @@ type Props = PageProps<{
 
 const Page = ({ data }: Props) => {
   console.log(data)
-  return <h1>Page</h1>
+  return <h1>{data.strapi.page.title}</h1>
 }
 
 export const query = graphql`

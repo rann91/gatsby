@@ -1,23 +1,11 @@
 import { Theme } from 'theme-ui'
 
-const toRem = (pixels: number): string => `${pixels / 16}rem`
-
-const heading = {
-  margin: 0,
-  fontFamily: 'heading',
-  fontWeight: 'heading',
-  lineHeight: 'heading'
-}
-
-const body = {
-  margin: 0,
-  fontFamily: 'body',
-  lineHeight: 'body',
-  fontWeight: 'body'
-}
+const rem = (pixels: number): string => `${pixels / 16}rem`
 
 const theme: Theme = {
   colors: {
+    white: '#FFFFFF',
+    black: '000000',
     text: '#1A1B1F',
     background: '#FFFFFF',
     primary: '#663399',
@@ -30,107 +18,142 @@ const theme: Theme = {
     heading: 'inherit'
   },
   fontSizes: [
-    toRem(12),
-    toRem(14),
-    toRem(16),
-    toRem(20),
-    toRem(24),
-    toRem(30),
-    toRem(36),
-    toRem(44),
-    toRem(64)
+    rem(12),
+    rem(14),
+    rem(16),
+    rem(20),
+    rem(24),
+    rem(30),
+    rem(36),
+    rem(44),
+    rem(64)
   ],
   fontWeights: {
     body: 400,
     heading: 400,
-    bold: 500
+    medium: 500,
+    bold: 600
   },
   space: [
     0,
-    toRem(5),
-    toRem(10),
-    toRem(15),
-    toRem(20),
-    toRem(30),
-    toRem(45),
-    toRem(50),
-    toRem(100)
+    rem(5),
+    rem(10),
+    rem(15),
+    rem(20),
+    rem(30),
+    rem(45),
+    rem(50),
+    rem(100)
   ],
+  sizes: {
+    container: 1200
+  },
   lineHeights: {
     body: 1.75,
     heading: 1.4
   },
   text: {
     default: {
-      color: 'text'
+      margin: 0,
+      fontFamily: 'body',
+      lineHeight: 'body',
+      fontWeight: 'body'
     },
-    body: {
-      ...body
+    header: {
+      margin: 0,
+      fontFamily: 'heading',
+      fontWeight: 'heading',
+      lineHeight: 'heading'
     },
     h1: {
-      ...heading,
       fontSize: 7
     },
     h2: {
-      ...heading,
       fontSize: 6
     },
     h3: {
-      ...heading,
       fontSize: 5
     },
     h4: {
-      ...heading,
       fontSize: 4
     },
     h5: {
-      ...heading,
       fontSize: 3
     },
     h6: {
-      ...heading,
       fontSize: 2
     },
     p: {
-      ...body,
       color: 'secondary'
     },
     jumbo: {
-      ...heading,
       fontSize: 8
+    },
+    siteTitle: {
+      fontSize: [rem(16), rem(18)]
+    },
+    visuallyHidden: {
+      position: 'absolute',
+      opacity: 0,
+      pointerEvents: 'none'
+    }
+  },
+  layout: {
+    header: {
+      height: [rem(65), rem(85), null, rem(105)],
+      backgroundColor: 'white',
+      boxShadow: '0 0 4px rgba(0, 0, 0, 0.1)'
+    },
+    navigation: {
+      position: ['fixed', null, null, 'static'],
+      top: [rem(65), rem(85), null, 0],
+      left: 0,
+      width: ['100%'],
+      backgroundColor: ['rgba(0, 0, 0, 0.75)', null, null, 'transparent']
+    }
+  },
+  images: {
+    logo: {
+      width: [rem(24), null, rem(28)],
+      height: [rem(24), null, rem(28)]
+    }
+  },
+  buttons: {
+    menu: {
+      padding: 0,
+      width: rem(36),
+      height: rem(36)
+    },
+    close: {
+      padding: 0,
+      width: rem(36),
+      height: rem(36)
     }
   },
   styles: {
     root: {
-      ...body
+      variant: 'text.default'
     },
     h1: {
-      ...heading,
-      fontSize: 7
+      variant: 'text.h1'
     },
     h2: {
-      ...heading,
-      fontSize: 6
+      variant: 'text.h2'
     },
     h3: {
-      ...heading,
-      fontSize: 5
+      variant: 'text.h3'
     },
     h4: {
-      ...heading,
-      fontSize: 4
+      variant: 'text.h4'
     },
     h5: {
-      ...heading,
-      fontSize: 3
+      variant: 'text.h5'
     },
     h6: {
-      ...heading,
-      fontSize: 2
+      variant: 'text.h6'
     },
     p: {
-      ...heading,
-      color: 'secondary'
+      variant: 'text.p'
     },
     a: {
       color: 'primary'

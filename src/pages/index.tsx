@@ -1,6 +1,6 @@
 import { graphql, PageProps } from 'gatsby'
 import React, { Fragment } from 'react'
-import Seo from '../components/Seo'
+import Seo from '../components/molecules/Seo'
 import { Strapi_Homepage } from '../typings/graphql'
 
 type Props = PageProps<{
