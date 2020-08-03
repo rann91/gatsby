@@ -1,7 +1,8 @@
 /* @jsx jsx */
 import { graphql, useStaticQuery } from 'gatsby'
-import { Fragment, useState, useCallback } from 'react'
+import { Fragment, useCallback, useState } from 'react'
 import { Close, Flex, jsx, MenuButton } from 'theme-ui'
+import { rem } from '../../gatsby-plugin-theme-ui'
 import {
   Strapi_ComponentSharedLink,
   Strapi_Navigation
@@ -40,7 +41,14 @@ const Navigation = () => {
           <MenuButton aria-label="Open Menu" onClick={toggleMenu} />
         )}
       </Flex>
-      <nav sx={{ variant: 'layout.navigation' }}>
+      <nav
+        sx={{
+          position: ['fixed', null, null, 'static'],
+          top: [rem(65), rem(85), null, 0],
+          left: 0,
+          width: ['100%'],
+          backgroundColor: ['rgba(0, 0, 0, 0.75)', null, null, 'transparent']
+        }}>
         <ul
           sx={{
             display: [open ? 'flex' : 'none', null, null, 'flex'],

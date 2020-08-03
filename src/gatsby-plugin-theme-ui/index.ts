@@ -1,14 +1,16 @@
 import { Theme } from 'theme-ui'
 
-const rem = (pixels: number): string => `${pixels / 16}rem`
+export const rem = (pixels: number): string => `${pixels / 16}rem`
 
 const theme: Theme = {
   colors: {
-    white: '#FFFFFF',
-    black: '000000',
+    white: '#FFF',
+    whiteHover: '#EAEAEA',
+    black: '#000',
     text: '#1A1B1F',
-    background: '#FFFFFF',
+    background: '#FFF',
     primary: '#663399',
+    primaryHover: '#48226F',
     secondary: 'rgba(26, 27, 31, 0.6)',
     muted: '#F4F4F4',
     quoteBorder: '#E2E2E2'
@@ -87,7 +89,7 @@ const theme: Theme = {
       color: 'secondary'
     },
     jumbo: {
-      fontSize: 8
+      fontSize: [7, null, null, 8]
     },
     siteTitle: {
       fontSize: [rem(16), rem(18)]
@@ -96,20 +98,6 @@ const theme: Theme = {
       position: 'absolute',
       opacity: 0,
       pointerEvents: 'none'
-    }
-  },
-  layout: {
-    header: {
-      height: [rem(65), rem(85), null, rem(105)],
-      backgroundColor: 'white',
-      boxShadow: '0 0 4px rgba(0, 0, 0, 0.1)'
-    },
-    navigation: {
-      position: ['fixed', null, null, 'static'],
-      top: [rem(65), rem(85), null, 0],
-      left: 0,
-      width: ['100%'],
-      backgroundColor: ['rgba(0, 0, 0, 0.75)', null, null, 'transparent']
     }
   },
   images: {
@@ -128,6 +116,41 @@ const theme: Theme = {
       padding: 0,
       width: rem(36),
       height: rem(36)
+    },
+    primary: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      height: rem(44),
+      paddingLeft: rem(20),
+      paddingRight: rem(20),
+      color: 'white',
+      fontSize: 1,
+      textTransform: 'uppercase',
+      textDecoration: 'none',
+      backgroundColor: 'primary',
+      transition: 'background-color 0.25s',
+      '&:hover': {
+        backgroundColor: 'primaryHover'
+      }
+    },
+    primaryLarge: {
+      variant: 'buttons.primary',
+      height: [rem(44), null, null, rem(58)],
+      paddingLeft: [rem(20), null, null, rem(40)],
+      paddingRight: [rem(20), null, null, rem(40)],
+      fontSize: [0, null, null, 1]
+    },
+    lightLarge: {
+      variant: 'buttons.primary',
+      height: [rem(44), null, null, rem(58)],
+      paddingLeft: [rem(20), null, null, rem(40)],
+      paddingRight: [rem(20), null, null, rem(40)],
+      fontSize: [0, null, null, 1],
+      color: 'black',
+      backgroundColor: 'white',
+      '&:hover': {
+        backgroundColor: 'whiteHover'
+      }
     }
   },
   styles: {

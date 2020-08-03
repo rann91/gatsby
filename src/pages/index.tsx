@@ -1,7 +1,11 @@
 import { graphql, PageProps } from 'gatsby'
 import React, { Fragment } from 'react'
-import Seo from '../components/molecules/Seo'
-import { Strapi_Homepage } from '../typings/graphql'
+import Content from '../components/Content'
+import Seo from '../components/Seo'
+import {
+  Strapi_Homepage,
+  Strapi_HomepageContentDynamicZone
+} from '../typings/graphql'
 
 type Props = PageProps<{
   strapi: {
@@ -18,7 +22,12 @@ const Home = ({ data, location }: Props) => {
         meta={data.strapi.homepage.meta}
         location={location}
       />
-      <h1>Home</h1>
+      <Content
+        components={
+          (data.strapi.homepage.content ||
+            []) as Strapi_HomepageContentDynamicZone[]
+        }
+      />
     </Fragment>
   )
 }

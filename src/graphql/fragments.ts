@@ -56,6 +56,11 @@ export const FRAGMENT_CTA = graphql`
 export const FRAGMENT_HERO = graphql`
   fragment Hero on STRAPI_ComponentContentHero {
     id
+    title
+    description
+    link {
+      ...Link
+    }
     image {
       ...Image
       file {
@@ -67,10 +72,6 @@ export const FRAGMENT_HERO = graphql`
         }
       }
     }
-    link {
-      ...Link
-    }
-    title
   }
 `
 
