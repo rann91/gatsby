@@ -1,9 +1,9 @@
 import { WindowLocation } from '@reach/router'
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import useSiteMetadata from '../hooks/use-site-metadata'
-import metaImage from '../images/meta.jpg'
-import { Strapi_ComponentStructureMeta } from '../typings/graphql'
+import useSiteMetadata from '../../hooks/use-site-metadata'
+import metaImage from '../../images/meta.jpg'
+import { Strapi_ComponentStructureMeta } from '../../typings/graphql'
 
 interface Props {
   pageTitle?: string | null

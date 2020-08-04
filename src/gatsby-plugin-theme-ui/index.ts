@@ -1,6 +1,7 @@
 import { Theme } from 'theme-ui'
 
 export const rem = (pixels: number): string => `${pixels / 16}rem`
+export const column = (columns: number): string => `${(columns / 12) * 100}%`
 
 const theme: Theme = {
   colors: {
@@ -44,7 +45,7 @@ const theme: Theme = {
     rem(20),
     rem(30),
     rem(45),
-    rem(50),
+    rem(60),
     rem(100)
   ],
   sizes: {
@@ -61,31 +62,37 @@ const theme: Theme = {
       lineHeight: 'body',
       fontWeight: 'body'
     },
-    header: {
+    heading: {
       margin: 0,
       fontFamily: 'heading',
       fontWeight: 'heading',
       lineHeight: 'heading'
     },
     h1: {
-      fontSize: 7
+      fontSize: [6, null, null, 7]
     },
     h2: {
-      fontSize: 6
+      fontSize: [5, null, null, 6]
     },
     h3: {
-      fontSize: 5
-    },
-    h4: {
-      fontSize: 4
-    },
-    h5: {
-      fontSize: 3
-    },
-    h6: {
-      fontSize: 2
+      fontSize: [3, null, null, 4]
     },
     p: {
+      color: 'secondary'
+    },
+    headingLink: {
+      color: 'inherit',
+      textDecoration: 'none'
+    },
+    largeText: {
+      fontSize: [2, null, null, 3],
+      color: 'secondary'
+    },
+    label: {
+      display: 'block',
+      fontSize: 0,
+      fontWeight: 'medium',
+      textTransform: 'uppercase',
       color: 'secondary'
     },
     jumbo: {
@@ -106,6 +113,13 @@ const theme: Theme = {
       height: [rem(24), null, rem(28)]
     }
   },
+  links: {
+    footer: {
+      color: 'primary',
+      fontWeight: 'medium',
+      textDecoration: 'none'
+    }
+  },
   buttons: {
     menu: {
       padding: 0,
@@ -124,7 +138,7 @@ const theme: Theme = {
       paddingLeft: rem(20),
       paddingRight: rem(20),
       color: 'white',
-      fontSize: 1,
+      fontSize: 0,
       textTransform: 'uppercase',
       textDecoration: 'none',
       backgroundColor: 'primary',
@@ -207,6 +221,10 @@ const theme: Theme = {
     },
     img: {
       maxWidth: '100%'
+    },
+    hr: {
+      marginTop: [7, null, null, 8],
+      borderColor: 'muted'
     }
   }
 }

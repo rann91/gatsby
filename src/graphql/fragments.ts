@@ -46,10 +46,11 @@ export const FRAGMENT_META = graphql`
 export const FRAGMENT_CTA = graphql`
   fragment Cta on STRAPI_ComponentContentCta {
     id
+    title
+    description
     link {
       ...Link
     }
-    title
   }
 `
 
@@ -179,17 +180,27 @@ export const FRAGMENT_PERSON_CONTACT_LIST = graphql`
 export const FRAGMENTS_LATEST_ARTICLE_LIST = graphql`
   fragment LatestArticleList on STRAPI_ComponentContentLatestArticleList {
     id
-    limit
-    subtitle
     title
+    subtitle
+    limit
   }
 `
 
 export const FRAGMENT_ARTICLE_LIST = graphql`
   fragment ArticleList on STRAPI_ComponentContentArticleList {
     id
-    subtitle
     title
+    subtitle
+  }
+`
+
+export const FRAGMENT_ARTICLE_TEASER = graphql`
+  fragment ArticleTeaser on STRAPI_Article {
+    id
+    title
+    slug
+    createdAt
+    summary
   }
 `
 

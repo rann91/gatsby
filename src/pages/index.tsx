@@ -1,7 +1,7 @@
 import { graphql, PageProps } from 'gatsby'
 import React, { Fragment } from 'react'
-import Content from '../components/Content'
-import Seo from '../components/Seo'
+import Content from '../components/templates/Content'
+import Seo from '../components/molecules/Seo'
 import {
   Strapi_Homepage,
   Strapi_HomepageContentDynamicZone

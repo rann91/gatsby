@@ -1,10 +1,11 @@
 /* @jsx jsx */
 import Img, { FluidObject } from 'gatsby-image'
-import { Heading, jsx, Text, Container, Box } from 'theme-ui'
+import { Fragment } from 'react'
+import { Container, Heading, jsx, Text } from 'theme-ui'
 import { rem } from '../../gatsby-plugin-theme-ui'
 import { Strapi_ComponentContentHero } from '../../typings/graphql'
 import Link from '../atoms/Link'
-import { Fragment } from 'react'
+import Section from '../atoms/Section'
 
 const Hero = ({
   title,
@@ -13,8 +14,8 @@ const Hero = ({
   link
 }: Strapi_ComponentContentHero) => {
   return (
-    <Box
-      as={title ? 'section' : 'div'}
+    <Section
+      hasTitle={!!title}
       sx={{
         position: 'relative',
         display: 'flex',
@@ -23,8 +24,10 @@ const Hero = ({
         justifyContent: 'center',
         minHeight:
           title && description && link
-            ? [rem(480), null, null, rem(620)]
+            ? [rem(400), null, null, rem(620)]
             : [rem(320), null, null, rem(480)],
+        color: 'white',
+        textAlign: 'center',
         backgroundColor: 'black'
       }}>
       {image && (
@@ -55,9 +58,7 @@ const Hero = ({
         </Fragment>
       )}
       {(title || description || link) && (
-        <Container
-          px={5}
-          sx={{ position: 'relative', color: 'white', textAlign: 'center' }}>
+        <Container px={5} sx={{ position: 'relative' }}>
           {title && (
             <Heading as="h1" variant="jumbo">
               {title}
@@ -87,7 +88,7 @@ const Hero = ({
           )}
         </Container>
       )}
-    </Box>
+    </Section>
   )
 }
 
