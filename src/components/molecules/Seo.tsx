@@ -3,11 +3,11 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import useSiteMetadata from '../../hooks/use-site-metadata'
 import metaImage from '../../images/meta.jpg'
-import { Strapi_ComponentStructureMeta } from '../../typings/graphql'
+import { Strapi_ComponentStructureMeta, Maybe } from '../../typings/graphql'
 
 interface Props {
   pageTitle?: string | null
-  meta?: Strapi_ComponentStructureMeta | null
+  meta?: Maybe<Strapi_ComponentStructureMeta>
   article?: boolean
   location: WindowLocation
 }

@@ -7,12 +7,11 @@ import { Strapi_ComponentContentHero } from '../../typings/graphql'
 import Link from '../atoms/Link'
 import Section from '../atoms/Section'
 
-const Hero = ({
-  title,
-  description,
-  image,
-  link
-}: Strapi_ComponentContentHero) => {
+type Props = Strapi_ComponentContentHero & {
+  large?: boolean
+}
+
+const Hero = ({ title, description, image, link, large }: Props) => {
   return (
     <Section
       hasTitle={!!title}
@@ -23,7 +22,7 @@ const Hero = ({
         alignItems: 'center',
         justifyContent: 'center',
         minHeight:
-          title && description && link
+          large || (title && description && link)
             ? [rem(400), null, null, rem(620)]
             : [rem(320), null, null, rem(480)],
         color: 'white',

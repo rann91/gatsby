@@ -13,24 +13,21 @@ type Props = PageProps<{
   }
 }>
 
-const Home = ({ data, location }: Props) => {
-  console.log(data)
-  return (
-    <Fragment>
-      <Seo
-        pageTitle={data.strapi.homepage.title}
-        meta={data.strapi.homepage.meta}
-        location={location}
-      />
-      <Content
-        components={
-          (data.strapi.homepage.content ||
-            []) as Strapi_HomepageContentDynamicZone[]
-        }
-      />
-    </Fragment>
-  )
-}
+const Home = ({ data, location }: Props) => (
+  <Fragment>
+    <Seo
+      pageTitle={data.strapi.homepage.title}
+      meta={data.strapi.homepage.meta}
+      location={location}
+    />
+    <Content
+      components={
+        (data.strapi.homepage.content ||
+          []) as Strapi_HomepageContentDynamicZone[]
+      }
+    />
+  </Fragment>
+)
 
 export const query = graphql`
   query {

@@ -21,7 +21,7 @@ const ServiceList = ({
         sx={{
           flexWrap: 'wrap',
           '* + &': {
-            paddingTop: [5, null, null, 5]
+            paddingTop: [0, null, null, 5]
           }
         }}>
         {((services || []) as Strapi_ComponentSharedService[]).map(service => (

@@ -22,7 +22,12 @@ const Link = ({ link, ...rest }: Props) => {
   }
 
   return (
-    <GatsbyLink to={url} target={target} activeClassName="active" {...rest}>
+    <GatsbyLink
+      to={url}
+      target={target}
+      activeClassName="active"
+      partiallyActive={url !== '/'}
+      {...rest}>
       {label}
     </GatsbyLink>
   )

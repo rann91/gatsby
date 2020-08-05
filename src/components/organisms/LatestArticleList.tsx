@@ -37,7 +37,7 @@ const LatestArticleList = ({
           sx={{
             flexWrap: 'wrap',
             '* + &': {
-              paddingTop: [5, null, null, 5]
+              paddingTop: [0, null, null, 5]
             }
           }}>
           {data.strapi.articles.slice(0, limit || 3).map(article => (

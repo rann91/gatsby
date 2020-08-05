@@ -24,6 +24,20 @@ export const FRAGMENT_IMAGE = graphql`
   }
 `
 
+export const FRAGMENT_IMAGE_FLUID = graphql`
+  fragment ImageFluid on STRAPI_UploadFile {
+    ...Image
+    file {
+      ...File
+      childImageSharp {
+        fluid(maxWidth: 1920) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
+
 export const FRAGMENT_META = graphql`
   fragment Meta on STRAPI_ComponentStructureMeta {
     id

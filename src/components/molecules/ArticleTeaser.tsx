@@ -1,58 +1,44 @@
 /* @jsx jsx */
+import { Link } from 'gatsby'
 import { Fragment } from 'react'
 import { Heading, jsx, Text } from 'theme-ui'
-import {
-  Strapi_Article,
-  Strapi_ComponentSharedLink
-} from '../../typings/graphql'
-import Link from '../atoms/Link'
+import { Strapi_Article } from '../../typings/graphql'
 
-const ArticleTeaser = ({ title, slug, createdAt, summary }: Strapi_Article) => {
-  const link: Strapi_ComponentSharedLink = {
-    id: '',
-    _id: '',
-    label: slug || '',
-    url: `/blog/${slug}`,
-    newWindow: false,
-    createdAt: '',
-    updatedAt: ''
-  }
-  const date = new Date(createdAt)
-
-  return (
-    <Fragment>
-      {title && (
-        <Heading as="h3" variant="h3">
-          <Link sx={{ variant: 'text.headingLink' }} link={link} />
-        </Heading>
-      )}
+const ArticleTeaser = ({ title, slug, createdAt, summary }: Strapi_Article) => (
+  <Fragment>
+    {title && (
+      <Heading as="h3" variant="h3">
+        <Link to={`/blog/${slug}`} sx={{ variant: 'text.headingLink' }}>
+          {title}
+        </Link>
+      </Heading>
+    )}
+    <Text
+      as="time"
+      variant="label"
+      sx={{
+        '* + &': {
+          paddingTop: 3
+        }
+      }}>
+      {new Date(createdAt).toLocaleDateString('en-US', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric'
+      })}
+    </Text>
+    {summary && (
       <Text
-        as="time"
-        variant="label"
+        variant="p"
         sx={{
           '* + &': {
             paddingTop: 3
           }
         }}>
-        {date.toLocaleDateString('en-US', {
-          month: 'short',
-          day: 'numeric',
-          year: 'numeric'
-        })}
+        {summary}
       </Text>
-      {summary && (
-        <Text
-          variant="p"
-          sx={{
-            '* + &': {
-              paddingTop: 3
-            }
-          }}>
-          {summary}
-        </Text>
-      )}
-    </Fragment>
-  )
-}
+    )}
+  </Fragment>
+)
 
 export default ArticleTeaser

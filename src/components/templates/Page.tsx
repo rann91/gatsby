@@ -14,7 +14,6 @@ type Props = PageProps<{
 }>
 
 const Page = ({ data, location }: Props) => {
-  console.log(data)
   return (
     <Fragment>
       <Seo

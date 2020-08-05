@@ -1,14 +1,15 @@
 import React, { Fragment } from 'react'
 import {
+  Strapi_FooterContentDynamicZone,
   Strapi_HomepageContentDynamicZone,
-  Strapi_PageContentDynamicZone,
-  Strapi_FooterContentDynamicZone
+  Strapi_PageContentDynamicZone
 } from '../../typings/graphql'
+import Cta from '../molecules/Cta'
 import Hero from '../molecules/Hero'
 import Highlight from '../molecules/Highlight'
 import Text from '../molecules/Text'
 import LatestArticleList from '../organisms/LatestArticleList'
-import Cta from '../molecules/Cta'
+import ProjectList from '../organisms/ProjectList'
 import ServiceList from '../organisms/ServiceList'
 
 type Component =
@@ -34,6 +35,8 @@ const Content = ({ components }: Props) => (
           return <Highlight key={id} {...component} />
         case 'STRAPI_ComponentContentLatestArticleList':
           return <LatestArticleList key={id} {...component} />
+        case 'STRAPI_ComponentContentProjectList':
+          return <ProjectList key={id} {...component} />
         case 'STRAPI_ComponentContentServiceList':
           return <ServiceList key={id} {...component} />
         case 'STRAPI_ComponentContentText':
