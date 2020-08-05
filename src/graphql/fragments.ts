@@ -124,7 +124,7 @@ export const FRAGMENT_SERVICE = graphql`
 `
 
 export const FRAGMENT_SERVICE_LIST = graphql`
-  fragment ServiceList on STRAPI_ComponentContentServicelist {
+  fragment ServiceList on STRAPI_ComponentContentServiceList {
     id
     services {
       ...Service

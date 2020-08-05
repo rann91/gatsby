@@ -1,13 +1,14 @@
 /* @jsx jsx */
 import { graphql, useStaticQuery } from 'gatsby'
-import { Container, jsx, Text, Heading, Flex, Box } from 'theme-ui'
+import { Box, Container, Flex, jsx } from 'theme-ui'
+import { column } from '../../gatsby-plugin-theme-ui'
 import {
   Strapi_Article,
   Strapi_ComponentContentLatestArticleList
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
 import ArticleTeaser from '../molecules/ArticleTeaser'
-import { column } from '../../gatsby-plugin-theme-ui'
+import Headings from '../molecules/Headings'
 
 const LatestArticleList = ({
   title,
@@ -27,53 +28,30 @@ const LatestArticleList = ({
       }
     }
   `)
-  const items = data.strapi.articles.slice(0, limit || 3)
 
   return (
     <Section hasTitle={!!title}>
       <Container>
-        {subtitle && (
-          <Text variant="label" sx={{ textAlign: 'center' }} px={5}>
-            {subtitle}
-          </Text>
-        )}
-        {title && (
-          <Heading
-            variant="h2"
-            sx={{
-              textAlign: 'center',
-              '* + &': {
-                paddingTop: 2
-              }
-            }}
-            px={5}>
-            {title}
-          </Heading>
-        )}
-        {!!items.length && (
-          <Flex
-            sx={{
-              flexWrap: 'wrap',
-              '* + &': {
-                paddingTop: [5, null, null, 7]
-              }
-            }}>
-            {items.map(item => (
-              <Box
-                key={item.id}
-                px={5}
-                sx={{
-                  width: [column(12), null, null, column(4)],
-                  textAlign: ['center', null, null, 'left'],
-                  '&:not(:last-child)': {
-                    paddingBottom: [6, null, null, 0]
-                  }
-                }}>
-                <ArticleTeaser {...item} />
-              </Box>
-            ))}
-          </Flex>
-        )}
+        <Headings {...{ title, subtitle }} />
+        <Flex
+          sx={{
+            flexWrap: 'wrap',
+            '* + &': {
+              paddingTop: [5, null, null, 5]
+            }
+          }}>
+          {data.strapi.articles.slice(0, limit || 3).map(article => (
+            <Box
+              key={article.id}
+              p={5}
+              sx={{
+                width: [column(12), null, null, column(4)],
+                textAlign: ['center', null, null, 'left']
+              }}>
+              <ArticleTeaser {...article} />
+            </Box>
+          ))}
+        </Flex>
       </Container>
     </Section>
   )

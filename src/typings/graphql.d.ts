@@ -9,19 +9,11 @@ export type Scalars = {
   Float: number
   /** A date string, such as 2007-12-03, compliant with the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
   Date: any
-  /**
-   * A date-time string at UTC, such as 2007-12-03T10:15:30Z, compliant with the
-   * `date-time` format outlined in section 5.6 of the RFC 3339 profile of the ISO
-   * 8601 standard for representation of dates and times using the Gregorian calendar.
-   */
+  /** A date-time string at UTC, such as 2007-12-03T10:15:30Z, compliant with the `date-time` format outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
   STRAPI_DateTime: any
   /** The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf). */
   STRAPI_JSON: any
-  /**
-   * A date string, such as 2007-12-03, compliant with the `full-date` format
-   * outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for
-   * representation of dates and times using the Gregorian calendar.
-   */
+  /** A date string, such as 2007-12-03, compliant with the `full-date` format outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
   STRAPI_Date: any
   /** Input type for dynamic zone content of Footer */
   STRAPI_FooterContentDynamicZoneInput: any
@@ -31,10 +23,10 @@ export type Scalars = {
   STRAPI_PageContentDynamicZoneInput: any
   /** The `Upload` scalar type represents a file upload. */
   STRAPI_Upload: any
-  /** The `Long` scalar type represents 52-bit integers */
-  STRAPI_Long: any
   /** A time string with format: HH:mm:ss.SSS */
   STRAPI_Time: any
+  /** The `Long` scalar type represents 52-bit integers */
+  STRAPI_Long: any
   /** The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf). */
   JSON: any
 }
@@ -3119,8 +3111,8 @@ export type Strapi_ComponentContentProjectListInput = {
   subtitle?: Maybe<Scalars['String']>
 }
 
-export type Strapi_ComponentContentServicelist = {
-  __typename?: 'STRAPI_ComponentContentServicelist'
+export type Strapi_ComponentContentServiceList = {
+  __typename?: 'STRAPI_ComponentContentServiceList'
   id: Scalars['ID']
   _id: Scalars['ID']
   createdAt: Scalars['STRAPI_DateTime']
@@ -3130,7 +3122,7 @@ export type Strapi_ComponentContentServicelist = {
   services?: Maybe<Array<Maybe<Strapi_ComponentSharedService>>>
 }
 
-export type Strapi_ComponentContentServicelistInput = {
+export type Strapi_ComponentContentServiceListInput = {
   title?: Maybe<Scalars['String']>
   subtitle?: Maybe<Scalars['String']>
   services?: Maybe<Array<Maybe<Strapi_ComponentSharedServiceInput>>>
@@ -3423,7 +3415,7 @@ export type Strapi_EditComponentContentProjectListInput = {
   subtitle?: Maybe<Scalars['String']>
 }
 
-export type Strapi_EditComponentContentServicelistInput = {
+export type Strapi_EditComponentContentServiceListInput = {
   id?: Maybe<Scalars['ID']>
   title?: Maybe<Scalars['String']>
   subtitle?: Maybe<Scalars['String']>
@@ -3591,7 +3583,7 @@ export type Strapi_HomepageContentDynamicZone =
   | Strapi_ComponentContentCta
   | Strapi_ComponentContentHero
   | Strapi_ComponentContentHighlight
-  | Strapi_ComponentContentServicelist
+  | Strapi_ComponentContentServiceList
   | Strapi_ComponentContentText
   | Strapi_ComponentContentPersonList
   | Strapi_ComponentContentContactForm
@@ -3759,7 +3751,7 @@ export type Strapi_Morph =
   | Strapi_ComponentContentPersonContactList
   | Strapi_ComponentContentPersonList
   | Strapi_ComponentContentProjectList
-  | Strapi_ComponentContentServicelist
+  | Strapi_ComponentContentServiceList
   | Strapi_ComponentContentText
   | Strapi_ComponentSharedContactDetail
   | Strapi_ComponentSharedLink
@@ -3850,7 +3842,7 @@ export type Strapi_PageContentDynamicZone =
   | Strapi_ComponentContentHero
   | Strapi_ComponentContentText
   | Strapi_ComponentContentHighlight
-  | Strapi_ComponentContentServicelist
+  | Strapi_ComponentContentServiceList
   | Strapi_ComponentContentPersonList
   | Strapi_ComponentContentContactForm
   | Strapi_ComponentContentLatestArticleList
@@ -4890,23 +4882,52 @@ export type PagesQueryQuery = { __typename?: 'Query' } & {
 export type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>
 
 export type Unnamed_1_Query = { __typename?: 'Query' } & {
-  site?: Maybe<
-    { __typename?: 'Site' } & {
-      siteMetadata?: Maybe<
-        { __typename?: 'SiteSiteMetadata' } & Pick<
-          SiteSiteMetadata,
-          'title' | 'titleTemplate' | 'description'
-        >
-      >
-    }
-  >
+  strapi: { __typename?: 'STRAPI' } & {
+    navigation?: Maybe<
+      { __typename?: 'STRAPI_Navigation' } & Pick<Strapi_Navigation, 'id'> & {
+          menu?: Maybe<
+            Array<
+              Maybe<
+                { __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment
+              >
+            >
+          >
+        }
+    >
+  }
 }
 
-export type Unnamed_2_QueryVariables = Exact<{
+export type Unnamed_2_QueryVariables = Exact<{ [key: string]: never }>
+
+export type Unnamed_2_Query = { __typename?: 'Query' } & {
+  strapi: { __typename?: 'STRAPI' } & {
+    footer?: Maybe<
+      { __typename?: 'STRAPI_Footer' } & Pick<Strapi_Footer, 'id'> & {
+          content?: Maybe<
+            Array<
+              Maybe<{ __typename?: 'STRAPI_ComponentContentCta' } & CtaFragment>
+            >
+          >
+        }
+    >
+  }
+}
+
+export type Unnamed_3_QueryVariables = Exact<{ [key: string]: never }>
+
+export type Unnamed_3_Query = { __typename?: 'Query' } & {
+  strapi: { __typename?: 'STRAPI' } & {
+    articles?: Maybe<
+      Array<Maybe<{ __typename?: 'STRAPI_Article' } & ArticleTeaserFragment>>
+    >
+  }
+}
+
+export type Unnamed_4_QueryVariables = Exact<{
   id: Scalars['ID']
 }>
 
-export type Unnamed_2_Query = { __typename?: 'Query' } & {
+export type Unnamed_4_Query = { __typename?: 'Query' } & {
   strapi: { __typename?: 'STRAPI' } & {
     article?: Maybe<
       { __typename?: 'STRAPI_Article' } & Pick<
@@ -4921,11 +4942,11 @@ export type Unnamed_2_Query = { __typename?: 'Query' } & {
   }
 }
 
-export type Unnamed_3_QueryVariables = Exact<{
+export type Unnamed_5_QueryVariables = Exact<{
   id: Scalars['ID']
 }>
 
-export type Unnamed_3_Query = { __typename?: 'Query' } & {
+export type Unnamed_5_Query = { __typename?: 'Query' } & {
   strapi: { __typename?: 'STRAPI' } & {
     page?: Maybe<
       { __typename?: 'STRAPI_Page' } & Pick<
@@ -4948,7 +4969,7 @@ export type Unnamed_3_Query = { __typename?: 'Query' } & {
                     __typename?: 'STRAPI_ComponentContentHighlight'
                   } & HighlightFragment)
                 | ({
-                    __typename?: 'STRAPI_ComponentContentServicelist'
+                    __typename?: 'STRAPI_ComponentContentServiceList'
                   } & ServiceListFragment)
                 | ({
                     __typename?: 'STRAPI_ComponentContentPersonList'
@@ -4980,11 +5001,11 @@ export type Unnamed_3_Query = { __typename?: 'Query' } & {
   }
 }
 
-export type Unnamed_4_QueryVariables = Exact<{
+export type Unnamed_6_QueryVariables = Exact<{
   id: Scalars['ID']
 }>
 
-export type Unnamed_4_Query = { __typename?: 'Query' } & {
+export type Unnamed_6_Query = { __typename?: 'Query' } & {
   strapi: { __typename?: 'STRAPI' } & {
     project?: Maybe<
       { __typename?: 'STRAPI_Project' } & Pick<
@@ -5056,14 +5077,15 @@ export type MetaFragment = {
 
 export type CtaFragment = { __typename?: 'STRAPI_ComponentContentCta' } & Pick<
   Strapi_ComponentContentCta,
-  'id' | 'title'
+  'id' | 'title' | 'description'
 > & {
     link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
   }
 
 export type HeroFragment = {
   __typename?: 'STRAPI_ComponentContentHero'
-} & Pick<Strapi_ComponentContentHero, 'id' | 'title'> & {
+} & Pick<Strapi_ComponentContentHero, 'id' | 'title' | 'description'> & {
+    link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
     image?: Maybe<
       { __typename?: 'STRAPI_UploadFile' } & {
         file?: Maybe<
@@ -5081,7 +5103,6 @@ export type HeroFragment = {
         >
       } & ImageFragment
     >
-    link?: Maybe<{ __typename?: 'STRAPI_ComponentSharedLink' } & LinkFragment>
   }
 
 export type TextFragment = {
@@ -5125,8 +5146,8 @@ export type ServiceFragment = {
   }
 
 export type ServiceListFragment = {
-  __typename?: 'STRAPI_ComponentContentServicelist'
-} & Pick<Strapi_ComponentContentServicelist, 'id' | 'subtitle' | 'title'> & {
+  __typename?: 'STRAPI_ComponentContentServiceList'
+} & Pick<Strapi_ComponentContentServiceList, 'id' | 'subtitle' | 'title'> & {
     services?: Maybe<
       Array<
         Maybe<
@@ -5182,12 +5203,17 @@ export type LatestArticleListFragment = {
   __typename?: 'STRAPI_ComponentContentLatestArticleList'
 } & Pick<
   Strapi_ComponentContentLatestArticleList,
-  'id' | 'limit' | 'subtitle' | 'title'
+  'id' | 'title' | 'subtitle' | 'limit'
 >
 
 export type ArticleListFragment = {
   __typename?: 'STRAPI_ComponentContentArticleList'
-} & Pick<Strapi_ComponentContentArticleList, 'id' | 'subtitle' | 'title'>
+} & Pick<Strapi_ComponentContentArticleList, 'id' | 'title' | 'subtitle'>
+
+export type ArticleTeaserFragment = { __typename?: 'STRAPI_Article' } & Pick<
+  Strapi_Article,
+  'id' | 'title' | 'slug' | 'createdAt' | 'summary'
+>
 
 export type MapsFragment = {
   __typename?: 'STRAPI_ComponentContentMaps'
@@ -5212,9 +5238,24 @@ export type ProjectListFragment = {
   __typename?: 'STRAPI_ComponentContentProjectList'
 } & Pick<Strapi_ComponentContentProjectList, 'id' | 'subtitle' | 'title'>
 
-export type Unnamed_5_QueryVariables = Exact<{ [key: string]: never }>
+export type Unnamed_7_QueryVariables = Exact<{ [key: string]: never }>
 
-export type Unnamed_5_Query = { __typename?: 'Query' } & {
+export type Unnamed_7_Query = { __typename?: 'Query' } & {
+  site?: Maybe<
+    { __typename?: 'Site' } & {
+      siteMetadata?: Maybe<
+        { __typename?: 'SiteSiteMetadata' } & Pick<
+          SiteSiteMetadata,
+          'title' | 'titleTemplate' | 'description'
+        >
+      >
+    }
+  >
+}
+
+export type Unnamed_8_QueryVariables = Exact<{ [key: string]: never }>
+
+export type Unnamed_8_Query = { __typename?: 'Query' } & {
   strapi: { __typename?: 'STRAPI' } & {
     homepage?: Maybe<
       { __typename?: 'STRAPI_Homepage' } & Pick<
@@ -5235,7 +5276,7 @@ export type Unnamed_5_Query = { __typename?: 'Query' } & {
                     __typename?: 'STRAPI_ComponentContentHighlight'
                   } & HighlightFragment)
                 | ({
-                    __typename?: 'STRAPI_ComponentContentServicelist'
+                    __typename?: 'STRAPI_ComponentContentServiceList'
                   } & ServiceListFragment)
                 | ({
                     __typename?: 'STRAPI_ComponentContentText'

@@ -9,6 +9,7 @@ import Highlight from '../molecules/Highlight'
 import Text from '../molecules/Text'
 import LatestArticleList from '../organisms/LatestArticleList'
 import Cta from '../molecules/Cta'
+import ServiceList from '../organisms/ServiceList'
 
 type Component =
   | Strapi_HomepageContentDynamicZone
@@ -22,17 +23,21 @@ interface Props {
 const Content = ({ components }: Props) => (
   <Fragment>
     {components.map(component => {
+      const { id } = component
+
       switch (component.__typename) {
         case 'STRAPI_ComponentContentCta':
-          return <Cta key={component.id} {...component} />
+          return <Cta key={id} {...component} />
         case 'STRAPI_ComponentContentHero':
-          return <Hero key={component.id} {...component} />
+          return <Hero key={id} {...component} />
         case 'STRAPI_ComponentContentHighlight':
-          return <Highlight key={component.id} {...component} />
+          return <Highlight key={id} {...component} />
         case 'STRAPI_ComponentContentLatestArticleList':
-          return <LatestArticleList key={component.id} {...component} />
+          return <LatestArticleList key={id} {...component} />
+        case 'STRAPI_ComponentContentServiceList':
+          return <ServiceList key={id} {...component} />
         case 'STRAPI_ComponentContentText':
-          return <Text key={component.id} {...component} />
+          return <Text key={id} {...component} />
         default:
           return null
       }

@@ -1,6 +1,11 @@
 import { graphql, PageProps } from 'gatsby'
-import React from 'react'
-import { Strapi_Page } from '../../typings/graphql'
+import React, { Fragment } from 'react'
+import {
+  Strapi_Page,
+  Strapi_PageContentDynamicZone
+} from '../../typings/graphql'
+import Seo from '../molecules/Seo'
+import Content from './Content'
 
 type Props = PageProps<{
   strapi: {
@@ -8,9 +13,22 @@ type Props = PageProps<{
   }
 }>
 
-const Page = ({ data }: Props) => {
+const Page = ({ data, location }: Props) => {
   console.log(data)
-  return <h1>{data.strapi.page.title}</h1>
+  return (
+    <Fragment>
+      <Seo
+        pageTitle={data.strapi.page.title}
+        meta={data.strapi.page.meta}
+        location={location}
+      />
+      <Content
+        components={
+          (data.strapi.page.content || []) as Strapi_PageContentDynamicZone[]
+        }
+      />
+    </Fragment>
+  )
 }
 
 export const query = graphql`
