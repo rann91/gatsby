@@ -1,6 +1,5 @@
 /* @jsx jsx */
-import { Fragment } from 'react'
-import { Heading, jsx, Text } from 'theme-ui'
+import { Box, Heading, jsx, Text } from 'theme-ui'
 
 interface Props {
   title?: string | null
@@ -8,17 +7,12 @@ interface Props {
 }
 
 const Headings = ({ title, subtitle }: Props) => (
-  <Fragment>
-    {subtitle && (
-      <Text sx={{ variant: 'text.label', textAlign: 'center' }}>
-        {subtitle}
-      </Text>
-    )}
+  <Box px={5} sx={{ textAlign: 'center' }}>
+    {subtitle && <Text sx={{ variant: 'text.label' }}>{subtitle}</Text>}
     {title && (
       <Heading
         variant="h2"
         sx={{
-          textAlign: 'center',
           '* + &': {
             paddingTop: 2
           }
@@ -26,7 +20,7 @@ const Headings = ({ title, subtitle }: Props) => (
         {title}
       </Heading>
     )}
-  </Fragment>
+  </Box>
 )
 
 export default Headings

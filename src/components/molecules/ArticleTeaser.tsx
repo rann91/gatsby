@@ -7,7 +7,7 @@ import { Strapi_Article } from '../../typings/graphql'
 const ArticleTeaser = ({ title, slug, createdAt, summary }: Strapi_Article) => (
   <Fragment>
     {title && (
-      <Heading as="h3" variant="h3">
+      <Heading as="h3" variant="h3" sx={{ fontSize: [3, null, null, 4] }}>
         <Link to={`/blog/${slug}`} sx={{ variant: 'text.headingLink' }}>
           {title}
         </Link>

@@ -1,37 +1,32 @@
 /* @jsx jsx */
 import { graphql, useStaticQuery } from 'gatsby'
-import { Box, jsx, Container } from 'theme-ui'
+import { Box, Container, jsx } from 'theme-ui'
 import {
-  Strapi_ComponentContentProjectList,
-  Strapi_Project
+  Strapi_Article,
+  Strapi_ComponentContentArticleList
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
+import ArticlePreview from '../molecules/ArticlePreview'
 import Headings from '../molecules/Headings'
-import ProjectTeaser from '../molecules/ProjectTeaser'
 
-const ProjectList = ({
+const ArticleList = ({
   title,
   subtitle
-}: Strapi_ComponentContentProjectList) => {
+}: Strapi_ComponentContentArticleList) => {
   const data = useStaticQuery<{
     strapi: {
-      projects: Strapi_Project[]
+      articles: Strapi_Article[]
     }
   }>(graphql`
     query {
       strapi {
-        projects(sort: "date:desc") {
-          id
-          title
-          slug
-          category
-          image {
-            ...ImageFluid
-          }
+        articles(sort: "createdAt:desc") {
+          ...ArticleTeaser
         }
       }
     }
   `)
+
   return (
     <Section hasTitle={!!title}>
       <Container>
@@ -42,9 +37,9 @@ const ProjectList = ({
               paddingTop: [0, null, null, 5]
             }
           }}>
-          {data.strapi.projects.map(project => (
-            <Box key={project.id} p={5} mb={[0, null, null, 3]}>
-              <ProjectTeaser {...project} />
+          {data.strapi.articles.map(article => (
+            <Box key={article.id} p={5} mb={[0, null, null, 3]}>
+              <ArticlePreview {...article} />
             </Box>
           ))}
         </Box>
@@ -53,4 +48,4 @@ const ProjectList = ({
   )
 }
 
-export default ProjectList
+export default ArticleList

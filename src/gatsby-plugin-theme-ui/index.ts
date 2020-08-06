@@ -49,7 +49,12 @@ const theme: Theme = {
     rem(100)
   ],
   sizes: {
-    container: 1200
+    container: rem(1200)
+  },
+  layout: {
+    container: {
+      px: [0, 5, null, null, 0]
+    }
   },
   lineHeights: {
     body: 1.75,
@@ -75,7 +80,7 @@ const theme: Theme = {
       fontSize: [5, null, null, 6]
     },
     h3: {
-      fontSize: [3, null, null, 4]
+      fontSize: 3
     },
     p: {
       color: 'secondary'
@@ -94,6 +99,10 @@ const theme: Theme = {
       fontWeight: 'medium',
       textTransform: 'uppercase',
       color: 'secondary'
+    },
+    labelBig: {
+      variant: 'text.label',
+      fontSize: 2
     },
     jumbo: {
       fontSize: [7, null, null, 8]

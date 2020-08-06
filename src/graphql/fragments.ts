@@ -215,6 +215,9 @@ export const FRAGMENT_ARTICLE_TEASER = graphql`
     slug
     createdAt
     summary
+    image {
+      ...ImageFluid
+    }
   }
 `
 
