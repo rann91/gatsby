@@ -74,15 +74,27 @@ const theme: Theme = {
       lineHeight: 'heading'
     },
     h1: {
+      fontFamily: 'heading',
+      fontWeight: 'heading',
+      lineHeight: 'heading',
       fontSize: [6, null, null, 7]
     },
     h2: {
+      fontFamily: 'heading',
+      fontWeight: 'heading',
+      lineHeight: 'heading',
       fontSize: [5, null, null, 6]
     },
     h3: {
+      fontFamily: 'heading',
+      fontWeight: 'heading',
+      lineHeight: 'heading',
       fontSize: 3
     },
     p: {
+      fontFamily: 'body',
+      fontWeight: 'body',
+      lineHeight: 'body',
       color: 'secondary'
     },
     headingLink: {
@@ -107,13 +119,12 @@ const theme: Theme = {
     jumbo: {
       fontSize: [7, null, null, 8]
     },
+    quote: {
+      fontSize: [2, null, null, 3],
+      color: 'text'
+    },
     siteTitle: {
       fontSize: [rem(16), rem(18)]
-    },
-    visuallyHidden: {
-      position: 'absolute',
-      opacity: 0,
-      pointerEvents: 'none'
     }
   },
   images: {
@@ -203,30 +214,6 @@ const theme: Theme = {
     },
     a: {
       color: 'primary'
-    },
-    pre: {
-      fontFamily: 'monospace',
-      overflowX: 'auto',
-      code: {
-        color: 'inherit'
-      }
-    },
-    code: {
-      fontFamily: 'monospace',
-      fontSize: 'inherit'
-    },
-    table: {
-      width: '100%',
-      borderCollapse: 'separate',
-      borderSpacing: 0
-    },
-    th: {
-      textAlign: 'left',
-      borderBottomStyle: 'solid'
-    },
-    td: {
-      textAlign: 'left',
-      borderBottomStyle: 'solid'
     },
     img: {
       maxWidth: '100%'
