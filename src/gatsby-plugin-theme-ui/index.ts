@@ -14,7 +14,9 @@ const theme: Theme = {
     primaryHover: '#48226F',
     secondary: 'rgba(26, 27, 31, 0.6)',
     muted: '#F4F4F4',
-    quoteBorder: '#E2E2E2'
+    quoteBorder: '#E2E2E2',
+    inputBorder: '#E4E4E4',
+    placeholder: 'rgba(50, 52, 58, 0.4)'
   },
   fonts: {
     body: '"Montserrat", sans-serif',
@@ -157,8 +159,10 @@ const theme: Theme = {
       height: rem(44),
       paddingLeft: rem(20),
       paddingRight: rem(20),
+      borderRadius: 0,
       color: 'white',
       fontSize: 0,
+      fontWeight: 'normal',
       textTransform: 'uppercase',
       textDecoration: 'none',
       backgroundColor: 'primary',
@@ -185,6 +189,31 @@ const theme: Theme = {
       '&:hover': {
         backgroundColor: 'whiteHover'
       }
+    }
+  },
+  forms: {
+    label: {
+      variant: 'text.label',
+      color: 'text',
+      pb: 2
+    },
+    input: {
+      height: rem(44),
+      py: 0,
+      px: rem(20),
+      borderRadius: 0,
+      borderColor: 'inputBorder',
+      fontFamily: 'body',
+      fontSize: 1,
+      '::placeholder': {
+        color: 'placeholder'
+      }
+    },
+    textarea: {
+      variant: 'forms.input',
+      px: rem(20),
+      py: rem(15),
+      height: 'auto'
     }
   },
   styles: {

@@ -9,6 +9,7 @@ import Hero from '../molecules/Hero'
 import Highlight from '../molecules/Highlight'
 import Text from '../molecules/Text'
 import ArticleList from '../organisms/ArticleList'
+import ContactForm from '../organisms/ContactForm'
 import LatestArticleList from '../organisms/LatestArticleList'
 import PersonList from '../organisms/PersonList'
 import ProjectList from '../organisms/ProjectList'
@@ -31,6 +32,8 @@ const Content = ({ components }: Props) => (
       switch (component.__typename) {
         case 'STRAPI_ComponentContentArticleList':
           return <ArticleList key={id} {...component} />
+        case 'STRAPI_ComponentContentContactForm':
+          return <ContactForm key={id} {...component} />
         case 'STRAPI_ComponentContentCta':
           return <Cta key={id} {...component} />
         case 'STRAPI_ComponentContentHero':
