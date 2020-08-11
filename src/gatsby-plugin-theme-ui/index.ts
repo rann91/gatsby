@@ -77,13 +77,13 @@ const theme: Theme = {
       fontFamily: 'heading',
       fontWeight: 'heading',
       lineHeight: 'heading',
-      fontSize: [6, null, null, 7]
+      fontSize: [5, null, null, 7]
     },
     h2: {
       fontFamily: 'heading',
       fontWeight: 'heading',
       lineHeight: 'heading',
-      fontSize: [5, null, null, 6]
+      fontSize: [4, null, null, 6]
     },
     h3: {
       fontFamily: 'heading',
@@ -114,7 +114,7 @@ const theme: Theme = {
     },
     labelBig: {
       variant: 'text.label',
-      fontSize: 2
+      fontSize: [0, null, null, 2]
     },
     jumbo: {
       fontSize: [7, null, null, 8]

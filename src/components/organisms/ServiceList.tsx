@@ -14,7 +14,7 @@ const ServiceList = ({
   subtitle,
   services
 }: Strapi_ComponentContentServiceList) => (
-  <Section hasTitle={!!title}>
+  <Section hasTitle={!!title} sx={{ mb: 5 }}>
     <Container>
       <Headings {...{ title, subtitle }} />
       <Flex
