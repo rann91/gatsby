@@ -167,8 +167,11 @@ const theme: Theme = {
       textDecoration: 'none',
       backgroundColor: 'primary',
       transition: 'background-color 0.25s',
-      '&:hover': {
+      '&:hover:not([disabled])': {
         backgroundColor: 'primaryHover'
+      },
+      '&[disabled]': {
+        opacity: 0.75
       }
     },
     primaryLarge: {

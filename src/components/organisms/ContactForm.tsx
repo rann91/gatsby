@@ -1,4 +1,6 @@
 /* @jsx jsx */
+import { gql, useMutation } from '@apollo/client'
+import { useForm } from 'react-hook-form'
 import ReactMarkdown from 'react-markdown'
 import {
   Box,
@@ -19,11 +21,39 @@ import {
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
 
+interface Input {
+  name: string
+  email: string
+  message: string
+}
+
+interface Data {
+  contact: {
+    success: boolean
+  }
+}
+
+interface Variables {
+  data: Input
+}
+
 const ContactForm = ({
   title,
   description,
   contactDetail
 }: Strapi_ComponentContentContactForm) => {
+  const [sendForm, { data, loading, error }] = useMutation<Data, Variables>(gql`
+    mutation SendForm($data: ContactInput!) {
+      contact(data: $data) {
+        success
+      }
+    }
+  `)
+  const { register, handleSubmit } = useForm<Input>()
+  const onSubmit = async (data: Input) => {
+    await sendForm({ variables: { data } })
+  }
+
   return (
     <Section hasTitle={!!title}>
       <Container>
@@ -53,33 +83,54 @@ const ContactForm = ({
                   {description}
                 </Text>
               )}
-              <Box as="form">
-                <Box pb={5}>
-                  <Label htmlFor="name">Name</Label>
-                  <Input id="name" name="name" placeholder="Enter your name" />
-                </Box>
-                <Box pb={5}>
-                  <Label htmlFor="email">Email address</Label>
-                  <Input
-                    id="email"
-                    name="email"
-                    placeholder="Enter you email"
-                  />
-                </Box>
-                <Box pb={5}>
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    placeholder="Enter your message"
-                    rows={5}
-                    sx={{ resize: 'none' }}
-                  />
-                </Box>
-                <Button type="submit" sx={{ display: 'block', width: '100%' }}>
-                  Submit
-                </Button>
-              </Box>
+              {error || data?.contact.success === false ? (
+                <Text variant="p">Something went wrong.</Text>
+              ) : data?.contact.success ? (
+                <Text variant="p">Message successfully sent!</Text>
+              ) : (
+                <form onSubmit={handleSubmit(onSubmit)}>
+                  <Box pb={5}>
+                    <Label htmlFor="name">Name</Label>
+                    <Input
+                      ref={register}
+                      id="name"
+                      name="name"
+                      type="text"
+                      required={true}
+                      placeholder="Enter your name"
+                    />
+                  </Box>
+                  <Box pb={5}>
+                    <Label htmlFor="email">Email address</Label>
+                    <Input
+                      ref={register}
+                      id="email"
+                      name="email"
+                      type="email"
+                      required={true}
+                      placeholder="Enter you email"
+                    />
+                  </Box>
+                  <Box pb={5}>
+                    <Label htmlFor="message">Message</Label>
+                    <Textarea
+                      ref={register}
+                      id="message"
+                      name="message"
+                      placeholder="Enter your message"
+                      rows={5}
+                      required={true}
+                      sx={{ resize: 'none' }}
+                    />
+                  </Box>
+                  <Button
+                    type="submit"
+                    disabled={loading}
+                    sx={{ display: 'block', width: '100%' }}>
+                    Submit
+                  </Button>
+                </form>
+              )}
             </Box>
           </Box>
           <Box
