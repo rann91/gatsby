@@ -5,7 +5,7 @@ import {
   Strapi_ComponentSharedService
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
-import Headings from '../molecules/Headings'
+import HeadingGroup from '../molecules/HeadingGroup'
 import { column } from '../../gatsby-plugin-theme-ui'
 import Service from '../molecules/Service'
 
@@ -16,7 +16,7 @@ const ServiceList = ({
 }: Strapi_ComponentContentServiceList) => (
   <Section hasTitle={!!title} sx={{ mb: 5 }}>
     <Container>
-      <Headings {...{ title, subtitle }} />
+      <HeadingGroup {...{ title, subtitle }} />
       <Flex
         sx={{
           flexWrap: 'wrap',

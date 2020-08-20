@@ -107,7 +107,7 @@ export const FRAGMENT_HIGHLIGHT = graphql`
       file {
         ...File
         childImageSharp {
-          fluid(maxWidth: 740) {
+          fluid(maxWidth: 1024) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -157,7 +157,7 @@ export const FRAGMENT_PERSON = graphql`
       file {
         ...File
         childImageSharp {
-          fluid(maxWidth: 340) {
+          fluid(maxWidth: 640) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -7,13 +7,15 @@ import {
 import Cta from '../molecules/Cta'
 import Hero from '../molecules/Hero'
 import Highlight from '../molecules/Highlight'
+import Maps from '../molecules/Maps'
 import Text from '../molecules/Text'
 import ArticleList from '../organisms/ArticleList'
 import ContactForm from '../organisms/ContactForm'
-import LatestArticleList from '../organisms/LatestArticleList'
+import ArticleLatestList from '../organisms/ArticleLatestList'
 import PersonList from '../organisms/PersonList'
 import ProjectList from '../organisms/ProjectList'
 import ServiceList from '../organisms/ServiceList'
+import PersonContactList from '../organisms/PersonContactList'
 
 type Component =
   | Strapi_HomepageContentDynamicZone
@@ -34,6 +36,8 @@ const Content = ({ components }: Props) => (
           return <ArticleList key={id} {...component} />
         case 'STRAPI_ComponentContentContactForm':
           return <ContactForm key={id} {...component} />
+        case 'STRAPI_ComponentContentPersonContactList':
+          return <PersonContactList key={id} {...component} />
         case 'STRAPI_ComponentContentCta':
           return <Cta key={id} {...component} />
         case 'STRAPI_ComponentContentHero':
@@ -41,7 +45,9 @@ const Content = ({ components }: Props) => (
         case 'STRAPI_ComponentContentHighlight':
           return <Highlight key={id} {...component} />
         case 'STRAPI_ComponentContentLatestArticleList':
-          return <LatestArticleList key={id} {...component} />
+          return <ArticleLatestList key={id} {...component} />
+        case 'STRAPI_ComponentContentMaps':
+          return <Maps key={id} {...component} />
         case 'STRAPI_ComponentContentPersonList':
           return <PersonList key={id} {...component} />
         case 'STRAPI_ComponentContentProjectList':

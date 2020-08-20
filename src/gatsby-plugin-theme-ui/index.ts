@@ -189,7 +189,7 @@ const theme: Theme = {
       fontSize: [0, null, null, 1],
       color: 'black',
       backgroundColor: 'white',
-      '&:hover': {
+      '&:hover:not([disabled])': {
         backgroundColor: 'whiteHover'
       }
     }
@@ -251,7 +251,6 @@ const theme: Theme = {
       maxWidth: '100%'
     },
     hr: {
-      marginTop: [7, null, null, 8],
       borderColor: 'muted'
     }
   }

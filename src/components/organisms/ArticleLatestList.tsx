@@ -8,9 +8,9 @@ import {
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
 import ArticleTeaser from '../molecules/ArticleTeaser'
-import Headings from '../molecules/Headings'
+import HeadingGroup from '../molecules/HeadingGroup'
 
-const LatestArticleList = ({
+const ArticleLatestList = ({
   title,
   subtitle,
   limit
@@ -32,7 +32,7 @@ const LatestArticleList = ({
   return (
     <Section hasTitle={!!title}>
       <Container>
-        <Headings {...{ title, subtitle }} />
+        <HeadingGroup {...{ title, subtitle }} />
         <Flex
           sx={{
             flexWrap: 'wrap',
@@ -57,4 +57,4 @@ const LatestArticleList = ({
   )
 }
 
-export default LatestArticleList
+export default ArticleLatestList

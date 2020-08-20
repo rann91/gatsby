@@ -6,7 +6,7 @@ import {
   Strapi_Project
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
-import Headings from '../molecules/Headings'
+import HeadingGroup from '../molecules/HeadingGroup'
 import ProjectTeaser from '../molecules/ProjectTeaser'
 
 const ProjectList = ({
@@ -35,7 +35,7 @@ const ProjectList = ({
   return (
     <Section hasTitle={!!title}>
       <Container>
-        <Headings {...{ title, subtitle }} />
+        <HeadingGroup {...{ title, subtitle }} />
         <Box
           sx={{
             '* + &': {

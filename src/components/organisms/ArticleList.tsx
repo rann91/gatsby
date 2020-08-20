@@ -7,7 +7,7 @@ import {
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
 import ArticlePreview from '../molecules/ArticlePreview'
-import Headings from '../molecules/Headings'
+import HeadingGroup from '../molecules/HeadingGroup'
 
 const ArticleList = ({
   title,
@@ -30,7 +30,7 @@ const ArticleList = ({
   return (
     <Section hasTitle={!!title}>
       <Container>
-        <Headings {...{ title, subtitle }} />
+        <HeadingGroup {...{ title, subtitle }} />
         <Box
           sx={{
             '* + &': {

@@ -2,18 +2,18 @@
 import { Box, Container, Flex, jsx } from 'theme-ui'
 import { column } from '../../gatsby-plugin-theme-ui'
 import {
-  Strapi_ComponentContentPersonList,
+  Strapi_ComponentContentPersonContactList,
   Strapi_Person
 } from '../../typings/graphql'
 import Section from '../atoms/Section'
+import PersonContactTeaser from '../molecules/PersonContactTeaser'
 import HeadingGroup from '../molecules/HeadingGroup'
-import PersonTeaser from '../molecules/PersonTeaser'
 
-const PersonList = ({
+const PersonContactList = ({
   title,
   subtitle,
   persons
-}: Strapi_ComponentContentPersonList) => (
+}: Strapi_ComponentContentPersonContactList) => (
   <Section hasTitle={!!title}>
     <Container>
       <HeadingGroup {...{ title, subtitle }} />
@@ -32,7 +32,7 @@ const PersonList = ({
               width: [column(12), column(6), null, column(4)],
               textAlign: ['center', null, null, 'left']
             }}>
-            <PersonTeaser {...person} />
+            <PersonContactTeaser {...person} />
           </Box>
         ))}
       </Flex>
@@ -40,4 +40,4 @@ const PersonList = ({
   </Section>
 )
 
-export default PersonList
+export default PersonContactList

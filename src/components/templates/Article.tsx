@@ -48,14 +48,14 @@ const Article = ({
         <ReactMarkdown
           source={article.content || undefined}
           renderers={{
-            paragraph: props => {
-              if (props.children[0].type.name === 'TextRenderer') {
-                return <p {...props} />
+            paragraph(props) {
+              if (props.children[0].type.name === 'image') {
+                return <Fragment {...props} />
               }
 
-              return <Fragment {...props} />
+              return <p {...props} />
             },
-            image: ({ src, alt }: HTMLImageElement) => {
+            image({ src, alt }: HTMLImageElement) {
               const name = src
                 .replace('/uploads/', '')
                 .replace(/\.(jpe?g|png|gif)/, '')

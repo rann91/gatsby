@@ -6,7 +6,7 @@ interface Props {
   subtitle?: string | null
 }
 
-const Headings = ({ title, subtitle }: Props) => {
+const HeadingGroup = ({ title, subtitle }: Props) => {
   if (title || subtitle) {
     return (
       <Box px={5} sx={{ textAlign: 'center' }}>
@@ -29,4 +29,4 @@ const Headings = ({ title, subtitle }: Props) => {
   return null
 }
 
-export default Headings
+export default HeadingGroup
