@@ -8,7 +8,11 @@ type Props = SxProps &
   }>
 
 const Section = ({ hasTitle, children, ...rest }: Props) => (
-  <Box as={hasTitle ? 'section' : 'div'} mb={[7, null, null, 8]} {...rest}>
+  <Box
+    data-testid="section"
+    as={hasTitle ? 'section' : 'div'}
+    mb={[7, null, null, 8]}
+    {...rest}>
     {children}
   </Box>
 )

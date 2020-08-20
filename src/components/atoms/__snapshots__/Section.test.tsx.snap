@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section renders correctly 1`] = `
+<div>
+  <div
+    class="css-1ptauik"
+    data-testid="section"
+  />
+</div>
+`;

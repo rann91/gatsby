@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders a Gatsby link 1`] = `
+<div>
+  <a
+    data-testid="gatsby-link"
+    href="/"
+    target="_self"
+  >
+    Link
+  </a>
+</div>
+`;
+
+exports[`Link renders a Theme UI link 1`] = `
+<div>
+  <a
+    class="css-vurnku"
+    data-testid="theme-link"
+    href="https://gatsbyjs.com"
+    rel="noopener noreferrer"
+    target="_self"
+  >
+    Link
+  </a>
+</div>
+`;

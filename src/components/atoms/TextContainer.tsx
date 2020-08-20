@@ -7,6 +7,7 @@ type Props = SxProps & PropsWithChildren<{}>
 
 const TextContainer = ({ children, ...rest }: Props) => (
   <Box
+    data-testid="text-container"
     sx={{ margin: 'auto', maxWidth: rem(940), textAlign: 'center' }}
     {...rest}>
     {children}

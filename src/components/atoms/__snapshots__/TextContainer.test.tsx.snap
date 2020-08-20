@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextContainer renders correctly 1`] = `
+<div>
+  <div
+    class="css-ycxng9-TextContainer"
+    data-testid="text-container"
+  />
+</div>
+`;

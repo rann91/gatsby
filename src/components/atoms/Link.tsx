@@ -15,7 +15,12 @@ const Link = ({ link, ...rest }: Props) => {
 
   if (regex.test(url)) {
     return (
-      <ThemeLink href={url} target={target} rel="noopener noreferrer" {...rest}>
+      <ThemeLink
+        data-testid="theme-link"
+        href={url}
+        target={target}
+        rel="noopener noreferrer"
+        {...rest}>
         {label}
       </ThemeLink>
     )
@@ -23,6 +28,7 @@ const Link = ({ link, ...rest }: Props) => {
 
   return (
     <GatsbyLink
+      data-testid="gatsby-link"
       to={url}
       target={target}
       activeClassName="active"
