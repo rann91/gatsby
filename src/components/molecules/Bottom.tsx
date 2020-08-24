@@ -2,7 +2,7 @@
 import { jsx, Box, Text, Link, Container } from 'theme-ui'
 
 const Bottom = () => (
-  <Box bg="white" pb={[7, null, null, 8]}>
+  <Box data-testid="bottom" bg="white" pb={[7, null, null, 8]}>
     <Container>
       <Text
         as="p"

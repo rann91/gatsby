@@ -1,0 +1,45 @@
+{
+  "strapi": {
+    "navigation": {
+      "id": "5f1ae5998eabcdc81bb5ba9a",
+      "menu": [
+        {
+          "id": "5f297c8ab6db5f30b69a91ff",
+          "label": "Home",
+          "newWindow": false,
+          "url": "/"
+        },
+        {
+          "id": "5f1ae5998eabcdc81bb5ba9b",
+          "label": "About",
+          "newWindow": false,
+          "url": "/about"
+        },
+        {
+          "id": "5f1ae5998eabcdc81bb5ba9c",
+          "label": "Work",
+          "newWindow": false,
+          "url": "/work"
+        },
+        {
+          "id": "5f1ae5998eabcdc81bb5ba9d",
+          "label": "Team",
+          "newWindow": false,
+          "url": "/team"
+        },
+        {
+          "id": "5f1ae5998eabcdc81bb5ba9e",
+          "label": "Blog",
+          "newWindow": false,
+          "url": "/blog"
+        },
+        {
+          "id": "5f1ae5998eabcdc81bb5ba9f",
+          "label": "Contact",
+          "newWindow": false,
+          "url": "/contact"
+        }
+      ]
+    }
+  }
+}

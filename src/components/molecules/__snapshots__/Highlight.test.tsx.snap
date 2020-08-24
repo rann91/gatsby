@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Highlight renders correctly 1`] = `
+<div>
+  <section
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-qk85ia-Highlight"
+    >
+      <div
+        class="css-apomu1-Highlight"
+      >
+        <div
+          class="css-vurnku"
+        >
+          About
+        </div>
+        <h2
+          class="css-1rgy0jp-Highlight"
+        >
+          Who we are
+        </h2>
+        <p
+          class="css-l61lpi-Highlight"
+        >
+          Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis faucibus erat, non accumsan leo. Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
+        </p>
+        <a
+          class="css-10k9l7m-Highlight"
+          data-testid="gatsby-link"
+          href="/about"
+          target="_self"
+        >
+          Learn more
+        </a>
+      </div>
+      <div
+        class="css-13hi74v-Highlight"
+      >
+        <div
+          class="css-i9l3dq"
+        >
+          <div
+            class="css-r01jhj"
+          />
+          <div
+            class="css-1sr1905"
+          >
+            <div
+              class=" gatsby-image-wrapper"
+              style="position: relative; overflow: hidden;"
+            >
+              <div
+                aria-hidden="true"
+                style="width: 100%; padding-bottom: 66.796875%;"
+              />
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAD/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABTHAMnyf/xAAbEAACAgMBAAAAAAAAAAAAAAACAwABERMjM//aAAgBAQABBQKvQ8za6o4dYU4sIHn/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/AYf/xAAbEAACAwADAAAAAAAAAAAAAAAAARESIQIiMf/aAAgBAQAGPwLkq9UOvhilCcvRm6f/xAAcEAEAAwACAwAAAAAAAAAAAAABACExEUFRYXH/2gAIAQEAAT8h9Qt8RcEVGpFNKWMtuX8gz50YZ2G8n//aAAwDAQACAAMAAAAQVz//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAEDAQE/EE9Haf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEWH/2gAIAQIBAT8Q4gMv/8QAHRABAAICAwEBAAAAAAAAAAAAAREhAEExUXFh8P/aAAgBAQABPxD1nKyjlfjNeYMK7MJHuHWQK8QzP6MQxMKaEcPeskrRzeqry8O1ZZFSFGf/2Q=="
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+              />
+              <picture>
+                <source
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w"
+                />
+                <img
+                  alt=""
+                  loading="lazy"
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  src="/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg"
+                  srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                />
+              </picture>
+              <noscript>
+                &lt;picture&gt;&lt;source srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w" src="/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+              </noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonTeaser renders correctly 1`] = `
+<div>
+  <div
+    class="css-vurnku"
+  >
+    <div
+      class="css-i9l3dq"
+    >
+      <div
+        class="css-1lndym5"
+      />
+      <div
+        class="css-1sr1905"
+      >
+        <div
+          class=" gatsby-image-wrapper"
+          style="position: relative; overflow: hidden;"
+        >
+          <div
+            aria-hidden="true"
+            style="width: 100%; padding-bottom: 123.75%;"
+          />
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAYVfQ1IlLPvUkegTiv/EAB8QAAEDBAMBAAAAAAAAAAAAAAIAAQMEERIhEyIxMv/aAAgBAQABBQKQUwDjHCxjvG7WbSqOsS4QNVHii+P/xAAWEQADAAAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8BCj//xAAVEQEBAAAAAAAAAAAAAAAAAAAgIf/aAAgBAgEBPwGj/8QAHhAAAgEEAwEAAAAAAAAAAAAAAAERAhAhMRJBYXH/2gAIAQEABj8CWTTkmEJ9G0OW1kpp9tygo+X/AP/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQWEQodH/2gAIAQEAAT8hJ+MRmAecjM1GalDvy+4JTK+4RBDhADdoLq8alUStOGvFG5rn/9oADAMBAAIAAwAAABCgHc3/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EKPSjIj/xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxBBsLDE9v/EACAQAQACAQQCAwAAAAAAAAAAAAEAETEhQXGhUbFhkdH/2gAIAQEAAT8Q3hNdMCZBmtAK8GI6zPCgrY0ipjQtObLXNQmUQStEJeU65gbCrpiDfrb3/YsLKH0llYgr2o3+Z0PomLk9zsT/2Q=="
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+          />
+          <picture>
+            <source
+              sizes="(max-width: 640px) 100vw, 640px"
+              srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w"
+            />
+            <img
+              alt=""
+              loading="lazy"
+              sizes="(max-width: 640px) 100vw, 640px"
+              src="/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg"
+              srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w"
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+            />
+          </picture>
+          <noscript>
+            &lt;picture&gt;&lt;source srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w" sizes="(max-width: 640px) 100vw, 640px" /&gt;&lt;img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w" src="/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+          </noscript>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h3
+    class="css-1vsjnl7-PersonTeaser"
+  >
+    Michael Fassbender
+  </h3>
+  <p
+    class="css-dt93z1-PersonTeaser"
+  >
+    CEO
+  </p>
+</div>
+`;

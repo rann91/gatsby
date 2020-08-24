@@ -17,7 +17,7 @@ const ArticlePreview = ({
 
   return (
     <Fragment>
-      <Box>
+      <Box data-testid="article-preview-image">
         <Link to={url}>
           <AspectRatio ratio={16 / 9} bg="black">
             {image && (
@@ -29,7 +29,9 @@ const ArticlePreview = ({
           </AspectRatio>
         </Link>
       </Box>
-      <Box sx={{ margin: 'auto', maxWidth: rem(740) }}>
+      <Box
+        data-testid="article-preview-content"
+        sx={{ margin: 'auto', maxWidth: rem(740) }}>
         {title && (
           <Heading
             as="h3"

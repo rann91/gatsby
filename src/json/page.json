@@ -1,0 +1,161 @@
+{
+  "strapi": {
+    "page": {
+      "id": "5f1ae8bafc6216c8893d8bfc",
+      "meta": {
+        "id": "5f1ae8bbfc6216c8893d8c16",
+        "metaDescription": "We’re a group of creative thinkers who have built a business to change the world.",
+        "metaTitle": "About us",
+        "metaImage": {
+          "id": "5f173812a99b3c765f554ab7",
+          "alternativeText": "Two persons working and writing",
+          "url": "/uploads/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg",
+          "file": {
+            "id": "061ba09b-f6dd-5527-9706-d2056dc845f1",
+            "publicURL": "/static/dbd8587b9082466a103eee39353fce12/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg",
+            "childImageSharp": {
+              "resize": {
+                "src": "/static/dbd8587b9082466a103eee39353fce12/b1395/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg"
+              }
+            }
+          }
+        }
+      },
+      "title": "About",
+      "slug": "about",
+      "content": [
+        {
+          "__typename": "STRAPI_ComponentContentHero",
+          "id": "5f1ae8bafc6216c8893d8bfd",
+          "title": "About us",
+          "description": null,
+          "link": null,
+          "image": {
+            "id": "5f173812a99b3c765f554ab7",
+            "alternativeText": "Two persons working and writing",
+            "url": "/uploads/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg",
+            "file": {
+              "id": "061ba09b-f6dd-5527-9706-d2056dc845f1",
+              "publicURL": "/static/dbd8587b9082466a103eee39353fce12/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg",
+              "childImageSharp": {
+                "fluid": {
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAbbuY5mRoV//xAAaEAACAwEBAAAAAAAAAAAAAAAAAQIDERIh/9oACAEBAAEFAq9T2TH4+sKZ9Cr0/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQMBAT8BR//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAQEAAgMAAAAAAAAAAAAAAAEAAiERMqH/2gAIAQEABj8C0c3Vt5eRI2lL/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFRQWH/2gAIAQEAAT8hB94wezQS+piE2D2LIHFiUo4uU7F5uf/aAAwDAQACAAMAAAAQlO//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QcGf/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/ENXL/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARIUFRMaH/2gAIAQEAAT8QZAIGlnMQHTip9lWRs09TfxWrw8gJaDbtQ8/FUofZ/9k=",
+                  "aspectRatio": 1.5,
+                  "src": "/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg",
+                  "srcSet": "/static/dbd8587b9082466a103eee39353fce12/9104c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 480w,\n/static/dbd8587b9082466a103eee39353fce12/a6352/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 960w,\n/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 1920w,\n/static/dbd8587b9082466a103eee39353fce12/af56c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 2880w,\n/static/dbd8587b9082466a103eee39353fce12/27fce/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 3840w,\n/static/dbd8587b9082466a103eee39353fce12/545e0/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 7360w",
+                  "sizes": "(max-width: 1920px) 100vw, 1920px"
+                }
+              }
+            }
+          }
+        },
+        {
+          "__typename": "STRAPI_ComponentContentText",
+          "id": "5f1ae8bafc6216c8893d8bfe",
+          "subtitle": null,
+          "text": "",
+          "title": "We’re a group of creative thinkers who have built a business to change the world."
+        },
+        {
+          "__typename": "STRAPI_ComponentContentText",
+          "id": "5f2aa6d014359808497bba19",
+          "subtitle": null,
+          "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\nShe packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.",
+          "title": null
+        },
+        {
+          "__typename": "STRAPI_ComponentContentServiceList",
+          "id": "5f1ae8bafc6216c8893d8bff",
+          "services": [
+            {
+              "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+              "icon": {
+                "id": "5f1739ce9b843e773a11dcb1",
+                "alternativeText": "",
+                "url": "/uploads/support_734bde873c.svg",
+                "file": {
+                  "id": "e80300a8-8aed-5f76-af70-357862de4dba",
+                  "publicURL": "/static/e1f5c103db11513ce0e1488bf71a12c7/support_734bde873c.svg"
+                }
+              },
+              "id": "5f1ae8bafc6216c8893d8c00",
+              "title": "Support"
+            },
+            {
+              "description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.",
+              "icon": {
+                "id": "5f1739ce9b843e773a11dcb0",
+                "alternativeText": "",
+                "url": "/uploads/strategy_4a02bf0bd6.svg",
+                "file": {
+                  "id": "3d2e65c0-c132-5f33-a739-8cb847c39283",
+                  "publicURL": "/static/03ccc4247828dd9f72de92019e7fbe45/strategy_4a02bf0bd6.svg"
+                }
+              },
+              "id": "5f1ae8bafc6216c8893d8c01",
+              "title": "Strategy"
+            },
+            {
+              "description": "Blind texts it is an almost unorthographic life One day however a small line of blind text by the name.",
+              "icon": {
+                "id": "5f1739ce9b843e773a11dcae",
+                "alternativeText": "",
+                "url": "/uploads/management_7eca47eb5b.svg",
+                "file": {
+                  "id": "937c3491-8b26-5417-9fa2-9af472edb7ad",
+                  "publicURL": "/static/bad3bd60a3d599f881f0e74d19c2f43f/management_7eca47eb5b.svg"
+                }
+              },
+              "id": "5f1ae8bafc6216c8893d8c02",
+              "title": "Management"
+            },
+            {
+              "description": "Blind texts it is an almost unorthographic life One day however a small line of blind text by the name.",
+              "icon": {
+                "id": "5f1739ce9b843e773a11dcb2",
+                "alternativeText": "",
+                "url": "/uploads/training_c092d67f1d.svg",
+                "file": {
+                  "id": "085170fd-7b7f-58d3-822a-2347a5c16e8b",
+                  "publicURL": "/static/1d262bcb471c28b6d378459d8ee7bd55/training_c092d67f1d.svg"
+                }
+              },
+              "id": "5f1ae8bafc6216c8893d8c03",
+              "title": "Training"
+            },
+            {
+              "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+              "icon": {
+                "id": "5f1739ce9b843e773a11dcad",
+                "alternativeText": "",
+                "url": "/uploads/consulting_3db53fea72.svg",
+                "file": {
+                  "id": "2de58dc6-eda8-5686-80b5-57a9c39fc22d",
+                  "publicURL": "/static/d49c9a3ec392fe1419264e4a74f119cf/consulting_3db53fea72.svg"
+                }
+              },
+              "id": "5f1ae8bafc6216c8893d8c04",
+              "title": "Consulting"
+            },
+            {
+              "description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.",
+              "icon": {
+                "id": "5f1739ce9b843e773a11dcaf",
+                "alternativeText": "",
+                "url": "/uploads/events_171bfcf6ed.svg",
+                "file": {
+                  "id": "00634fe3-ba82-54fc-aca5-4828f94d9dd6",
+                  "publicURL": "/static/98dfe375049aea2c3b10efa8dafd9364/events_171bfcf6ed.svg"
+                }
+              },
+              "id": "5f1ae8bafc6216c8893d8c05",
+              "title": "Events"
+            }
+          ],
+          "subtitle": "What we are best at",
+          "title": "Our services"
+        }
+      ]
+    }
+  }
+}

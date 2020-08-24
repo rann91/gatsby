@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleTeaser renders correctly 1`] = `
+<div>
+  <h3
+    class="css-9ygwq5-ArticleTeaser"
+    data-testid="article-teaser-heading"
+  >
+    <a
+      class="css-7aa45z-ArticleTeaser"
+      href="/blog/10-quick-tips-about-blogging"
+    >
+      10 Quick Tips About Blogging
+    </a>
+  </h3>
+  <time
+    class="css-1muxnm4-ArticleTeaser"
+    data-testid="article-teaser-label"
+  >
+    Jul 25, 2020
+  </time>
+</div>
+`;

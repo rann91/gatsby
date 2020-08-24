@@ -7,13 +7,18 @@ import { Strapi_Article } from '../../typings/graphql'
 const ArticleTeaser = ({ title, slug, createdAt, summary }: Strapi_Article) => (
   <Fragment>
     {title && (
-      <Heading as="h3" variant="h3" sx={{ fontSize: [3, null, null, 4] }}>
+      <Heading
+        data-testid="article-teaser-heading"
+        as="h3"
+        variant="h3"
+        sx={{ fontSize: [3, null, null, 4] }}>
         <Link to={`/blog/${slug}`} sx={{ variant: 'text.headingLink' }}>
           {title}
         </Link>
       </Heading>
     )}
     <Text
+      data-testid="article-teaser-label"
       as="time"
       variant="label"
       sx={{
@@ -29,6 +34,7 @@ const ArticleTeaser = ({ title, slug, createdAt, summary }: Strapi_Article) => (
     </Text>
     {summary && (
       <Text
+        data-testid="article-teaser-summary"
         variant="p"
         sx={{
           '* + &': {

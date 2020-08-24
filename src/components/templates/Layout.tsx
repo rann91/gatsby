@@ -2,7 +2,7 @@
 import { ApolloProvider } from '@apollo/client'
 import { PageProps } from 'gatsby'
 import { Flex, jsx } from 'theme-ui'
-import client from '../../apollo/client'
+import client from '../../graphql/client'
 import Footer from '../organisms/Footer'
 import Header from '../organisms/Header'
 

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bottom renders correctly 1`] = `
+<div>
+  <div
+    class="css-1ca5803"
+    data-testid="bottom"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <p
+        class="css-10im984-Bottom"
+      >
+        Made with
+         
+        <a
+          class="css-vurnku"
+          href="https://www.gatsbyjs.org"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Gatsby
+        </a>
+         
+        and
+         
+        <a
+          class="css-vurnku"
+          href="https://strapi.io"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Strapi
+        </a>
+        . Design by
+         
+        <a
+          class="css-vurnku"
+          href="https://webflow.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Webflow
+        </a>
+        .
+      </p>
+    </div>
+  </div>
+</div>
+`;

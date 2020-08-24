@@ -1,0 +1,30 @@
+{
+  "__typename": "STRAPI_ComponentContentHero",
+  "id": "5f1addce658585c794ea0fce",
+  "title": "Grow your business",
+  "description": "Give your business a boost with a beautifully crafted homepage.",
+  "link": {
+    "id": "5f1addce658585c794ea0fcf",
+    "label": "Learn more",
+    "newWindow": false,
+    "url": "https://www.gatsbyjs.org"
+  },
+  "image": {
+    "id": "5f11ce42a7135c2815c0c731",
+    "alternativeText": "Leafs on a wooden surface",
+    "url": "/uploads/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg",
+    "file": {
+      "id": "9ed270da-f72a-5c22-8671-72d66c922409",
+      "publicURL": "/static/b81e707d3f2049269e1ccb8818c45960/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg",
+      "childImageSharp": {
+        "fluid": {
+          "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAT5eOdx2JT//xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIREiH/2gAIAQEAAQUCkldIaV4wT4OXf//EABcRAAMBAAAAAAAAAAAAAAAAAAECEEH/2gAIAQMBAT8BYbP/xAAWEQEBAQAAAAAAAAAAAAAAAAACEBL/2gAIAQIBAT8BD1P/xAAYEAACAwAAAAAAAAAAAAAAAAAQESAxgf/aAAgBAQAGPwKlDR//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQQSFRYf/aAAgBAQABPyG/bdvI4cAmm7dx8w0i40f/2gAMAwEAAgADAAAAEHPv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAEDAQE/EIGP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEhMf/aAAgBAgEBPxCDC3//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFhof/aAAgBAQABPxDZ6AFDVeo0ppteE4xLbiYm+wwHdx3e/IleJ//Z",
+          "aspectRatio": 1.5,
+          "src": "/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg",
+          "srcSet": "/static/b81e707d3f2049269e1ccb8818c45960/9104c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 480w,\n/static/b81e707d3f2049269e1ccb8818c45960/a6352/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 960w,\n/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 1920w,\n/static/b81e707d3f2049269e1ccb8818c45960/af56c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 2880w,\n/static/b81e707d3f2049269e1ccb8818c45960/27fce/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 3840w,\n/static/b81e707d3f2049269e1ccb8818c45960/1c878/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 4752w",
+          "sizes": "(max-width: 1920px) 100vw, 1920px"
+        }
+      }
+    }
+  }
+}

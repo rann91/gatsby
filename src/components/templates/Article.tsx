@@ -151,7 +151,7 @@ const Article = ({
 )
 
 export const query = graphql`
-  query($id: ID!) {
+  query Article($id: ID!) {
     strapi {
       article(id: $id) {
         id

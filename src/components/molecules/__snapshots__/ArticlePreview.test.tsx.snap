@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticlePreview renders correctly 1`] = `
+<div>
+  <div
+    class="css-vurnku"
+    data-testid="article-preview-image"
+  >
+    <a
+      href="/blog/10-quick-tips-about-blogging"
+    >
+      <div
+        class="css-i9l3dq"
+      >
+        <div
+          class="css-r01jhj"
+        />
+        <div
+          class="css-1sr1905"
+        >
+          <div
+            class=" gatsby-image-wrapper"
+            style="position: relative; overflow: hidden;"
+          >
+            <div
+              aria-hidden="true"
+              style="width: 100%; padding-bottom: 66.66666666666667%;"
+            />
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyIERf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5EbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAECEBESISJxof/aAAgBAQAGPwKbkNIVwVUWWr63/8QAGxAAAgMBAQEAAAAAAAAAAAAAAREAITFhUZH/2gAIAQEAAT8h2+gm6hVCAC4+zzruQltwu4DgXHP/2gAMAwEAAgADAAAAEAQP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxATtq//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EEeWb//EABwQAQACAwEBAQAAAAAAAAAAAAERIQBBUXFhof/aAAgBAQABPxDWkQhgeXjmiTVFDSLxtruE/mCUl133uQI9qhD5zFSrKtq7z//Z"
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+            />
+            <picture>
+              <source
+                sizes="(max-width: 1920px) 100vw, 1920px"
+                srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w"
+              />
+              <img
+                alt="Laptop and block note on a desk"
+                loading="lazy"
+                sizes="(max-width: 1920px) 100vw, 1920px"
+                src="/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg"
+                srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w"
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+              />
+            </picture>
+            <noscript>
+              &lt;picture&gt;&lt;source srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w" src="/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg" alt="Laptop and block note on a desk" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+            </noscript>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="css-3cctvh-ArticlePreview"
+    data-testid="article-preview-content"
+  >
+    <h3
+      class="css-1m96vne-ArticlePreview"
+    >
+      <a
+        class="css-18dn24g-ArticlePreview"
+        href="/blog/10-quick-tips-about-blogging"
+      >
+        10 Quick Tips About Blogging
+      </a>
+    </h3>
+    <time
+      class="css-11cb88r"
+    >
+      July 25, 2020
+    </time>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+{
+  "id": "5f1695cc238616534da3a6d7",
+  "_id": "5f1695cc238616534da3a6d7",
+  "createdAt": "2020-07-21T07:14:20.586Z",
+  "description": "Today is the day to build the business of your dreams. Share your mission with the world — and blow your customers away.",
+  "link": {
+    "_id": "5f1695cc238616534da3a6d8",
+    "createdAt": "2020-07-21T07:14:20.602Z",
+    "id": "5f1695cc238616534da3a6d8",
+    "label": "Learn more",
+    "updatedAt": "2020-07-21T07:14:20.602Z",
+    "newWindow": false,
+    "url": "/about"
+  },
+  "title": "Grow your business",
+  "updatedAt": "2020-07-21T07:14:20.641Z"
+}

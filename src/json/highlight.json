@@ -1,0 +1,32 @@
+{
+  "__typename": "STRAPI_ComponentContentHighlight",
+  "id": "5f1ae79ee648cac87d48d286",
+  "image": {
+    "id": "5f1738eec6ef1677285bc05a",
+    "alternativeText": "People in a meeting",
+    "url": "/uploads/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg",
+    "file": {
+      "id": "fc7d128c-c486-5fdd-91bc-ae8618d2de1a",
+      "publicURL": "/static/42b762e0ecd869999e5a564f2c40d88e/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg",
+      "childImageSharp": {
+        "fluid": {
+          "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAD/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABTHAMnyf/xAAbEAACAgMBAAAAAAAAAAAAAAACAwABERMjM//aAAgBAQABBQKvQ8za6o4dYU4sIHn/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/AYf/xAAbEAACAwADAAAAAAAAAAAAAAAAARESIQIiMf/aAAgBAQAGPwLkq9UOvhilCcvRm6f/xAAcEAEAAwACAwAAAAAAAAAAAAABACExEUFRYXH/2gAIAQEAAT8h9Qt8RcEVGpFNKWMtuX8gz50YZ2G8n//aAAwDAQACAAMAAAAQVz//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAEDAQE/EE9Haf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEWH/2gAIAQIBAT8Q4gMv/8QAHRABAAICAwEBAAAAAAAAAAAAAREhAEExUXFh8P/aAAgBAQABPxD1nKyjlfjNeYMK7MJHuHWQK8QzP6MQxMKaEcPeskrRzeqry8O1ZZFSFGf/2Q==",
+          "aspectRatio": 1.4970760233918128,
+          "src": "/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg",
+          "srcSet": "/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,\n/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,\n/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,\n/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,\n/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,\n/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w",
+          "sizes": "(max-width: 1024px) 100vw, 1024px"
+        }
+      }
+    }
+  },
+  "link": {
+    "id": "5f1ae79ee648cac87d48d28a",
+    "label": "Learn more",
+    "newWindow": false,
+    "url": "/about"
+  },
+  "reverse": null,
+  "subtitle": "About",
+  "text": "Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis faucibus erat, non accumsan leo. Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.",
+  "title": "Who we are"
+}

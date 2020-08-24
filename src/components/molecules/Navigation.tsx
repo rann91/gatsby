@@ -9,25 +9,19 @@ import {
 } from '../../typings/graphql'
 import Link from '../atoms/Link'
 
-const Navigation = () => {
-  const {
-    strapi: { navigation }
-  } = useStaticQuery<{
+interface Props {
+  data: {
     strapi: {
       navigation: Strapi_Navigation
     }
-  }>(graphql`
-    query {
-      strapi {
-        navigation {
-          id
-          menu {
-            ...Link
-          }
-        }
-      }
-    }
-  `)
+  }
+}
+
+export const PureNavigation = ({
+  data: {
+    strapi: { navigation }
+  }
+}: Props) => {
   const [open, setOpen] = useState(false)
   const toggleMenu = useCallback(() => setOpen(!open), [open])
   const items = (navigation!.menu || []) as Strapi_ComponentSharedLink[]
@@ -110,6 +104,27 @@ const Navigation = () => {
       </nav>
     </Fragment>
   )
+}
+
+const Navigation = () => {
+  const data = useStaticQuery<{
+    strapi: {
+      navigation: Strapi_Navigation
+    }
+  }>(graphql`
+    query {
+      strapi {
+        navigation {
+          id
+          menu {
+            ...Link
+          }
+        }
+      }
+    }
+  `)
+
+  return <PureNavigation data={data} />
 }
 
 export default Navigation

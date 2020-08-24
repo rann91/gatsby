@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectTeaser renders correctly 1`] = `
+<div>
+  <a
+    href="/work/project-1"
+  >
+    <div
+      class="css-i9l3dq"
+    >
+      <div
+        class="css-r01jhj"
+      />
+      <div
+        class="css-1sr1905"
+      >
+        <div
+          class=" gatsby-image-wrapper"
+          style="position: relative; overflow: hidden;"
+        >
+          <div
+            aria-hidden="true"
+            style="width: 100%; padding-bottom: 66.66666666666667%;"
+          />
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABRpZlrc4gj//EABkQAAMBAQEAAAAAAAAAAAAAAAECEQAEMf/aAAgBAQABBQJa2MTFnvP6SczG/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgIf/aAAgBAQAGPwJKEZX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUGREP/aAAgBAQABPyF37DOxETySk0LkXr75v//aAAwDAQACAAMAAAAQ8/8A/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxDVQ//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QWFZ//8QAGxABAQEAAwEBAAAAAAAAAAAAAREAITFRYaH/2gAIAQEAAT8QPcwqGxdEPfD2vi5qAt4PmBS7afmHxbJ6uIrGl3//2Q=="
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+          />
+          <picture>
+            <source
+              sizes="(max-width: 1920px) 100vw, 1920px"
+              srcset="/static/469dfe6e19619eaa5cde33d2c2e831a4/9104c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 480w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/a6352/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 960w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 1920w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/af56c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 2880w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/27fce/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 3840w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/41435/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 5371w"
+            />
+            <img
+              alt="Glasses on a surface"
+              loading="lazy"
+              sizes="(max-width: 1920px) 100vw, 1920px"
+              src="/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg"
+              srcset="/static/469dfe6e19619eaa5cde33d2c2e831a4/9104c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 480w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/a6352/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 960w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 1920w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/af56c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 2880w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/27fce/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 3840w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/41435/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 5371w"
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+            />
+          </picture>
+          <noscript>
+            &lt;picture&gt;&lt;source srcset="/static/469dfe6e19619eaa5cde33d2c2e831a4/9104c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 480w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/a6352/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 960w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 1920w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/af56c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 2880w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/27fce/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 3840w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/41435/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 5371w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/469dfe6e19619eaa5cde33d2c2e831a4/9104c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 480w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/a6352/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 960w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 1920w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/af56c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 2880w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/27fce/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 3840w,
+/static/469dfe6e19619eaa5cde33d2c2e831a4/41435/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 5371w" src="/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg" alt="Glasses on a surface" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+          </noscript>
+        </div>
+      </div>
+    </div>
+  </a>
+  <h3
+    class="css-1j8rfyk-ProjectTeaser"
+  >
+    <a
+      class="css-1tie34l-ProjectTeaser"
+      href="/work/project-1"
+    >
+      Project #1
+    </a>
+  </h3>
+  <p
+    class="css-185gnmu-ProjectTeaser"
+  >
+    Art Direction
+  </p>
+</div>
+`;
