@@ -1,5 +1,5 @@
 /* @jsx jsx */
-import { gql, useMutation } from '@apollo/client'
+import { useMutation } from '@apollo/client'
 import { useForm } from 'react-hook-form'
 import ReactMarkdown from 'react-markdown'
 import {
@@ -15,6 +15,7 @@ import {
   Textarea
 } from 'theme-ui'
 import { column } from '../../gatsby-plugin-theme-ui'
+import { MUTATION_CONTACT_FORM } from '../../graphql/mutations'
 import {
   Strapi_ComponentContentContactForm,
   Strapi_ComponentSharedContactDetail
@@ -42,13 +43,9 @@ const ContactForm = ({
   description,
   contactDetail
 }: Strapi_ComponentContentContactForm) => {
-  const [sendForm, { data, loading, error }] = useMutation<Data, Variables>(gql`
-    mutation SendForm($data: ContactInput!) {
-      contact(data: $data) {
-        success
-      }
-    }
-  `)
+  const [sendForm, { data, loading, error }] = useMutation<Data, Variables>(
+    MUTATION_CONTACT_FORM
+  )
   const { register, handleSubmit } = useForm<Input>()
   const onSubmit = async (data: Input) => {
     await sendForm({ variables: { data } })
