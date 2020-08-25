@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectTeaser renders correctly 1`] = `
+<div>
+  <a
+    href="/work/undefined"
+  >
+    <div
+      class="css-i9l3dq"
+    >
+      <div
+        class="css-r01jhj"
+      />
+      <div
+        class="css-1sr1905"
+      />
+    </div>
+  </a>
+</div>
+`;

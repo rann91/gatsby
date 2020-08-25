@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders correctly 1`] = `
+<div>
+  <div
+    class="css-vurnku"
+    id="5f2aa6d014359808497bba19"
+  />
+</div>
+`;

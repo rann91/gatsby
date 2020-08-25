@@ -8,7 +8,7 @@ interface Data {
 }
 
 const useSiteMetadata = () => {
-  const { site } = useStaticQuery<Data>(
+  const data = useStaticQuery<Data>(
     graphql`
       query {
         site {
@@ -22,7 +22,7 @@ const useSiteMetadata = () => {
     `
   )
 
-  return site.siteMetadata
+  return data.site.siteMetadata
 }
 
 export default useSiteMetadata

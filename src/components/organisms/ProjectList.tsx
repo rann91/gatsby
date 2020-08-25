@@ -1,6 +1,6 @@
 /* @jsx jsx */
 import { graphql, useStaticQuery } from 'gatsby'
-import { Box, jsx, Container } from 'theme-ui'
+import { Box, Container, jsx } from 'theme-ui'
 import {
   Strapi_ComponentContentProjectList,
   Strapi_Project
@@ -33,7 +33,7 @@ const ProjectList = ({
     }
   `)
   return (
-    <Section hasTitle={!!title}>
+    <Section data-testid="project-list" hasTitle={!!title}>
       <Container>
         <HeadingGroup {...{ title, subtitle }} />
         <Box

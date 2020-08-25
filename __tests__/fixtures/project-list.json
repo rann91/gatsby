@@ -1,0 +1,78 @@
+{
+  "strapi": {
+    "projects": [
+      {
+        "id": "5f1c510230d5820c7c9dc2af",
+        "title": "Project #1",
+        "slug": "project-1",
+        "category": "Art Direction",
+        "image": {
+          "id": "5f1c4b4300c3ff0bfb1bee9a",
+          "alternativeText": "Glasses on a surface",
+          "url": "/uploads/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+          "file": {
+            "id": "9b8607b8-8f52-54d8-b9f3-0e1426c3c56f",
+            "publicURL": "/static/469dfe6e19619eaa5cde33d2c2e831a4/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABRpZlrc4gj//EABkQAAMBAQEAAAAAAAAAAAAAAAECEQAEMf/aAAgBAQABBQJa2MTFnvP6SczG/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgIf/aAAgBAQAGPwJKEZX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUGREP/aAAgBAQABPyF37DOxETySk0LkXr75v//aAAwDAQACAAMAAAAQ8/8A/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxDVQ//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QWFZ//8QAGxABAQEAAwEBAAAAAAAAAAAAAREAITFRYaH/2gAIAQEAAT8QPcwqGxdEPfD2vi5qAt4PmBS7afmHxbJ6uIrGl3//2Q==",
+                "aspectRatio": 1.5,
+                "src": "/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+                "srcSet": "/static/469dfe6e19619eaa5cde33d2c2e831a4/9104c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 480w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/a6352/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 960w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 1920w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/af56c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 2880w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/27fce/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 3840w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/41435/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 5371w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "5f1c50b930d5820c7c9dc2aa",
+        "title": "Project #2",
+        "slug": "project-2",
+        "category": "Product Design",
+        "image": {
+          "id": "5f1c4b4100c3ff0bfb1bee93",
+          "alternativeText": "Coca cola balanced on a hand",
+          "url": "/uploads/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg",
+          "file": {
+            "id": "c0969590-b343-5fc1-84bc-e1e64a3dde4e",
+            "publicURL": "/static/d2a3cba7e42ebf5a5d9296f8be6fe929/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAA//aAAwDAQACEAMQAAABrfFU0vMsb//EABkQAAMBAQEAAAAAAAAAAAAAAAECAwAREv/aAAgBAQABBQKPCvoah4yWZQ1GxoTv/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYj/xAAYEAEBAAMAAAAAAAAAAAAAAAAAERAhgf/aAAgBAQAGPwKuXEVt/8QAGRABAQEBAQEAAAAAAAAAAAAAAQARITGh/9oACAEBAAE/IcMEnx3fhEGHpscHhKUMnvbf/9oADAMBAAIAAwAAABDX/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAj/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxC6LB//xAAZEAEBAQEBAQAAAAAAAAAAAAABESEAMZH/2gAIAQEAAT8QswCePXDgsmQz70wUHXMDpQvTYMkdy3jSQJbM7//Z",
+                "aspectRatio": 1.5047021943573669,
+                "src": "/static/d2a3cba7e42ebf5a5d9296f8be6fe929/d8255/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg",
+                "srcSet": "/static/d2a3cba7e42ebf5a5d9296f8be6fe929/9104c/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg 480w,\n/static/d2a3cba7e42ebf5a5d9296f8be6fe929/a6352/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg 960w,\n/static/d2a3cba7e42ebf5a5d9296f8be6fe929/d8255/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg 1920w,\n/static/d2a3cba7e42ebf5a5d9296f8be6fe929/af56c/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg 2880w,\n/static/d2a3cba7e42ebf5a5d9296f8be6fe929/27fce/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg 3840w,\n/static/d2a3cba7e42ebf5a5d9296f8be6fe929/1b38f/coca_cola_drink_vietnam_project_hand_art_1455157_pxhere_com_72eb58bdd6.jpg 5014w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "5f1c507730d5820c7c9dc2a5",
+        "title": "Project #3",
+        "slug": "project-3",
+        "category": "Animation",
+        "image": {
+          "id": "5f1c4b4100c3ff0bfb1bee94",
+          "alternativeText": "iMac on a desk",
+          "url": "/uploads/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg",
+          "file": {
+            "id": "2f4ead4e-8c0a-583a-8c2b-2f3a1032d7bd",
+            "publicURL": "/static/fba2fa424fd724cdc60e29346a139901/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGOfTZXJSP/xAAbEAACAwADAAAAAAAAAAAAAAABAwACBBEUQf/aAAgBAQABBQLUuzNHXsIHW48sxcJn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHhAAAQQBBQAAAAAAAAAAAAAAAQACEHERAxITIkH/2gAIAQEABj8CJ0xupdi1tleRjjzcf//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExEEFRYf/aAAgBAQABPyFAIQzw0AgGhUHOlry4MBZXfUVrWPk//9oADAMBAAIAAwAAABCg/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxCI/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Qqv/EAB0QAQEAAgMAAwAAAAAAAAAAAAERACExQVFhgZH/2gAIAQEAAT8Qd74hQZEvHWH3lAX8LlHoFR3DnFkBciDJO6B7HkzYDRDQ18+5/9k=",
+                "aspectRatio": 1.4285714285714286,
+                "src": "/static/fba2fa424fd724cdc60e29346a139901/d8255/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg",
+                "srcSet": "/static/fba2fa424fd724cdc60e29346a139901/9104c/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg 480w,\n/static/fba2fa424fd724cdc60e29346a139901/a6352/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg 960w,\n/static/fba2fa424fd724cdc60e29346a139901/d8255/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg 1920w,\n/static/fba2fa424fd724cdc60e29346a139901/af56c/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg 2880w,\n/static/fba2fa424fd724cdc60e29346a139901/27fce/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg 3840w,\n/static/fba2fa424fd724cdc60e29346a139901/10891/computer_work_table_keyboard_technology_mouse_931790_pxhere_com_3414eb5be7.jpg 4524w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -14,7 +14,7 @@ const PersonContactList = ({
   subtitle,
   persons
 }: Strapi_ComponentContentPersonContactList) => (
-  <Section hasTitle={!!title}>
+  <Section data-testid="person-contact-list" hasTitle={!!title}>
     <Container>
       <HeadingGroup {...{ title, subtitle }} />
       <Flex

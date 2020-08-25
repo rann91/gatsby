@@ -7,12 +7,14 @@ import {
 import Bottom from '../molecules/Bottom'
 import Content from '../templates/Content'
 
+interface Data {
+  strapi: {
+    footer: Strapi_Footer
+  }
+}
+
 const Footer = () => {
-  const data = useStaticQuery<{
-    strapi: {
-      footer: Strapi_Footer
-    }
-  }>(graphql`
+  const data = useStaticQuery<Data>(graphql`
     query {
       strapi {
         footer {

@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleLatestList renders correctly 1`] = `
+<div>
+  <section
+    class="css-1ptauik"
+    data-testid="article-latest-list"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <div
+        class="css-1mpaekt-HeadingGroup"
+      >
+        <div
+          class="css-146vepc-HeadingGroup"
+          data-testid="subtitle"
+        >
+          About us
+        </div>
+        <h2
+          class="css-16nj6cn-HeadingGroup"
+          data-testid="title"
+        >
+          Company news
+        </h2>
+      </div>
+      <div
+        class="css-18ozqqn-ArticleLatestList"
+      >
+        <div
+          class="css-qzbx0h"
+        >
+          <h3
+            class="css-9ygwq5-ArticleTeaser"
+            data-testid="article-teaser-heading"
+          >
+            <a
+              class="css-7aa45z-ArticleTeaser"
+              href="/blog/10-quick-tips-about-blogging"
+            >
+              10 Quick Tips About Blogging
+            </a>
+          </h3>
+          <time
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-label"
+          >
+            Jul 25, 2020
+          </time>
+          <div
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-summary"
+          >
+            Sit quam quae perferendis harum amet dolorum possimus minus. Occaecati magnam animi quasi dolor quae et aut. Autem voluptas alias nobis in odit. Aperiam harum eum modi neque. Ipsum iusto beatae et esse nobis illum hic natus. Sapiente non cumque quia facilis. Quo est odio culpa eaque sit ipsum mol.
+          </div>
+        </div>
+        <div
+          class="css-qzbx0h"
+        >
+          <h3
+            class="css-9ygwq5-ArticleTeaser"
+            data-testid="article-teaser-heading"
+          >
+            <a
+              class="css-7aa45z-ArticleTeaser"
+              href="/blog/15-best-blogs-to-follow-about-web-design"
+            >
+              15 Best Blogs To Follow About Web Design
+            </a>
+          </h3>
+          <time
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-label"
+          >
+            Jul 25, 2020
+          </time>
+          <div
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-summary"
+          >
+            Maxime repellendus beatae asperiores. Est sapiente a et consectetur quo voluptate explicabo quis. Dignissimos error esse sapiente aperiam amet eum perspiciatis. Dolor totam voluptatum veritatis ex assumenda ut assumenda accus.
+          </div>
+        </div>
+        <div
+          class="css-qzbx0h"
+        >
+          <h3
+            class="css-9ygwq5-ArticleTeaser"
+            data-testid="article-teaser-heading"
+          >
+            <a
+              class="css-7aa45z-ArticleTeaser"
+              href="/blog/7-of-the-best-examples-of-beautiful-blog-design"
+            >
+              7 of the Best Examples of Beautiful Blog Design
+            </a>
+          </h3>
+          <time
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-label"
+          >
+            Jul 25, 2020
+          </time>
+          <div
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-summary"
+          >
+            Harum et neque voluptate voluptatem aut quis culpa modi. Enim similique provident et libero quod magni soluta. Repudiandae deserunt architecto itaque repellat perfe.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

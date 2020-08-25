@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm renders correctly 1`] = `
+<div>
+  <section
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <div
+        class="css-kj8tif-ContactForm"
+      >
+        <div
+          class="css-6lpdcm-ContactForm"
+        >
+          <div
+            class="css-e4xjql-ContactForm"
+          >
+            <h2
+              class="css-1wf7gym"
+            >
+              Contact us
+            </h2>
+            <div
+              class="css-u09dmq-ContactForm"
+            >
+              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+            </div>
+            <form>
+              <div
+                class="css-1pd4dm3"
+              >
+                <label
+                  class="css-knfhfe"
+                  for="name"
+                >
+                  Name
+                </label>
+                <input
+                  class="css-iyqgnx"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required=""
+                  type="text"
+                />
+              </div>
+              <div
+                class="css-1pd4dm3"
+              >
+                <label
+                  class="css-knfhfe"
+                  for="email"
+                >
+                  Email address
+                </label>
+                <input
+                  class="css-iyqgnx"
+                  id="email"
+                  name="email"
+                  placeholder="Enter you email"
+                  required=""
+                  type="email"
+                />
+              </div>
+              <div
+                class="css-1pd4dm3"
+              >
+                <label
+                  class="css-knfhfe"
+                  for="message"
+                >
+                  Message
+                </label>
+                <textarea
+                  class="css-g7i2cv-ContactForm"
+                  id="message"
+                  name="message"
+                  placeholder="Enter your message"
+                  required=""
+                  rows="5"
+                />
+              </div>
+              <button
+                class="css-1guur8s-ContactForm"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          class="css-180oxhi-ContactForm"
+        >
+          <div
+            class="css-vnrgx5"
+          >
+            <h3
+              class="css-19rfdr3"
+            >
+              Our offices
+            </h3>
+            <div
+              class="css-qilbtt"
+            >
+              <p>
+                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-vnrgx5"
+          >
+            <h3
+              class="css-19rfdr3"
+            >
+              Our office
+            </h3>
+            <div
+              class="css-qilbtt"
+            >
+              <p>
+                908 Broadway,
+San Francisco,
+CA 94133
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-vnrgx5"
+          >
+            <h3
+              class="css-19rfdr3"
+            >
+              Working hours
+            </h3>
+            <div
+              class="css-qilbtt"
+            >
+              <p>
+                9AM - 3PM, Mon to Fri
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-vnrgx5"
+          >
+            <h3
+              class="css-19rfdr3"
+            >
+              Contact
+            </h3>
+            <div
+              class="css-qilbtt"
+            >
+              <p>
+                <a
+                  href="mailto:contact@business.com"
+                >
+                  contact@business.com
+                </a>
+                
+01 (650) 658 6822
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

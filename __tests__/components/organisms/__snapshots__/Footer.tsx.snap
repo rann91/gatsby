@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<div>
+  <footer>
+    <section
+      class="css-fvc22l-Cta"
+      data-testid="section"
+    >
+      <div
+        class="css-1yrmf69"
+      >
+        <div
+          class="css-i1z8pl"
+        >
+          <div
+            class="css-ycxng9-TextContainer"
+            data-testid="text-container"
+          >
+            <h2
+              class="css-1wf7gym"
+            >
+              Grow your business
+            </h2>
+            <p
+              class="css-w9nyfe-Cta"
+            >
+              Today is the day to build the business of your dreams. Share your mission with the world — and blow your customers away.
+            </p>
+            <a
+              class="css-1s79t5o-Cta"
+              data-testid="gatsby-link"
+              href="/about"
+              target="_self"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="css-1ca5803"
+      data-testid="bottom"
+    >
+      <div
+        class="css-1yrmf69"
+      >
+        <p
+          class="css-10im984-Bottom"
+        >
+          Made with
+           
+          <a
+            class="css-vurnku"
+            href="https://www.gatsbyjs.org"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Gatsby
+          </a>
+           
+          and
+           
+          <a
+            class="css-vurnku"
+            href="https://strapi.io"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Strapi
+          </a>
+          . Design by
+           
+          <a
+            class="css-vurnku"
+            href="https://webflow.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Webflow
+          </a>
+          .
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

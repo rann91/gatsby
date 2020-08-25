@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList renders correctly 1`] = `
+<div>
+  <section
+    class="css-1ptauik"
+    data-testid="article-list"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <div
+        class="css-1mpaekt-HeadingGroup"
+      >
+        <div
+          class="css-146vepc-HeadingGroup"
+          data-testid="subtitle"
+        >
+          About us
+        </div>
+        <h2
+          class="css-16nj6cn-HeadingGroup"
+          data-testid="title"
+        >
+          Company news
+        </h2>
+      </div>
+      <div
+        class="css-e40csr-PureArticleList"
+      >
+        <div
+          class="css-1jva24b"
+        >
+          <div
+            class="css-vurnku"
+            data-testid="article-preview-image"
+          >
+            <a
+              href="/blog/10-quick-tips-about-blogging"
+            >
+              <div
+                class="css-i9l3dq"
+              >
+                <div
+                  class="css-r01jhj"
+                />
+                <div
+                  class="css-1sr1905"
+                >
+                  <div
+                    class=" gatsby-image-wrapper"
+                    style="position: relative; overflow: hidden;"
+                  >
+                    <div
+                      aria-hidden="true"
+                      style="width: 100%; padding-bottom: 66.66666666666667%;"
+                    />
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyIERf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5EbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAECEBESISJxof/aAAgBAQAGPwKbkNIVwVUWWr63/8QAGxAAAgMBAQEAAAAAAAAAAAAAAREAITFhUZH/2gAIAQEAAT8h2+gm6hVCAC4+zzruQltwu4DgXHP/2gAMAwEAAgADAAAAEAQP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxATtq//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EEeWb//EABwQAQACAwEBAQAAAAAAAAAAAAERIQBBUXFhof/aAAgBAQABPxDWkQhgeXjmiTVFDSLxtruE/mCUl133uQI9qhD5zFSrKtq7z//Z"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                    />
+                    <picture>
+                      <source
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w"
+                      />
+                      <img
+                        alt="Laptop and block note on a desk"
+                        loading="lazy"
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        src="/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg"
+                        srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w"
+                        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                      />
+                    </picture>
+                    <noscript>
+                      &lt;picture&gt;&lt;source srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w" src="/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg" alt="Laptop and block note on a desk" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                    </noscript>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="css-3cctvh-ArticlePreview"
+            data-testid="article-preview-content"
+          >
+            <h3
+              class="css-1m96vne-ArticlePreview"
+            >
+              <a
+                class="css-18dn24g-ArticlePreview"
+                href="/blog/10-quick-tips-about-blogging"
+              >
+                10 Quick Tips About Blogging
+              </a>
+            </h3>
+            <p
+              class="css-iwcjxb"
+            >
+              Sit quam quae perferendis harum amet dolorum possimus minus. Occaecati magnam animi quasi dolor quae et aut. Autem voluptas alias nobis in odit. Aperiam harum eum modi neque. Ipsum iusto beatae et esse nobis illum hic natus. Sapiente non cumque quia facilis. Quo est odio culpa eaque sit ipsum mol.
+            </p>
+            <time
+              class="css-11cb88r"
+            >
+              July 25, 2020
+            </time>
+          </div>
+        </div>
+        <div
+          class="css-1jva24b"
+        >
+          <div
+            class="css-vurnku"
+            data-testid="article-preview-image"
+          >
+            <a
+              href="/blog/15-best-blogs-to-follow-about-web-design"
+            >
+              <div
+                class="css-i9l3dq"
+              >
+                <div
+                  class="css-r01jhj"
+                />
+                <div
+                  class="css-1sr1905"
+                >
+                  <div
+                    class=" gatsby-image-wrapper"
+                    style="position: relative; overflow: hidden;"
+                  >
+                    <div
+                      aria-hidden="true"
+                      style="width: 100%; padding-bottom: 66.875%;"
+                    />
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABtO5McD//xAAaEAEBAAIDAAAAAAAAAAAAAAACAQADEiEi/9oACAEBAAEFAgKoeCzYfet9KGYnbf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAQACAwEAAAAAAAAAAAAAAAEAAhARMVL/2gAIAQEABj8C8kQrHXMbKmP/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPyGyvibYyEK75mm4YiAxLkplvn//2gAMAwEAAgADAAAAEBsv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8QR//EABwQAQEAAgIDAAAAAAAAAAAAAAERADEhQVFhgf/aAAgBAQABPxCACF2fbrFVLOELWcbJI94cw084fsuobxBcvW8//9k="
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                    />
+                    <picture>
+                      <source
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        srcset="/static/be53b138d501982d3f1c65423d3f3f9a/9104c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 480w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a6352/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 960w,
+/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 1920w,
+/static/be53b138d501982d3f1c65423d3f3f9a/af56c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 2880w,
+/static/be53b138d501982d3f1c65423d3f3f9a/27fce/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3840w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a51c4/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3872w"
+                      />
+                      <img
+                        alt="Crumbled paper on a block note"
+                        loading="lazy"
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        src="/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg"
+                        srcset="/static/be53b138d501982d3f1c65423d3f3f9a/9104c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 480w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a6352/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 960w,
+/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 1920w,
+/static/be53b138d501982d3f1c65423d3f3f9a/af56c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 2880w,
+/static/be53b138d501982d3f1c65423d3f3f9a/27fce/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3840w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a51c4/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3872w"
+                        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                      />
+                    </picture>
+                    <noscript>
+                      &lt;picture&gt;&lt;source srcset="/static/be53b138d501982d3f1c65423d3f3f9a/9104c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 480w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a6352/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 960w,
+/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 1920w,
+/static/be53b138d501982d3f1c65423d3f3f9a/af56c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 2880w,
+/static/be53b138d501982d3f1c65423d3f3f9a/27fce/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3840w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a51c4/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3872w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/be53b138d501982d3f1c65423d3f3f9a/9104c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 480w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a6352/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 960w,
+/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 1920w,
+/static/be53b138d501982d3f1c65423d3f3f9a/af56c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 2880w,
+/static/be53b138d501982d3f1c65423d3f3f9a/27fce/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3840w,
+/static/be53b138d501982d3f1c65423d3f3f9a/a51c4/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3872w" src="/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg" alt="Crumbled paper on a block note" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                    </noscript>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="css-3cctvh-ArticlePreview"
+            data-testid="article-preview-content"
+          >
+            <h3
+              class="css-1m96vne-ArticlePreview"
+            >
+              <a
+                class="css-18dn24g-ArticlePreview"
+                href="/blog/15-best-blogs-to-follow-about-web-design"
+              >
+                15 Best Blogs To Follow About Web Design
+              </a>
+            </h3>
+            <p
+              class="css-iwcjxb"
+            >
+              Maxime repellendus beatae asperiores. Est sapiente a et consectetur quo voluptate explicabo quis. Dignissimos error esse sapiente aperiam amet eum perspiciatis. Dolor totam voluptatum veritatis ex assumenda ut assumenda accus.
+            </p>
+            <time
+              class="css-11cb88r"
+            >
+              July 25, 2020
+            </time>
+          </div>
+        </div>
+        <div
+          class="css-1jva24b"
+        >
+          <div
+            class="css-vurnku"
+            data-testid="article-preview-image"
+          >
+            <a
+              href="/blog/7-of-the-best-examples-of-beautiful-blog-design"
+            >
+              <div
+                class="css-i9l3dq"
+              >
+                <div
+                  class="css-r01jhj"
+                />
+                <div
+                  class="css-1sr1905"
+                >
+                  <div
+                    class=" gatsby-image-wrapper"
+                    style="position: relative; overflow: hidden;"
+                  >
+                    <div
+                      aria-hidden="true"
+                      style="width: 100%; padding-bottom: 75%;"
+                    />
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUCA//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAeupwsJQ/8QAGBABAQEBAQAAAAAAAAAAAAAAABIBAhH/2gAIAQEAAQUCtneq5eqW/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEgIf/aAAgBAQAGPwI1z//EABoQAAICAwAAAAAAAAAAAAAAAAABEUFRgcH/2gAIAQEAAT8hnTHuAoLexlCWT//aAAwDAQACAAMAAAAQ4A//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIVHh/9oACAEBAAE/ECrBiXALz7m4N6uJXGKYsDKtP//Z"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                    />
+                    <picture>
+                      <source
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        srcset="/static/c3848e3346f40eb3a7f326fb86353884/9104c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 480w,
+/static/c3848e3346f40eb3a7f326fb86353884/a6352/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 960w,
+/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 1920w,
+/static/c3848e3346f40eb3a7f326fb86353884/af56c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 2880w,
+/static/c3848e3346f40eb3a7f326fb86353884/1faac/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 3264w"
+                      />
+                      <img
+                        alt="Pencil on a piece of paper"
+                        loading="lazy"
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        src="/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg"
+                        srcset="/static/c3848e3346f40eb3a7f326fb86353884/9104c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 480w,
+/static/c3848e3346f40eb3a7f326fb86353884/a6352/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 960w,
+/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 1920w,
+/static/c3848e3346f40eb3a7f326fb86353884/af56c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 2880w,
+/static/c3848e3346f40eb3a7f326fb86353884/1faac/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 3264w"
+                        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                      />
+                    </picture>
+                    <noscript>
+                      &lt;picture&gt;&lt;source srcset="/static/c3848e3346f40eb3a7f326fb86353884/9104c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 480w,
+/static/c3848e3346f40eb3a7f326fb86353884/a6352/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 960w,
+/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 1920w,
+/static/c3848e3346f40eb3a7f326fb86353884/af56c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 2880w,
+/static/c3848e3346f40eb3a7f326fb86353884/1faac/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 3264w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/c3848e3346f40eb3a7f326fb86353884/9104c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 480w,
+/static/c3848e3346f40eb3a7f326fb86353884/a6352/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 960w,
+/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 1920w,
+/static/c3848e3346f40eb3a7f326fb86353884/af56c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 2880w,
+/static/c3848e3346f40eb3a7f326fb86353884/1faac/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 3264w" src="/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg" alt="Pencil on a piece of paper" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                    </noscript>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="css-3cctvh-ArticlePreview"
+            data-testid="article-preview-content"
+          >
+            <h3
+              class="css-1m96vne-ArticlePreview"
+            >
+              <a
+                class="css-18dn24g-ArticlePreview"
+                href="/blog/7-of-the-best-examples-of-beautiful-blog-design"
+              >
+                7 of the Best Examples of Beautiful Blog Design
+              </a>
+            </h3>
+            <p
+              class="css-iwcjxb"
+            >
+              Harum et neque voluptate voluptatem aut quis culpa modi. Enim similique provident et libero quod magni soluta. Repudiandae deserunt architecto itaque repellat perfe.
+            </p>
+            <time
+              class="css-11cb88r"
+            >
+              July 25, 2020
+            </time>
+          </div>
+        </div>
+        <div
+          class="css-1jva24b"
+        >
+          <div
+            class="css-vurnku"
+            data-testid="article-preview-image"
+          >
+            <a
+              href="/blog/5-principles-of-effective-web-design"
+            >
+              <div
+                class="css-i9l3dq"
+              >
+                <div
+                  class="css-r01jhj"
+                />
+                <div
+                  class="css-1sr1905"
+                >
+                  <div
+                    class=" gatsby-image-wrapper"
+                    style="position: relative; overflow: hidden;"
+                  >
+                    <div
+                      aria-hidden="true"
+                      style="width: 100%; padding-bottom: 67.08333333333334%;"
+                    />
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABpc8cOaOR/wD/xAAZEAEBAQADAAAAAAAAAAAAAAACAQADESL/2gAIAQEAAQUC48hcjOz4KuRNv//EABYRAQEBAAAAAAAAAAAAAAAAAAARMf/aAAgBAwEBPwHFf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAQEBAQEAAAAAAAAAAAAAAAABESFh/9oACAEBAAY/AtWu1kX12P/EABsQAAMBAQADAAAAAAAAAAAAAAABESFhgZGh/9oACAEBAAE/IYepPYrlr+C+FPpC1xUY748FVRn/2gAMAwEAAgADAAAAELc//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxAFctX/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EKmYf//EABsQAQADAQEBAQAAAAAAAAAAAAEAESFBMVGh/9oACAEBAAE/EOsLyq13Tn7B/QOgYcOwEUDabBcZA7raMEsfhfEQj+ys/9k="
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                    />
+                    <picture>
+                      <source
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        srcset="/static/bbab48d37ee0cb578d3788b6d3c8cb19/9104c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 480w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/a6352/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 960w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 1920w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/af56c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 2880w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/df038/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 3670w"
+                      />
+                      <img
+                        alt="Books and pencils on a desk"
+                        loading="lazy"
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        src="/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg"
+                        srcset="/static/bbab48d37ee0cb578d3788b6d3c8cb19/9104c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 480w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/a6352/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 960w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 1920w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/af56c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 2880w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/df038/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 3670w"
+                        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                      />
+                    </picture>
+                    <noscript>
+                      &lt;picture&gt;&lt;source srcset="/static/bbab48d37ee0cb578d3788b6d3c8cb19/9104c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 480w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/a6352/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 960w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 1920w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/af56c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 2880w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/df038/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 3670w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/bbab48d37ee0cb578d3788b6d3c8cb19/9104c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 480w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/a6352/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 960w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 1920w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/af56c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 2880w,
+/static/bbab48d37ee0cb578d3788b6d3c8cb19/df038/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 3670w" src="/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg" alt="Books and pencils on a desk" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                    </noscript>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="css-3cctvh-ArticlePreview"
+            data-testid="article-preview-content"
+          >
+            <h3
+              class="css-1m96vne-ArticlePreview"
+            >
+              <a
+                class="css-18dn24g-ArticlePreview"
+                href="/blog/5-principles-of-effective-web-design"
+              >
+                5 Principles Of Effective Web Design
+              </a>
+            </h3>
+            <p
+              class="css-iwcjxb"
+            >
+              Qui unde velit voluptatem architecto qui sequi et delectus. Dolore at quia et tempora maiores qui vel ipsam voluptas. Cupiditate qui vel. Placeat dolor ex voluptas architecto sit. Ea ad deserunt dicta et. Asperiores veniam voluptatum odio veritatis alias nihil. Dolor libero fac.
+            </p>
+            <time
+              class="css-11cb88r"
+            >
+              July 25, 2020
+            </time>
+          </div>
+        </div>
+        <div
+          class="css-1jva24b"
+        >
+          <div
+            class="css-vurnku"
+            data-testid="article-preview-image"
+          >
+            <a
+              href="/blog/14-common-problems-with-modern-web-design"
+            >
+              <div
+                class="css-i9l3dq"
+              >
+                <div
+                  class="css-r01jhj"
+                />
+                <div
+                  class="css-1sr1905"
+                >
+                  <div
+                    class=" gatsby-image-wrapper"
+                    style="position: relative; overflow: hidden;"
+                  >
+                    <div
+                      aria-hidden="true"
+                      style="width: 100%; padding-bottom: 73.33333333333334%;"
+                    />
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/2gAMAwEAAhADEAAAAYRZUWWhQl//xAAbEAACAQUAAAAAAAAAAAAAAAAAAQIDEBEhMf/aAAgBAQABBQKdkVJb68n/xAAVEQEBAAAAAAAAAAAAAAAAAAACEP/aAAgBAwEBPwEz/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BZ//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAMAAwAAAAAAAAAAAAAAAAABERAxUf/aAAgBAQABPyHlD3hAWhKP/9oADAMBAAIAAwAAABAcH//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAEDAQE/EJP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/EB//xAAbEAACAwEBAQAAAAAAAAAAAAAAAREhMVFxkf/aAAgBAQABPxCdsh9FtJh+iEbPOn2B0W1anD//2Q=="
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                    />
+                    <picture>
+                      <source
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        srcset="/static/ec5cfca608855e6d3b057fc602e9b90c/9104c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 480w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/a6352/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 960w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 1920w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/af56c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 2880w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/1ae23/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 3538w"
+                      />
+                      <img
+                        alt="Abstract texture"
+                        loading="lazy"
+                        sizes="(max-width: 1920px) 100vw, 1920px"
+                        src="/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg"
+                        srcset="/static/ec5cfca608855e6d3b057fc602e9b90c/9104c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 480w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/a6352/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 960w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 1920w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/af56c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 2880w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/1ae23/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 3538w"
+                        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                      />
+                    </picture>
+                    <noscript>
+                      &lt;picture&gt;&lt;source srcset="/static/ec5cfca608855e6d3b057fc602e9b90c/9104c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 480w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/a6352/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 960w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 1920w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/af56c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 2880w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/1ae23/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 3538w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/ec5cfca608855e6d3b057fc602e9b90c/9104c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 480w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/a6352/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 960w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 1920w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/af56c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 2880w,
+/static/ec5cfca608855e6d3b057fc602e9b90c/1ae23/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 3538w" src="/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg" alt="Abstract texture" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                    </noscript>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="css-3cctvh-ArticlePreview"
+            data-testid="article-preview-content"
+          >
+            <h3
+              class="css-1m96vne-ArticlePreview"
+            >
+              <a
+                class="css-18dn24g-ArticlePreview"
+                href="/blog/14-common-problems-with-modern-web-design"
+              >
+                14 Common Problems with modern Web Design
+              </a>
+            </h3>
+            <p
+              class="css-iwcjxb"
+            >
+              Est aperiam dolores fuga ut id. Itaque et minima quae similique aliquid. Est tempora aliquam quasi nihil dolores ut blanditiis dolor. Laboriosam omnis quae accusamus totam a totam eius. Est ad ea est autem ut iusto sed velit et. Possimus quos hic dolo.
+            </p>
+            <time
+              class="css-11cb88r"
+            >
+              July 25, 2020
+            </time>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

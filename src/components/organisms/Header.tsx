@@ -6,6 +6,7 @@ import Navigation from '../molecules/Navigation'
 
 const Header = () => (
   <header
+    data-testid="header"
     sx={{
       position: 'sticky',
       zIndex: 1,

@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonList renders correctly 1`] = `
+<div>
+  <section
+    class="css-1ptauik"
+    data-testid="person-list"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <div
+        class="css-1mpaekt-HeadingGroup"
+      >
+        <div
+          class="css-146vepc-HeadingGroup"
+          data-testid="subtitle"
+        >
+          Our people
+        </div>
+        <h2
+          class="css-16nj6cn-HeadingGroup"
+          data-testid="title"
+        >
+          Our world-class team
+        </h2>
+      </div>
+      <div
+        class="css-gzgui3-PersonList"
+      >
+        <div
+          class="css-itco2b"
+        >
+          <div
+            class="css-vurnku"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-1lndym5"
+              />
+              <div
+                class="css-1sr1905"
+              >
+                <div
+                  class=" gatsby-image-wrapper"
+                  style="position: relative; overflow: hidden;"
+                >
+                  <div
+                    aria-hidden="true"
+                    style="width: 100%; padding-bottom: 123.75%;"
+                  />
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAYVfQ1IlLPvUkegTiv/EAB8QAAEDBAMBAAAAAAAAAAAAAAIAAQMEERIhEyIxMv/aAAgBAQABBQKQUwDjHCxjvG7WbSqOsS4QNVHii+P/xAAWEQADAAAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8BCj//xAAVEQEBAAAAAAAAAAAAAAAAAAAgIf/aAAgBAgEBPwGj/8QAHhAAAgEEAwEAAAAAAAAAAAAAAAERAhAhMRJBYXH/2gAIAQEABj8CWTTkmEJ9G0OW1kpp9tygo+X/AP/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQWEQodH/2gAIAQEAAT8hJ+MRmAecjM1GalDvy+4JTK+4RBDhADdoLq8alUStOGvFG5rn/9oADAMBAAIAAwAAABCgHc3/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EKPSjIj/xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxBBsLDE9v/EACAQAQACAQQCAwAAAAAAAAAAAAEAETEhQXGhUbFhkdH/2gAIAQEAAT8Q3hNdMCZBmtAK8GI6zPCgrY0ipjQtObLXNQmUQStEJeU65gbCrpiDfrb3/YsLKH0llYgr2o3+Z0PomLk9zsT/2Q=="
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                  />
+                  <picture>
+                    <source
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w"
+                    />
+                    <img
+                      alt=""
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      src="/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg"
+                      srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    />
+                  </picture>
+                  <noscript>
+                    &lt;picture&gt;&lt;source srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w" sizes="(max-width: 640px) 100vw, 640px" /&gt;&lt;img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/static/75e03c0319787e05c861002a4eab7484/e75b5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 160w,
+/static/75e03c0319787e05c861002a4eab7484/c01e2/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 320w,
+/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 640w,
+/static/75e03c0319787e05c861002a4eab7484/a6352/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 960w,
+/static/75e03c0319787e05c861002a4eab7484/ec6c5/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1280w,
+/static/75e03c0319787e05c861002a4eab7484/a6974/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg 1536w" src="/static/75e03c0319787e05c861002a4eab7484/f422e/mubariz_mehdizadeh_t3zr_Em88ehc_unsplash_4a854337d9.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-1vsjnl7-PersonTeaser"
+          >
+            Michael Fassbender
+          </h3>
+          <p
+            class="css-dt93z1-PersonTeaser"
+          >
+            CEO
+          </p>
+        </div>
+        <div
+          class="css-itco2b"
+        >
+          <div
+            class="css-vurnku"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-1lndym5"
+              />
+              <div
+                class="css-1sr1905"
+              >
+                <div
+                  class=" gatsby-image-wrapper"
+                  style="position: relative; overflow: hidden;"
+                >
+                  <div
+                    aria-hidden="true"
+                    style="width: 100%; padding-bottom: 123.75%;"
+                  />
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAYAQACAwAAAAAAAAAAAAAAAAABAwACBP/aAAwDAQACEAMQAAAB1D1+O9eC4fSmFy85SRBn/8QAGxAAAgMBAQEAAAAAAAAAAAAAAQMAAhIhEUP/2gAIAQEAAQUCUM0a227Do4GkMZia6wagZ5PraWn/xAAaEQACAgMAAAAAAAAAAAAAAAABAgAQEiEi/9oACAEDAQE/AUIdaHK6mM//xAAYEQEBAQEBAAAAAAAAAAAAAAABABESMf/aAAgBAgEBPwHUbb1u2//EAB0QAAICAQUAAAAAAAAAAAAAAAERABACEiFRcaH/2gAIAQEABj8CB4iOOmwz3SiK29rKZV//xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMUFxUbHR/9oACAEBAAE/Ib8vKXVYukzFdCVY4Ib5DZeZejBMknW5eAHmEUMNHGZ7Pk16TY6n/9oADAMBAAIAAwAAABAE/HP/xAAYEQEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxDM8JVYQ08WEC7P/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQBBESH/2gAIAQIBAT8QSguWNMkvL//EAB0QAQADAAIDAQAAAAAAAAAAAAEAETEhYRBBUfD/2gAIAQEAAT8QI3h4LUvA7+RS0Fcy9uWoor5CMt5KXHbuUmQ9J0IHRhv2BGNBDeKYxTitlvfUARfQKcZGR+nrwH//2Q=="
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                  />
+                  <picture>
+                    <source
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      srcset="/static/8aa1bdb42780ed7c05e664fdb44d18e0/e75b5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 160w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/c01e2/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 320w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/f422e/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 640w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6352/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 960w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/ec6c5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1280w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6974/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1536w"
+                    />
+                    <img
+                      alt=""
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      src="/static/8aa1bdb42780ed7c05e664fdb44d18e0/f422e/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg"
+                      srcset="/static/8aa1bdb42780ed7c05e664fdb44d18e0/e75b5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 160w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/c01e2/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 320w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/f422e/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 640w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6352/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 960w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/ec6c5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1280w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6974/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1536w"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    />
+                  </picture>
+                  <noscript>
+                    &lt;picture&gt;&lt;source srcset="/static/8aa1bdb42780ed7c05e664fdb44d18e0/e75b5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 160w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/c01e2/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 320w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/f422e/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 640w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6352/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 960w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/ec6c5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1280w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6974/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1536w" sizes="(max-width: 640px) 100vw, 640px" /&gt;&lt;img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/static/8aa1bdb42780ed7c05e664fdb44d18e0/e75b5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 160w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/c01e2/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 320w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/f422e/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 640w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6352/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 960w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/ec6c5/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1280w,
+/static/8aa1bdb42780ed7c05e664fdb44d18e0/a6974/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg 1536w" src="/static/8aa1bdb42780ed7c05e664fdb44d18e0/f422e/lucas_sankey_b_Xq8p_Vf_P_f_Y_unsplash_d969159515.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-1vsjnl7-PersonTeaser"
+          >
+            Jason Smith
+          </h3>
+          <p
+            class="css-dt93z1-PersonTeaser"
+          >
+            Product Designer
+          </p>
+        </div>
+        <div
+          class="css-itco2b"
+        >
+          <div
+            class="css-vurnku"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-1lndym5"
+              />
+              <div
+                class="css-1sr1905"
+              >
+                <div
+                  class=" gatsby-image-wrapper"
+                  style="position: relative; overflow: hidden;"
+                >
+                  <div
+                    aria-hidden="true"
+                    style="width: 100%; padding-bottom: 123.75%;"
+                  />
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwIE/9oADAMBAAIQAxAAAAHKbZlOZQoXH1GI28oqIH//xAAeEAABAwUBAQAAAAAAAAAAAAABAgMRAAQSIzMhMv/aAAgBAQABBQJsZlaSCYpjxspK6mKZTpjBFyNrXA/Nz1//xAAbEQACAQUAAAAAAAAAAAAAAAAAAgEDECEiMf/aAAgBAwEBPwGKetl4MuT/xAAYEQACAwAAAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPwHSoR//xAAdEAABBAIDAAAAAAAAAAAAAAAAAQIQISJxMUGB/9oACAEBAAY/AjmHdmKXGyjaDBTw/8QAHRAAAgICAwEAAAAAAAAAAAAAAREAMSFBEFGhkf/aAAgBAQABPyE5galbLRcISsy9yf2C7BzAQI3tio5+7EXvQ+VIM8M8nE//2gAMAwEAAgADAAAAENcvcf/EABgRAQEBAQEAAAAAAAAAAAAAAAEAESFB/9oACAEDAQE/EAd+2JyGDIFt/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAEQESExQf/aAAgBAgEBPxC9IdY2Ef/EACAQAQACAQMFAQAAAAAAAAAAAAEAESExUWFBcaGxwYH/2gAIAQEAAT8QXagZU0PsLub0FvRuYQQaI1edo2kwqL2Y/IQGsDALx7m5m0e1ekS9hWgrj5Aum5qErVIcul+J4Sebml2e2f/Z"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                  />
+                  <picture>
+                    <source
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      srcset="/static/787145d790893b6c6472d451ec5ff8da/e75b5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 160w,
+/static/787145d790893b6c6472d451ec5ff8da/c01e2/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 320w,
+/static/787145d790893b6c6472d451ec5ff8da/f422e/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 640w,
+/static/787145d790893b6c6472d451ec5ff8da/a6352/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 960w,
+/static/787145d790893b6c6472d451ec5ff8da/ec6c5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1280w,
+/static/787145d790893b6c6472d451ec5ff8da/a6974/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1536w"
+                    />
+                    <img
+                      alt=""
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      src="/static/787145d790893b6c6472d451ec5ff8da/f422e/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg"
+                      srcset="/static/787145d790893b6c6472d451ec5ff8da/e75b5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 160w,
+/static/787145d790893b6c6472d451ec5ff8da/c01e2/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 320w,
+/static/787145d790893b6c6472d451ec5ff8da/f422e/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 640w,
+/static/787145d790893b6c6472d451ec5ff8da/a6352/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 960w,
+/static/787145d790893b6c6472d451ec5ff8da/ec6c5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1280w,
+/static/787145d790893b6c6472d451ec5ff8da/a6974/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1536w"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    />
+                  </picture>
+                  <noscript>
+                    &lt;picture&gt;&lt;source srcset="/static/787145d790893b6c6472d451ec5ff8da/e75b5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 160w,
+/static/787145d790893b6c6472d451ec5ff8da/c01e2/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 320w,
+/static/787145d790893b6c6472d451ec5ff8da/f422e/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 640w,
+/static/787145d790893b6c6472d451ec5ff8da/a6352/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 960w,
+/static/787145d790893b6c6472d451ec5ff8da/ec6c5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1280w,
+/static/787145d790893b6c6472d451ec5ff8da/a6974/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1536w" sizes="(max-width: 640px) 100vw, 640px" /&gt;&lt;img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/static/787145d790893b6c6472d451ec5ff8da/e75b5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 160w,
+/static/787145d790893b6c6472d451ec5ff8da/c01e2/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 320w,
+/static/787145d790893b6c6472d451ec5ff8da/f422e/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 640w,
+/static/787145d790893b6c6472d451ec5ff8da/a6352/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 960w,
+/static/787145d790893b6c6472d451ec5ff8da/ec6c5/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1280w,
+/static/787145d790893b6c6472d451ec5ff8da/a6974/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg 1536w" src="/static/787145d790893b6c6472d451ec5ff8da/f422e/max_ilienerwise_Yv_WJOXHNJ_94_unsplash_431f0f55d0.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-1vsjnl7-PersonTeaser"
+          >
+            Amanda Peterson
+          </h3>
+          <p
+            class="css-dt93z1-PersonTeaser"
+          >
+            Design Director
+          </p>
+        </div>
+        <div
+          class="css-itco2b"
+        >
+          <div
+            class="css-vurnku"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-1lndym5"
+              />
+              <div
+                class="css-1sr1905"
+              >
+                <div
+                  class=" gatsby-image-wrapper"
+                  style="position: relative; overflow: hidden;"
+                >
+                  <div
+                    aria-hidden="true"
+                    style="width: 100%; padding-bottom: 123.75%;"
+                  />
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDAP/aAAwDAQACEAMQAAABuhmfHQVCISzOysOkRr//xAAeEAACAQQDAQAAAAAAAAAAAAACAwEAERIyISIxM//aAAgBAQABBQKROhM88uWOMBlljIbz7Sl9Di8s1Zsn5f/EABcRAQADAAAAAAAAAAAAAAAAAAACEBL/2gAIAQMBAT8BqLD/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQMQ/9oACAECAQE/AcY6H//EABwQAAMAAgMBAAAAAAAAAAAAAAABEQISITFRgf/aAAgBAQAGPwKwSeEplfTmMWi5K2avotR0M+GJ/8QAHhABAAICAgMBAAAAAAAAAAAAAQARITFxoUFRkbH/2gAIAQEAAT8hMNetzMf0xuaXgyCmktYmzd2jMIkikurzOIBRm+ykqwHqdafhnQn/2gAMAwEAAgADAAAAEGjIQP/EABkRAQEBAAMAAAAAAAAAAAAAAAERABAhMf/aAAgBAwEBPxCEXjsxxZ7v/8QAGBEBAQEBAQAAAAAAAAAAAAAAAREAECH/2gAIAQIBAT8QLwT00FJv/8QAIBABAQACAQUAAwAAAAAAAAAAAREAIVExQWFxoYHB8P/aAAgBAQABPxBCa69A4vGO6RLZiVLdawS5Eik1jQhmBId94gQYLIke35d4eFCjLjawZKBXn494DHRHeu93g8ZXPAErPpfvOj/W8+bn/9k="
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                  />
+                  <picture>
+                    <source
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      srcset="/static/365c3ee5085fd6e393dc6789d3fa279c/e75b5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 160w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/c01e2/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 320w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/f422e/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 640w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6352/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 960w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/ec6c5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1280w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6974/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1536w"
+                    />
+                    <img
+                      alt=""
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      src="/static/365c3ee5085fd6e393dc6789d3fa279c/f422e/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg"
+                      srcset="/static/365c3ee5085fd6e393dc6789d3fa279c/e75b5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 160w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/c01e2/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 320w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/f422e/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 640w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6352/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 960w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/ec6c5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1280w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6974/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1536w"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    />
+                  </picture>
+                  <noscript>
+                    &lt;picture&gt;&lt;source srcset="/static/365c3ee5085fd6e393dc6789d3fa279c/e75b5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 160w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/c01e2/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 320w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/f422e/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 640w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6352/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 960w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/ec6c5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1280w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6974/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1536w" sizes="(max-width: 640px) 100vw, 640px" /&gt;&lt;img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/static/365c3ee5085fd6e393dc6789d3fa279c/e75b5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 160w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/c01e2/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 320w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/f422e/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 640w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6352/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 960w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/ec6c5/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1280w,
+/static/365c3ee5085fd6e393dc6789d3fa279c/a6974/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg 1536w" src="/static/365c3ee5085fd6e393dc6789d3fa279c/f422e/eric_karim_cornelis_b3oy_T44_E3_LE_unsplash_9b99eafb48.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-1vsjnl7-PersonTeaser"
+          >
+            Billy Maxwell
+          </h3>
+          <p
+            class="css-dt93z1-PersonTeaser"
+          >
+            Lead Developer
+          </p>
+        </div>
+        <div
+          class="css-itco2b"
+        >
+          <div
+            class="css-vurnku"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-1lndym5"
+              />
+              <div
+                class="css-1sr1905"
+              >
+                <div
+                  class=" gatsby-image-wrapper"
+                  style="position: relative; overflow: hidden;"
+                >
+                  <div
+                    aria-hidden="true"
+                    style="width: 100%; padding-bottom: 123.75%;"
+                  />
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAak5zBVHJEaMHkU0KSb/xAAeEAABBAEFAAAAAAAAAAAAAAADAAECERIhIjIzQf/aAAgBAQABBQJi1KR1E+lopGu4qW0mTOsbRuzxuP8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/AarUf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGRiNf/xAAfEAACAQMFAQAAAAAAAAAAAAAAAREQMXEhIkGBkaH/2gAIAQEABj8CHtamxf6T6RY1k6E3xRYosH//xAAfEAACAgIBBQAAAAAAAAAAAAABEQAhMUEQUWGBocH/2gAIAQEAAT8hRk6yYYGqGx3Ov+EjMEKG0MQGy4ilntcJIKV7htQolCSEVPRT64L/2gAMAwEAAgADAAAAEO8qPv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QQi25dyxf/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQESEx/9oACAECAQE/EGcimFj/xAAeEAEAAgIDAAMAAAAAAAAAAAABESEAMUFRYRChwf/aAAgBAQABPxATQA6COchFUpoN6Gnm8hsEqxAPIjCKTqax1kLyaAiHpP3GEgd1D7gK0VyRN6dsVj0Ip6lNM9Xk6gIU/GHbH12f/9k="
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                  />
+                  <picture>
+                    <source
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      srcset="/static/d570669882a564e99405b9ad24d15999/e75b5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 160w,
+/static/d570669882a564e99405b9ad24d15999/c01e2/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 320w,
+/static/d570669882a564e99405b9ad24d15999/f422e/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 640w,
+/static/d570669882a564e99405b9ad24d15999/a6352/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 960w,
+/static/d570669882a564e99405b9ad24d15999/ec6c5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1280w,
+/static/d570669882a564e99405b9ad24d15999/a6974/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1536w"
+                    />
+                    <img
+                      alt=""
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      src="/static/d570669882a564e99405b9ad24d15999/f422e/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg"
+                      srcset="/static/d570669882a564e99405b9ad24d15999/e75b5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 160w,
+/static/d570669882a564e99405b9ad24d15999/c01e2/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 320w,
+/static/d570669882a564e99405b9ad24d15999/f422e/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 640w,
+/static/d570669882a564e99405b9ad24d15999/a6352/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 960w,
+/static/d570669882a564e99405b9ad24d15999/ec6c5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1280w,
+/static/d570669882a564e99405b9ad24d15999/a6974/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1536w"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    />
+                  </picture>
+                  <noscript>
+                    &lt;picture&gt;&lt;source srcset="/static/d570669882a564e99405b9ad24d15999/e75b5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 160w,
+/static/d570669882a564e99405b9ad24d15999/c01e2/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 320w,
+/static/d570669882a564e99405b9ad24d15999/f422e/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 640w,
+/static/d570669882a564e99405b9ad24d15999/a6352/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 960w,
+/static/d570669882a564e99405b9ad24d15999/ec6c5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1280w,
+/static/d570669882a564e99405b9ad24d15999/a6974/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1536w" sizes="(max-width: 640px) 100vw, 640px" /&gt;&lt;img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/static/d570669882a564e99405b9ad24d15999/e75b5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 160w,
+/static/d570669882a564e99405b9ad24d15999/c01e2/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 320w,
+/static/d570669882a564e99405b9ad24d15999/f422e/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 640w,
+/static/d570669882a564e99405b9ad24d15999/a6352/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 960w,
+/static/d570669882a564e99405b9ad24d15999/ec6c5/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1280w,
+/static/d570669882a564e99405b9ad24d15999/a6974/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg 1536w" src="/static/d570669882a564e99405b9ad24d15999/f422e/warren_wong_VVE_w_JJRRH_gk_unsplash_5b8e624c4f.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-1vsjnl7-PersonTeaser"
+          >
+            Joshua Harris
+          </h3>
+          <p
+            class="css-dt93z1-PersonTeaser"
+          >
+            CTO
+          </p>
+        </div>
+        <div
+          class="css-itco2b"
+        >
+          <div
+            class="css-vurnku"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-1lndym5"
+              />
+              <div
+                class="css-1sr1905"
+              >
+                <div
+                  class=" gatsby-image-wrapper"
+                  style="position: relative; overflow: hidden;"
+                >
+                  <div
+                    aria-hidden="true"
+                    style="width: 100%; padding-bottom: 123.75%;"
+                  />
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCAwUG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAFuNWYd6YRMQuXorkyv/8QAGxAAAwACAwAAAAAAAAAAAAAAAQIDABIQESL/2gAIAQEAAQUCoqswqExVHVJsxZ/U6FkUazMJtlN9hz//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAABBAEFAAAAAAAAAAAAAAABAAIRIRAgIkFRcf/aAAgBAQAGPwJsuhANbRqZxI6XiBVc42Ohuj//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFRYf/aAAgBAQABPyEcumjXSZDZHqVdy1lhQ9ygAVFBm62FVjylIoj8ZpHLAJ0wj1n/2gAMAwEAAgADAAAAEAcF/P/EABkRAAMAAwAAAAAAAAAAAAAAAAABERAxYf/aAAgBAwEBPxBTbJ0amP/EABcRAAMBAAAAAAAAAAAAAAAAAAABEWH/2gAIAQIBAT8QdongiH//xAAfEAEAAgICAgMAAAAAAAAAAAABABEhMUFRcaFhscH/2gAIAQEAAT8QV3p0NlVfmFAobI601WDmCLbm4KuKdr9o9ScA+eWOSxRZykrK7FdvRELYZdkwwopgKM7O7nun5NjzPen/2Q=="
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                  />
+                  <picture>
+                    <source
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      srcset="/static/99a8a3e82b291ca275a2ea22b85013af/e75b5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 160w,
+/static/99a8a3e82b291ca275a2ea22b85013af/c01e2/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 320w,
+/static/99a8a3e82b291ca275a2ea22b85013af/f422e/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 640w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6352/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 960w,
+/static/99a8a3e82b291ca275a2ea22b85013af/ec6c5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1280w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6974/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1536w"
+                    />
+                    <img
+                      alt=""
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 640px"
+                      src="/static/99a8a3e82b291ca275a2ea22b85013af/f422e/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg"
+                      srcset="/static/99a8a3e82b291ca275a2ea22b85013af/e75b5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 160w,
+/static/99a8a3e82b291ca275a2ea22b85013af/c01e2/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 320w,
+/static/99a8a3e82b291ca275a2ea22b85013af/f422e/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 640w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6352/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 960w,
+/static/99a8a3e82b291ca275a2ea22b85013af/ec6c5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1280w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6974/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1536w"
+                      style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    />
+                  </picture>
+                  <noscript>
+                    &lt;picture&gt;&lt;source srcset="/static/99a8a3e82b291ca275a2ea22b85013af/e75b5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 160w,
+/static/99a8a3e82b291ca275a2ea22b85013af/c01e2/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 320w,
+/static/99a8a3e82b291ca275a2ea22b85013af/f422e/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 640w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6352/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 960w,
+/static/99a8a3e82b291ca275a2ea22b85013af/ec6c5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1280w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6974/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1536w" sizes="(max-width: 640px) 100vw, 640px" /&gt;&lt;img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/static/99a8a3e82b291ca275a2ea22b85013af/e75b5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 160w,
+/static/99a8a3e82b291ca275a2ea22b85013af/c01e2/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 320w,
+/static/99a8a3e82b291ca275a2ea22b85013af/f422e/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 640w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6352/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 960w,
+/static/99a8a3e82b291ca275a2ea22b85013af/ec6c5/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1280w,
+/static/99a8a3e82b291ca275a2ea22b85013af/a6974/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg 1536w" src="/static/99a8a3e82b291ca275a2ea22b85013af/f422e/matthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_jpgmatthew_hamilton_t_NCH_0s_KSZ_b_A_unsplash_ff8a650624.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-1vsjnl7-PersonTeaser"
+          >
+            Esther Ford
+          </h3>
+          <p
+            class="css-dt93z1-PersonTeaser"
+          >
+            Recruiter
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

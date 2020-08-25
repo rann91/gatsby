@@ -1,0 +1,9 @@
+{
+  "site": {
+    "siteMetadata": {
+      "title": "Gatsby",
+      "titleTemplate": "%s - Gatsby",
+      "description": "Gatsby example project"
+    }
+  }
+}

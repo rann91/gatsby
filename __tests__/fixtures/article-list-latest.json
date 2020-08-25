@@ -1,0 +1,131 @@
+{
+  "strapi": {
+    "articles": [
+      {
+        "id": "5f1c4cd100c3ff0bfb1beea4",
+        "title": "10 Quick Tips About Blogging",
+        "slug": "10-quick-tips-about-blogging",
+        "createdAt": "2020-07-25T15:16:33.750Z",
+        "summary": "Sit quam quae perferendis harum amet dolorum possimus minus. Occaecati magnam animi quasi dolor quae et aut. Autem voluptas alias nobis in odit. Aperiam harum eum modi neque. Ipsum iusto beatae et esse nobis illum hic natus. Sapiente non cumque quia facilis. Quo est odio culpa eaque sit ipsum mol.",
+        "image": {
+          "id": "5f1c4b4300c3ff0bfb1bee99",
+          "alternativeText": "Laptop and block note on a desk",
+          "url": "/uploads/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg",
+          "file": {
+            "id": "ae41e437-ae37-58a1-833e-5b76b634865b",
+            "publicURL": "/static/a328e26e48bf3ac82340bfbea4a5ce37/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyIERf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5EbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAECEBESISJxof/aAAgBAQAGPwKbkNIVwVUWWr63/8QAGxAAAgMBAQEAAAAAAAAAAAAAAREAITFhUZH/2gAIAQEAAT8h2+gm6hVCAC4+zzruQltwu4DgXHP/2gAMAwEAAgADAAAAEAQP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxATtq//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EEeWb//EABwQAQACAwEBAQAAAAAAAAAAAAERIQBBUXFhof/aAAgBAQABPxDWkQhgeXjmiTVFDSLxtruE/mCUl133uQI9qhD5zFSrKtq7z//Z",
+                "aspectRatio": 1.5,
+                "src": "/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg",
+                "srcSet": "/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,\n/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,\n/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,\n/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,\n/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,\n/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "5f1c4cb700c3ff0bfb1beea2",
+        "title": "15 Best Blogs To Follow About Web Design",
+        "slug": "15-best-blogs-to-follow-about-web-design",
+        "createdAt": "2020-07-25T15:16:07.655Z",
+        "summary": "Maxime repellendus beatae asperiores. Est sapiente a et consectetur quo voluptate explicabo quis. Dignissimos error esse sapiente aperiam amet eum perspiciatis. Dolor totam voluptatum veritatis ex assumenda ut assumenda accus.",
+        "image": {
+          "id": "5f1c4b4300c3ff0bfb1bee9b",
+          "alternativeText": "Crumbled paper on a block note",
+          "url": "/uploads/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg",
+          "file": {
+            "id": "d5f0de97-c6be-5ca2-8305-dcfe3012d76d",
+            "publicURL": "/static/be53b138d501982d3f1c65423d3f3f9a/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABtO5McD//xAAaEAEBAAIDAAAAAAAAAAAAAAACAQADEiEi/9oACAEBAAEFAgKoeCzYfet9KGYnbf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAQACAwEAAAAAAAAAAAAAAAEAAhARMVL/2gAIAQEABj8C8kQrHXMbKmP/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPyGyvibYyEK75mm4YiAxLkplvn//2gAMAwEAAgADAAAAEBsv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8QR//EABwQAQEAAgIDAAAAAAAAAAAAAAERADEhQVFhgf/aAAgBAQABPxCACF2fbrFVLOELWcbJI94cw084fsuobxBcvW8//9k=",
+                "aspectRatio": 1.4953271028037383,
+                "src": "/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg",
+                "srcSet": "/static/be53b138d501982d3f1c65423d3f3f9a/9104c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 480w,\n/static/be53b138d501982d3f1c65423d3f3f9a/a6352/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 960w,\n/static/be53b138d501982d3f1c65423d3f3f9a/d8255/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 1920w,\n/static/be53b138d501982d3f1c65423d3f3f9a/af56c/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 2880w,\n/static/be53b138d501982d3f1c65423d3f3f9a/27fce/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3840w,\n/static/be53b138d501982d3f1c65423d3f3f9a/a51c4/writing_pencil_creative_light_technology_thinking_714869_pxhere_com_fe4b05c3cf.jpg 3872w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "5f1c4ca600c3ff0bfb1beea0",
+        "title": "7 of the Best Examples of Beautiful Blog Design",
+        "slug": "7-of-the-best-examples-of-beautiful-blog-design",
+        "createdAt": "2020-07-25T15:15:50.780Z",
+        "summary": "Harum et neque voluptate voluptatem aut quis culpa modi. Enim similique provident et libero quod magni soluta. Repudiandae deserunt architecto itaque repellat perfe.",
+        "image": {
+          "id": "5f1c4b4200c3ff0bfb1bee95",
+          "alternativeText": "Pencil on a piece of paper",
+          "url": "/uploads/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg",
+          "file": {
+            "id": "ed4a47a0-47d6-5f70-8f86-ea42fb17c46c",
+            "publicURL": "/static/c3848e3346f40eb3a7f326fb86353884/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUCA//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAeupwsJQ/8QAGBABAQEBAQAAAAAAAAAAAAAAABIBAhH/2gAIAQEAAQUCtneq5eqW/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEgIf/aAAgBAQAGPwI1z//EABoQAAICAwAAAAAAAAAAAAAAAAABEUFRgcH/2gAIAQEAAT8hnTHuAoLexlCWT//aAAwDAQACAAMAAAAQ4A//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIVHh/9oACAEBAAE/ECrBiXALz7m4N6uJXGKYsDKtP//Z",
+                "aspectRatio": 1.3333333333333333,
+                "src": "/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg",
+                "srcSet": "/static/c3848e3346f40eb3a7f326fb86353884/9104c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 480w,\n/static/c3848e3346f40eb3a7f326fb86353884/a6352/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 960w,\n/static/c3848e3346f40eb3a7f326fb86353884/d8255/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 1920w,\n/static/c3848e3346f40eb3a7f326fb86353884/af56c/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 2880w,\n/static/c3848e3346f40eb3a7f326fb86353884/1faac/writing_hand_black_and_white_internet_pattern_line_750606_pxhere_com_390801ad15.jpg 3264w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "5f1c4c8100c3ff0bfb1bee9e",
+        "title": "5 Principles Of Effective Web Design",
+        "slug": "5-principles-of-effective-web-design",
+        "createdAt": "2020-07-25T15:15:13.257Z",
+        "summary": "Qui unde velit voluptatem architecto qui sequi et delectus. Dolore at quia et tempora maiores qui vel ipsam voluptas. Cupiditate qui vel. Placeat dolor ex voluptas architecto sit. Ea ad deserunt dicta et. Asperiores veniam voluptatum odio veritatis alias nihil. Dolor libero fac.",
+        "image": {
+          "id": "5f1c4b4100c3ff0bfb1bee92",
+          "alternativeText": "Books and pencils on a desk",
+          "url": "/uploads/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg",
+          "file": {
+            "id": "bf798809-5caf-59ad-9491-1993476e73ee",
+            "publicURL": "/static/bbab48d37ee0cb578d3788b6d3c8cb19/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABpc8cOaOR/wD/xAAZEAEBAQADAAAAAAAAAAAAAAACAQADESL/2gAIAQEAAQUC48hcjOz4KuRNv//EABYRAQEBAAAAAAAAAAAAAAAAAAARMf/aAAgBAwEBPwHFf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAQEBAQEAAAAAAAAAAAAAAAABESFh/9oACAEBAAY/AtWu1kX12P/EABsQAAMBAQADAAAAAAAAAAAAAAABESFhgZGh/9oACAEBAAE/IYepPYrlr+C+FPpC1xUY748FVRn/2gAMAwEAAgADAAAAELc//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxAFctX/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EKmYf//EABsQAQADAQEBAQAAAAAAAAAAAAEAESFBMVGh/9oACAEBAAE/EOsLyq13Tn7B/QOgYcOwEUDabBcZA7raMEsfhfEQj+ys/9k=",
+                "aspectRatio": 1.4906832298136645,
+                "src": "/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg",
+                "srcSet": "/static/bbab48d37ee0cb578d3788b6d3c8cb19/9104c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 480w,\n/static/bbab48d37ee0cb578d3788b6d3c8cb19/a6352/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 960w,\n/static/bbab48d37ee0cb578d3788b6d3c8cb19/d8255/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 1920w,\n/static/bbab48d37ee0cb578d3788b6d3c8cb19/af56c/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 2880w,\n/static/bbab48d37ee0cb578d3788b6d3c8cb19/df038/laptop_desk_book_pencil_creative_advertising_33_pxhere_com_3f278094ec.jpg 3670w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "5f1c4be400c3ff0bfb1bee9c",
+        "title": "14 Common Problems with modern Web Design",
+        "slug": "14-common-problems-with-modern-web-design",
+        "createdAt": "2020-07-25T15:12:36.212Z",
+        "summary": "Est aperiam dolores fuga ut id. Itaque et minima quae similique aliquid. Est tempora aliquam quasi nihil dolores ut blanditiis dolor. Laboriosam omnis quae accusamus totam a totam eius. Est ad ea est autem ut iusto sed velit et. Possimus quos hic dolo.",
+        "image": {
+          "id": "5f1c4a7900c3ff0bfb1bee8f",
+          "alternativeText": "Abstract texture",
+          "url": "/uploads/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg",
+          "file": {
+            "id": "e0a291d2-8e5c-5230-9e66-54e71748ffd4",
+            "publicURL": "/static/ec5cfca608855e6d3b057fc602e9b90c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/2gAMAwEAAhADEAAAAYRZUWWhQl//xAAbEAACAQUAAAAAAAAAAAAAAAAAAQIDEBEhMf/aAAgBAQABBQKdkVJb68n/xAAVEQEBAAAAAAAAAAAAAAAAAAACEP/aAAgBAwEBPwEz/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BZ//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAMAAwAAAAAAAAAAAAAAAAABERAxUf/aAAgBAQABPyHlD3hAWhKP/9oADAMBAAIAAwAAABAcH//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAEDAQE/EJP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/EB//xAAbEAACAwEBAQAAAAAAAAAAAAAAAREhMVFxkf/aAAgBAQABPxCdsh9FtJh+iEbPOn2B0W1anD//2Q==",
+                "aspectRatio": 1.3636363636363635,
+                "src": "/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg",
+                "srcSet": "/static/ec5cfca608855e6d3b057fc602e9b90c/9104c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 480w,\n/static/ec5cfca608855e6d3b057fc602e9b90c/a6352/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 960w,\n/static/ec5cfca608855e6d3b057fc602e9b90c/d8255/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 1920w,\n/static/ec5cfca608855e6d3b057fc602e9b90c/af56c/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 2880w,\n/static/ec5cfca608855e6d3b057fc602e9b90c/1ae23/wing_light_abstract_structure_texture_wave_545998_pxhere_com_7ace9034b6.jpg 3538w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

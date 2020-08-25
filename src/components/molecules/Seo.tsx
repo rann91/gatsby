@@ -2,11 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import useSiteMetadata from '../../hooks/use-site-metadata'
 import metaImage from '../../images/meta.jpg'
-import {
-  Maybe,
-  SiteSiteMetadata,
-  Strapi_ComponentStructureMeta
-} from '../../typings/graphql'
+import { Maybe, Strapi_ComponentStructureMeta } from '../../typings/graphql'
 
 interface Props {
   pageTitle?: string | null
@@ -16,16 +12,8 @@ interface Props {
   href: string
 }
 
-export const PureSeo = ({
-  data,
-  pageTitle,
-  meta,
-  article,
-  origin,
-  href
-}: Props & {
-  data: SiteSiteMetadata
-}) => {
+const Seo = ({ pageTitle, meta, article, origin, href }: Props) => {
+  const data = useSiteMetadata()
   const title = String(pageTitle)
   const metaTitle = String(meta?.metaTitle)
   const titleTemplate = String(data.titleTemplate)
@@ -51,12 +39,6 @@ export const PureSeo = ({
       <meta name="twitter:image" content={image} />
     </Helmet>
   )
-}
-
-const Seo = (props: Props) => {
-  const data = useSiteMetadata()
-
-  return <PureSeo data={data} {...props} />
 }
 
 export default Seo

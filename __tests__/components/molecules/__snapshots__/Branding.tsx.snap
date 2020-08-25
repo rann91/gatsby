@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Branding renders correctly 1`] = `
+<div>
+  <a
+    class="css-13dgcig-Branding"
+    data-testid="branding"
+    href="/"
+  >
+    <div
+      class="css-18ov0hz-Branding"
+    >
+      <div
+        class="css-fhum7v-Branding"
+      >
+        <img
+          alt="Branding Logo"
+          class="css-9taffg"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        class="css-vurnku"
+      >
+        Gatsby
+      </div>
+    </div>
+  </a>
+</div>
+`;

@@ -10,16 +10,18 @@ import Section from '../atoms/Section'
 import ArticleTeaser from '../molecules/ArticleTeaser'
 import HeadingGroup from '../molecules/HeadingGroup'
 
+interface Data {
+  strapi: {
+    articles: Strapi_Article[]
+  }
+}
+
 const ArticleLatestList = ({
   title,
   subtitle,
   limit
 }: Strapi_ComponentContentLatestArticleList) => {
-  const data = useStaticQuery<{
-    strapi: {
-      articles: Strapi_Article[]
-    }
-  }>(graphql`
+  const data = useStaticQuery<Data>(graphql`
     query {
       strapi {
         articles(sort: "createdAt:desc") {
@@ -30,7 +32,7 @@ const ArticleLatestList = ({
   `)
 
   return (
-    <Section hasTitle={!!title}>
+    <Section data-testid="article-latest-list" hasTitle={!!title}>
       <Container>
         <HeadingGroup {...{ title, subtitle }} />
         <Flex

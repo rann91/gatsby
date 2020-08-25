@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadingGroup renders correctly 1`] = `
+<div>
+  <div
+    class="css-1mpaekt-HeadingGroup"
+  >
+    <div
+      class="css-146vepc-HeadingGroup"
+      data-testid="subtitle"
+    >
+      Subtitle
+    </div>
+    <h2
+      class="css-16nj6cn-HeadingGroup"
+      data-testid="title"
+    >
+      Title
+    </h2>
+  </div>
+</div>
+`;

@@ -1,0 +1,92 @@
+{
+  "__typename": "STRAPI_ComponentContentServiceList",
+  "id": "5f1ae8bafc6216c8893d8bff",
+  "services": [
+    {
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "icon": {
+        "id": "5f1739ce9b843e773a11dcb1",
+        "alternativeText": "",
+        "url": "/uploads/support_734bde873c.svg",
+        "file": {
+          "id": "e80300a8-8aed-5f76-af70-357862de4dba",
+          "publicURL": "/static/e1f5c103db11513ce0e1488bf71a12c7/support_734bde873c.svg"
+        }
+      },
+      "id": "5f1ae8bafc6216c8893d8c00",
+      "title": "Support"
+    },
+    {
+      "description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.",
+      "icon": {
+        "id": "5f1739ce9b843e773a11dcb0",
+        "alternativeText": "",
+        "url": "/uploads/strategy_4a02bf0bd6.svg",
+        "file": {
+          "id": "3d2e65c0-c132-5f33-a739-8cb847c39283",
+          "publicURL": "/static/03ccc4247828dd9f72de92019e7fbe45/strategy_4a02bf0bd6.svg"
+        }
+      },
+      "id": "5f1ae8bafc6216c8893d8c01",
+      "title": "Strategy"
+    },
+    {
+      "description": "Blind texts it is an almost unorthographic life One day however a small line of blind text by the name.",
+      "icon": {
+        "id": "5f1739ce9b843e773a11dcae",
+        "alternativeText": "",
+        "url": "/uploads/management_7eca47eb5b.svg",
+        "file": {
+          "id": "937c3491-8b26-5417-9fa2-9af472edb7ad",
+          "publicURL": "/static/bad3bd60a3d599f881f0e74d19c2f43f/management_7eca47eb5b.svg"
+        }
+      },
+      "id": "5f1ae8bafc6216c8893d8c02",
+      "title": "Management"
+    },
+    {
+      "description": "Blind texts it is an almost unorthographic life One day however a small line of blind text by the name.",
+      "icon": {
+        "id": "5f1739ce9b843e773a11dcb2",
+        "alternativeText": "",
+        "url": "/uploads/training_c092d67f1d.svg",
+        "file": {
+          "id": "085170fd-7b7f-58d3-822a-2347a5c16e8b",
+          "publicURL": "/static/1d262bcb471c28b6d378459d8ee7bd55/training_c092d67f1d.svg"
+        }
+      },
+      "id": "5f1ae8bafc6216c8893d8c03",
+      "title": "Training"
+    },
+    {
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "icon": {
+        "id": "5f1739ce9b843e773a11dcad",
+        "alternativeText": "",
+        "url": "/uploads/consulting_3db53fea72.svg",
+        "file": {
+          "id": "2de58dc6-eda8-5686-80b5-57a9c39fc22d",
+          "publicURL": "/static/d49c9a3ec392fe1419264e4a74f119cf/consulting_3db53fea72.svg"
+        }
+      },
+      "id": "5f1ae8bafc6216c8893d8c04",
+      "title": "Consulting"
+    },
+    {
+      "description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.",
+      "icon": {
+        "id": "5f1739ce9b843e773a11dcaf",
+        "alternativeText": "",
+        "url": "/uploads/events_171bfcf6ed.svg",
+        "file": {
+          "id": "00634fe3-ba82-54fc-aca5-4828f94d9dd6",
+          "publicURL": "/static/98dfe375049aea2c3b10efa8dafd9364/events_171bfcf6ed.svg"
+        }
+      },
+      "id": "5f1ae8bafc6216c8893d8c05",
+      "title": "Events"
+    }
+  ],
+  "subtitle": "What we are best at",
+  "title": "Our services"
+}

@@ -1,0 +1,107 @@
+{
+  "strapi": {
+    "project": {
+      "id": "5f1c510230d5820c7c9dc2af",
+      "title": "Project #1",
+      "slug": "project-1",
+      "meta": {
+        "id": "5f204c40ec55fc05e1dd89b7",
+        "metaDescription": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.",
+        "metaTitle": "Project #1",
+        "metaImage": {
+          "id": "5f1c4b4300c3ff0bfb1bee9a",
+          "alternativeText": "Glasses on a surface",
+          "url": "/uploads/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+          "file": {
+            "id": "9b8607b8-8f52-54d8-b9f3-0e1426c3c56f",
+            "publicURL": "/static/469dfe6e19619eaa5cde33d2c2e831a4/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+            "childImageSharp": {
+              "resize": {
+                "src": "/static/469dfe6e19619eaa5cde33d2c2e831a4/b1395/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg"
+              }
+            }
+          }
+        }
+      },
+      "date": "2020-01-01",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.",
+      "category": "Art Direction",
+      "persons": "Jason Davis, John Anderson, Mirco Cattabriga, Aaron Jones, Amanda Johnson, Steve McQueen",
+      "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. \n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. ‍\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "image": {
+        "id": "5f1c4b4300c3ff0bfb1bee9a",
+        "alternativeText": "Glasses on a surface",
+        "url": "/uploads/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+        "file": {
+          "id": "9b8607b8-8f52-54d8-b9f3-0e1426c3c56f",
+          "publicURL": "/static/469dfe6e19619eaa5cde33d2c2e831a4/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+          "childImageSharp": {
+            "fluid": {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABRpZlrc4gj//EABkQAAMBAQEAAAAAAAAAAAAAAAECEQAEMf/aAAgBAQABBQJa2MTFnvP6SczG/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgIf/aAAgBAQAGPwJKEZX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUGREP/aAAgBAQABPyF37DOxETySk0LkXr75v//aAAwDAQACAAMAAAAQ8/8A/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxDVQ//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QWFZ//8QAGxABAQEAAwEBAAAAAAAAAAAAAREAITFRYaH/2gAIAQEAAT8QPcwqGxdEPfD2vi5qAt4PmBS7afmHxbJ6uIrGl3//2Q==",
+              "aspectRatio": 1.5,
+              "src": "/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg",
+              "srcSet": "/static/469dfe6e19619eaa5cde33d2c2e831a4/9104c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 480w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/a6352/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 960w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/d8255/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 1920w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/af56c/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 2880w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/27fce/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 3840w,\n/static/469dfe6e19619eaa5cde33d2c2e831a4/41435/work_hand_book_flower_color_brown_1269173_pxhere_com_e819fdfbe5.jpg 5371w",
+              "sizes": "(max-width: 1920px) 100vw, 1920px"
+            }
+          }
+        }
+      },
+      "images": [
+        {
+          "id": "5f1c4b4100c3ff0bfb1bee91",
+          "alternativeText": "Person worken on a iMac",
+          "url": "/uploads/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg",
+          "file": {
+            "id": "ef699c59-76d9-5cce-a345-4cc9394d5ede",
+            "publicURL": "/static/372bc0b4ac0021ee5ef0854d85b8691e/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQBA//EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABqbzKjVrP/8QAGBABAQEBAQAAAAAAAAAAAAAAAQIAAxH/2gAIAQEAAQUCLgb5y54x6Aaa9yu//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEQESEyQv/aAAgBAQAGPwKkjU6MJFx//8QAGhABAAIDAQAAAAAAAAAAAAAAAQAhETFhgf/aAAgBAQABPyEiEzUs7PJvEcgdLyIlTOpn/9oADAMBAAIAAwAAABBr/wD/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EHpEf//EABcRAQADAAAAAAAAAAAAAAAAAAABETH/2gAIAQIBAT8Qxcv/xAAeEAEAAgIBBQAAAAAAAAAAAAABABEhMVFhcZGhwf/aAAgBAQABPxBjLmbFO8uV4FltZ9F/IJxvAgfG6DOPcFqCan//2Q==",
+                "aspectRatio": 1.5,
+                "src": "/static/372bc0b4ac0021ee5ef0854d85b8691e/d8255/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg",
+                "srcSet": "/static/372bc0b4ac0021ee5ef0854d85b8691e/9104c/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg 480w,\n/static/372bc0b4ac0021ee5ef0854d85b8691e/a6352/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg 960w,\n/static/372bc0b4ac0021ee5ef0854d85b8691e/d8255/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg 1920w,\n/static/372bc0b4ac0021ee5ef0854d85b8691e/af56c/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg 2880w,\n/static/372bc0b4ac0021ee5ef0854d85b8691e/35a2e/computer_mac_writing_work_hand_apple_46918_pxhere_com_5a90587e95.jpg 3543w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        },
+        {
+          "id": "5f1c4b4100c3ff0bfb1bee90",
+          "alternativeText": "Laptop and a working hand",
+          "url": "/uploads/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg",
+          "file": {
+            "id": "98a4b21e-89cb-56ac-9928-d5a6c4aa7a29",
+            "publicURL": "/static/d78ba1a42b231fe6049df64c2fac74cf/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAWKxQp7aT//EABoQAAMAAwEAAAAAAAAAAAAAAAECAwAREhP/2gAIAQEAAQUC8wKq3WTftZtupmhwnWf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwFn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAECERASMUL/2gAIAQEABj8CWtol5SLokc7j/8QAGxAAAgMBAQEAAAAAAAAAAAAAAAERITFBUWH/2gAIAQEAAT8haBs4Qa4Poy7iafq9GT+D1t21ekiEqP/aAAwDAQACAAMAAAAQk+//xAAWEQADAAAAAAAAAAAAAAAAAAAQETH/2gAIAQMBAT8QSD//xAAWEQADAAAAAAAAAAAAAAAAAAABECH/2gAIAQIBAT8QFX//xAAcEAEAAgMBAQEAAAAAAAAAAAABABEhMVFhQZH/2gAIAQEAAT8QfVaqLR9ThLotDZSibeFS0jSGAq1T2UKMAP2ax9cRxT08hVYBgMVP/9k=",
+                "aspectRatio": 1.5,
+                "src": "/static/d78ba1a42b231fe6049df64c2fac74cf/d8255/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg",
+                "srcSet": "/static/d78ba1a42b231fe6049df64c2fac74cf/9104c/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg 480w,\n/static/d78ba1a42b231fe6049df64c2fac74cf/a6352/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg 960w,\n/static/d78ba1a42b231fe6049df64c2fac74cf/d8255/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg 1920w,\n/static/d78ba1a42b231fe6049df64c2fac74cf/af56c/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg 2880w,\n/static/d78ba1a42b231fe6049df64c2fac74cf/27fce/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg 3840w,\n/static/d78ba1a42b231fe6049df64c2fac74cf/c07ec/iphone_notebook_computer_writing_work_hand_730845_pxhere_com_42c77f4dc7.jpg 4104w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        },
+        {
+          "id": "5f1c4b4300c3ff0bfb1bee97",
+          "alternativeText": "Desk with devices on a desk",
+          "url": "/uploads/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg",
+          "file": {
+            "id": "6526f6c8-d513-5840-bc2c-f65e61189d63",
+            "publicURL": "/static/ae4907ad7088472e7826d526a17f7d36/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg",
+            "childImageSharp": {
+              "fluid": {
+                "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAEXUDmt1n//xAAZEAEBAQADAAAAAAAAAAAAAAABAhIAETH/2gAIAQEAAQUCCyricida4Oh9/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAAEQEiGhIv/aAAgBAQAGPwKOIJzZbSxv/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/IcKc94fJc6NlzkNIIpltwLxHH//aAAwDAQACAAMAAAAQOx//xAAWEQEBAQAAAAAAAAAAAAAAAAABEEH/2gAIAQMBAT8QE2f/xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QNX//xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhYTFBcVH/2gAIAQEAAT8QEXcE4R7UbvqBob9jydU2QQ+bp3ZFQLjJizt3L2oZn//Z",
+                "aspectRatio": 1.5,
+                "src": "/static/ae4907ad7088472e7826d526a17f7d36/d8255/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg",
+                "srcSet": "/static/ae4907ad7088472e7826d526a17f7d36/9104c/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg 480w,\n/static/ae4907ad7088472e7826d526a17f7d36/a6352/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg 960w,\n/static/ae4907ad7088472e7826d526a17f7d36/d8255/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg 1920w,\n/static/ae4907ad7088472e7826d526a17f7d36/af56c/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg 2880w,\n/static/ae4907ad7088472e7826d526a17f7d36/27fce/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg 3840w,\n/static/ae4907ad7088472e7826d526a17f7d36/6a059/laptop_iphone_notebook_computer_smartphone_mobile_599508_pxhere_com_ce08e27032.jpg 6000w",
+                "sizes": "(max-width: 1920px) 100vw, 1920px"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

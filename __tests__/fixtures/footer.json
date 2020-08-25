@@ -1,0 +1,21 @@
+{
+  "strapi": {
+    "footer": {
+      "id": "5f156285821a902018395b78",
+      "content": [
+        {
+          "__typename": "STRAPI_ComponentContentCta",
+          "id": "5f1695cc238616534da3a6d7",
+          "title": "Grow your business",
+          "description": "Today is the day to build the business of your dreams. Share your mission with the world — and blow your customers away.",
+          "link": {
+            "id": "5f1695cc238616534da3a6d8",
+            "label": "Learn more",
+            "newWindow": false,
+            "url": "/about"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "__typename": "STRAPI_ComponentContentLatestArticleList",
+  "id": "5f1ae79ee648cac87d48d288",
+  "title": "Company news",
+  "subtitle": "About us",
+  "limit": 3
+}

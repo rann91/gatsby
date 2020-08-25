@@ -10,9 +10,14 @@ const HeadingGroup = ({ title, subtitle }: Props) => {
   if (title || subtitle) {
     return (
       <Box px={5} sx={{ textAlign: 'center' }}>
-        {subtitle && <Text sx={{ variant: 'text.label' }}>{subtitle}</Text>}
+        {subtitle && (
+          <Text data-testid="subtitle" sx={{ variant: 'text.label' }}>
+            {subtitle}
+          </Text>
+        )}
         {title && (
           <Heading
+            data-testid="title"
             variant="h2"
             sx={{
               '* + &': {

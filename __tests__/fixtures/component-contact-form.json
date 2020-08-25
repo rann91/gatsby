@@ -1,0 +1,28 @@
+{
+  "__typename": "STRAPI_ComponentContentContactForm",
+  "id": "5f1c495a0cd5f50b7f0b54e7",
+  "contactDetail": [
+    {
+      "id": "5f1c495a0cd5f50b7f0b54ea",
+      "content": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
+      "title": "Our offices"
+    },
+    {
+      "id": "5f1c495a0cd5f50b7f0b54eb",
+      "content": "908 Broadway,\nSan Francisco,\nCA 94133",
+      "title": "Our office"
+    },
+    {
+      "id": "5f1c495a0cd5f50b7f0b54ec",
+      "content": "9AM - 3PM, Mon to Fri",
+      "title": "Working hours"
+    },
+    {
+      "id": "5f1c495a0cd5f50b7f0b54ed",
+      "content": "[contact@business.com](mailto:contact@business.com)\n01 (650) 658 6822",
+      "title": "Contact"
+    }
+  ],
+  "description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+  "title": "Contact us"
+}
