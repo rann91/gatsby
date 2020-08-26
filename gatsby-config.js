@@ -1,8 +1,5 @@
 require('dotenv').config()
 
-const fetch = require('cross-fetch')
-const { createHttpLink } = require('apollo-link-http')
-
 module.exports = {
   siteMetadata: {
     title: 'Gatsby',
@@ -44,12 +41,7 @@ module.exports = {
       options: {
         typeName: 'STRAPI',
         fieldName: 'strapi',
-        createLink: () => {
-          return createHttpLink({
-            uri: process.env.GATSBY_API_URL,
-            fetch
-          })
-        }
+        url: `${process.env.GATSBY_API_URL}/graphql`
       }
     },
     {
