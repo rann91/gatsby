@@ -1,5 +1,7 @@
 require('dotenv').config()
 
+const fetch = require('cross-fetch')
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby',
@@ -41,7 +43,8 @@ module.exports = {
       options: {
         typeName: 'STRAPI',
         fieldName: 'strapi',
-        url: `${process.env.GATSBY_API_URL}/graphql`
+        url: `${process.env.GATSBY_API_URL}/graphql`,
+        fetch
       }
     },
     {
