@@ -6,7 +6,7 @@ import client from '../../graphql/client'
 import Footer from '../organisms/Footer'
 import Header from '../organisms/Header'
 
-import 'typeface-montserrat'
+import 'typeface-montserrat/index.css'
 
 const Layout = ({ children }: PageProps) => (
   <ApolloProvider client={client}>

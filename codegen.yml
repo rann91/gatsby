@@ -4,12 +4,8 @@ documents:
   - './src/**/*.{ts,tsx}'
   - './node_modules/gatsby*/!(node_modules)/**/*.js'
   - '!./src/graphql/mutations.ts'
-pluckConfig:
-  gqlMagicComment: graphql
 generates:
   src/typings/graphql.d.ts:
     plugins:
       - 'typescript'
       - 'typescript-operations'
-    config:
-      withMutationFn: true

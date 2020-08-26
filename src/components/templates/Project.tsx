@@ -15,14 +15,14 @@ type Props = PageProps<{
   }
 }>
 
-const Project = ({ data, location: { origin, href } }: Props) => {
+const Project = ({ data, location }: Props) => {
   return (
     <Fragment>
       <Seo
         pageTitle={data.strapi.project.title}
         meta={data.strapi.project.meta}
-        origin={origin}
-        href={href}
+        origin={location.origin}
+        href={location.href}
       />
       <Hero
         {...{

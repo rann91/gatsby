@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<div>
+  <section
+    class="css-cwo03m-Hero"
+    data-testid="section"
+  >
+    <div
+      class=" gatsby-image-wrapper"
+      style="position: absolute; overflow: hidden; top: 0px; left: 0px; width: 100%; height: 100%;"
+    >
+      <div
+        aria-hidden="true"
+        style="width: 100%; padding-bottom: 66.66666666666667%;"
+      />
+      <img
+        alt=""
+        aria-hidden="true"
+        src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAT5eOdx2JT//xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIREiH/2gAIAQEAAQUCkldIaV4wT4OXf//EABcRAAMBAAAAAAAAAAAAAAAAAAECEEH/2gAIAQMBAT8BYbP/xAAWEQEBAQAAAAAAAAAAAAAAAAACEBL/2gAIAQIBAT8BD1P/xAAYEAACAwAAAAAAAAAAAAAAAAAQESAxgf/aAAgBAQAGPwKlDR//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQQSFRYf/aAAgBAQABPyG/bdvI4cAmm7dx8w0i40f/2gAMAwEAAgADAAAAEHPv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAEDAQE/EIGP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEhMf/aAAgBAgEBPxCDC3//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFhof/aAAgBAQABPxDZ6AFDVeo0ppteE4xLbiYm+wwHdx3e/IleJ//Z"
+        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+      />
+      <picture>
+        <source
+          sizes="(max-width: 1920px) 100vw, 1920px"
+          srcset="/static/b81e707d3f2049269e1ccb8818c45960/9104c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 480w,
+/static/b81e707d3f2049269e1ccb8818c45960/a6352/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 960w,
+/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 1920w,
+/static/b81e707d3f2049269e1ccb8818c45960/af56c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 2880w,
+/static/b81e707d3f2049269e1ccb8818c45960/27fce/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 3840w,
+/static/b81e707d3f2049269e1ccb8818c45960/1c878/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 4752w"
+        />
+        <img
+          alt=""
+          loading="lazy"
+          sizes="(max-width: 1920px) 100vw, 1920px"
+          src="/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg"
+          srcset="/static/b81e707d3f2049269e1ccb8818c45960/9104c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 480w,
+/static/b81e707d3f2049269e1ccb8818c45960/a6352/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 960w,
+/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 1920w,
+/static/b81e707d3f2049269e1ccb8818c45960/af56c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 2880w,
+/static/b81e707d3f2049269e1ccb8818c45960/27fce/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 3840w,
+/static/b81e707d3f2049269e1ccb8818c45960/1c878/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 4752w"
+          style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+        />
+      </picture>
+      <noscript>
+        &lt;picture&gt;&lt;source srcset="/static/b81e707d3f2049269e1ccb8818c45960/9104c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 480w,
+/static/b81e707d3f2049269e1ccb8818c45960/a6352/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 960w,
+/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 1920w,
+/static/b81e707d3f2049269e1ccb8818c45960/af56c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 2880w,
+/static/b81e707d3f2049269e1ccb8818c45960/27fce/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 3840w,
+/static/b81e707d3f2049269e1ccb8818c45960/1c878/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 4752w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/b81e707d3f2049269e1ccb8818c45960/9104c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 480w,
+/static/b81e707d3f2049269e1ccb8818c45960/a6352/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 960w,
+/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 1920w,
+/static/b81e707d3f2049269e1ccb8818c45960/af56c/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 2880w,
+/static/b81e707d3f2049269e1ccb8818c45960/27fce/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 3840w,
+/static/b81e707d3f2049269e1ccb8818c45960/1c878/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg 4752w" src="/static/b81e707d3f2049269e1ccb8818c45960/d8255/branch_plant_wood_leaf_flower_petal_694258_pxhere_com_711d93fc90.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+      </noscript>
+    </div>
+    <div
+      class="css-1ab51y2-Hero"
+    />
+    <div
+      class="css-71cnkm-Hero"
+    >
+      <h1
+        class="css-1wf7gym"
+      >
+        Grow your business
+      </h1>
+      <p
+        class="css-1uqf9c8-Hero"
+      >
+        Give your business a boost with a beautifully crafted homepage.
+      </p>
+      <a
+        class="css-1i3epbt-Hero"
+        data-testid="theme-link"
+        href="https://www.gatsbyjs.org"
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        Learn more
+      </a>
+    </div>
+  </section>
+  <section
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-1d54mlz"
+    >
+      <div
+        class="css-ycxng9-TextContainer"
+        data-testid="text-container"
+      >
+        <div
+          class="css-1mpaekt-HeadingGroup"
+        >
+          <div
+            class="css-146vepc-HeadingGroup"
+            data-testid="subtitle"
+          >
+            What we believe in
+          </div>
+          <h2
+            class="css-16nj6cn-HeadingGroup"
+            data-testid="title"
+          >
+            Grow your business, establish your brand, and put your customers first.
+          </h2>
+        </div>
+      </div>
+      <hr
+        class="css-1q65tqs"
+      />
+    </div>
+  </section>
+  <section
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-qk85ia-Highlight"
+    >
+      <div
+        class="css-apomu1-Highlight"
+      >
+        <div
+          class="css-vurnku"
+        >
+          About
+        </div>
+        <h2
+          class="css-1rgy0jp-Highlight"
+        >
+          Who we are
+        </h2>
+        <p
+          class="css-l61lpi-Highlight"
+        >
+          Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis faucibus erat, non accumsan leo. Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
+        </p>
+        <a
+          class="css-10k9l7m-Highlight"
+          data-testid="gatsby-link"
+          href="/about"
+          target="_self"
+        >
+          Learn more
+        </a>
+      </div>
+      <div
+        class="css-13hi74v-Highlight"
+      >
+        <div
+          class="css-i9l3dq"
+        >
+          <div
+            class="css-r01jhj"
+          />
+          <div
+            class="css-1sr1905"
+          >
+            <div
+              class=" gatsby-image-wrapper"
+              style="position: relative; overflow: hidden;"
+            >
+              <div
+                aria-hidden="true"
+                style="width: 100%; padding-bottom: 66.796875%;"
+              />
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAD/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABTHAMnyf/xAAbEAACAgMBAAAAAAAAAAAAAAACAwABERMjM//aAAgBAQABBQKvQ8za6o4dYU4sIHn/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/AYf/xAAbEAACAwADAAAAAAAAAAAAAAAAARESIQIiMf/aAAgBAQAGPwLkq9UOvhilCcvRm6f/xAAcEAEAAwACAwAAAAAAAAAAAAABACExEUFRYXH/2gAIAQEAAT8h9Qt8RcEVGpFNKWMtuX8gz50YZ2G8n//aAAwDAQACAAMAAAAQVz//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAEDAQE/EE9Haf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEWH/2gAIAQIBAT8Q4gMv/8QAHRABAAICAwEBAAAAAAAAAAAAAREhAEExUXFh8P/aAAgBAQABPxD1nKyjlfjNeYMK7MJHuHWQK8QzP6MQxMKaEcPeskrRzeqry8O1ZZFSFGf/2Q=="
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+              />
+              <picture>
+                <source
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w"
+                />
+                <img
+                  alt=""
+                  loading="lazy"
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  src="/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg"
+                  srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                />
+              </picture>
+              <noscript>
+                &lt;picture&gt;&lt;source srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/static/42b762e0ecd869999e5a564f2c40d88e/07af2/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 256w,
+/static/42b762e0ecd869999e5a564f2c40d88e/49b36/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 512w,
+/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1024w,
+/static/42b762e0ecd869999e5a564f2c40d88e/a6974/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 1536w,
+/static/42b762e0ecd869999e5a564f2c40d88e/69755/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 2048w,
+/static/42b762e0ecd869999e5a564f2c40d88e/6a059/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg 6000w" src="/static/42b762e0ecd869999e5a564f2c40d88e/16310/computer_working_person_group_people_meeting_559565_pxhere_com_18da4957f9.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+              </noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-1ot2gnt-Highlight"
+    >
+      <div
+        class="css-apomu1-Highlight"
+      >
+        <div
+          class="css-vurnku"
+        >
+          Team
+        </div>
+        <h2
+          class="css-1rgy0jp-Highlight"
+        >
+          What we do
+        </h2>
+        <p
+          class="css-l61lpi-Highlight"
+        >
+          Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor venenatis feugiat. Etiam quis faucibus erat, non accumsan leo. Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper gravida tellus ut consequat.
+        </p>
+        <a
+          class="css-10k9l7m-Highlight"
+          data-testid="gatsby-link"
+          href="/team"
+          target="_self"
+        >
+          Learn more
+        </a>
+      </div>
+      <div
+        class="css-13hi74v-Highlight"
+      >
+        <div
+          class="css-i9l3dq"
+        >
+          <div
+            class="css-r01jhj"
+          />
+          <div
+            class="css-1sr1905"
+          >
+            <div
+              class=" gatsby-image-wrapper"
+              style="position: relative; overflow: hidden;"
+            >
+              <div
+                aria-hidden="true"
+                style="width: 100%; padding-bottom: 66.796875%;"
+              />
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABaiTBpOeT/8QAGBAAAwEBAAAAAAAAAAAAAAAAAQIDABL/2gAIAQEAAQUCSKBG5JFkGW1F1Kmg3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB8QAAEDAwUAAAAAAAAAAAAAAAEAAhEQIXESMTJRkf/aAAgBAQAGPwITDjnZEumB0raly9Vw0YFP/8QAGhAAAwEBAQEAAAAAAAAAAAAAAAERITFhUf/aAAgBAQABPyFePZvMfSYLtaJmHBeDVyr2LRGwPKkP/9oADAMBAAIAAwAAABCDz//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAwEBPxCpr//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAgEBPxCMf//EAB0QAAMBAAMAAwAAAAAAAAAAAAERIQAxUWFBcYH/2gAIAQEAAT8QIVLon5CD8zH0JQpEvCX7hZvJAcXD8xa6gEPtMaRBpBZ2cQk3/9k="
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+              />
+              <picture>
+                <source
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  srcset="/static/4861973ba53f10257ade2ea9a0dab42d/07af2/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 256w,
+/static/4861973ba53f10257ade2ea9a0dab42d/49b36/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 512w,
+/static/4861973ba53f10257ade2ea9a0dab42d/16310/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1024w,
+/static/4861973ba53f10257ade2ea9a0dab42d/a6974/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1536w,
+/static/4861973ba53f10257ade2ea9a0dab42d/69755/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 2048w,
+/static/4861973ba53f10257ade2ea9a0dab42d/947df/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 5472w"
+                />
+                <img
+                  alt=""
+                  loading="lazy"
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  src="/static/4861973ba53f10257ade2ea9a0dab42d/16310/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg"
+                  srcset="/static/4861973ba53f10257ade2ea9a0dab42d/07af2/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 256w,
+/static/4861973ba53f10257ade2ea9a0dab42d/49b36/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 512w,
+/static/4861973ba53f10257ade2ea9a0dab42d/16310/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1024w,
+/static/4861973ba53f10257ade2ea9a0dab42d/a6974/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1536w,
+/static/4861973ba53f10257ade2ea9a0dab42d/69755/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 2048w,
+/static/4861973ba53f10257ade2ea9a0dab42d/947df/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 5472w"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                />
+              </picture>
+              <noscript>
+                &lt;picture&gt;&lt;source srcset="/static/4861973ba53f10257ade2ea9a0dab42d/07af2/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 256w,
+/static/4861973ba53f10257ade2ea9a0dab42d/49b36/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 512w,
+/static/4861973ba53f10257ade2ea9a0dab42d/16310/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1024w,
+/static/4861973ba53f10257ade2ea9a0dab42d/a6974/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1536w,
+/static/4861973ba53f10257ade2ea9a0dab42d/69755/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 2048w,
+/static/4861973ba53f10257ade2ea9a0dab42d/947df/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 5472w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" srcset="/static/4861973ba53f10257ade2ea9a0dab42d/07af2/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 256w,
+/static/4861973ba53f10257ade2ea9a0dab42d/49b36/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 512w,
+/static/4861973ba53f10257ade2ea9a0dab42d/16310/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1024w,
+/static/4861973ba53f10257ade2ea9a0dab42d/a6974/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 1536w,
+/static/4861973ba53f10257ade2ea9a0dab42d/69755/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 2048w,
+/static/4861973ba53f10257ade2ea9a0dab42d/947df/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg 5472w" src="/static/4861973ba53f10257ade2ea9a0dab42d/16310/laptop_computer_writing_working_table_coffee_764674_pxhere_com_694364e0fe.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+              </noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="css-1ptauik"
+    data-testid="article-latest-list"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <div
+        class="css-1mpaekt-HeadingGroup"
+      >
+        <div
+          class="css-146vepc-HeadingGroup"
+          data-testid="subtitle"
+        >
+          About us
+        </div>
+        <h2
+          class="css-16nj6cn-HeadingGroup"
+          data-testid="title"
+        >
+          Company news
+        </h2>
+      </div>
+      <div
+        class="css-18ozqqn-ArticleLatestList"
+      >
+        <div
+          class="css-qzbx0h"
+        >
+          <h3
+            class="css-9ygwq5-ArticleTeaser"
+            data-testid="article-teaser-heading"
+          >
+            <a
+              class="css-7aa45z-ArticleTeaser"
+              href="/blog/10-quick-tips-about-blogging"
+            >
+              10 Quick Tips About Blogging
+            </a>
+          </h3>
+          <time
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-label"
+          >
+            Jul 25, 2020
+          </time>
+          <div
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-summary"
+          >
+            Sit quam quae perferendis harum amet dolorum possimus minus. Occaecati magnam animi quasi dolor quae et aut. Autem voluptas alias nobis in odit. Aperiam harum eum modi neque. Ipsum iusto beatae et esse nobis illum hic natus. Sapiente non cumque quia facilis. Quo est odio culpa eaque sit ipsum mol.
+          </div>
+        </div>
+        <div
+          class="css-qzbx0h"
+        >
+          <h3
+            class="css-9ygwq5-ArticleTeaser"
+            data-testid="article-teaser-heading"
+          >
+            <a
+              class="css-7aa45z-ArticleTeaser"
+              href="/blog/15-best-blogs-to-follow-about-web-design"
+            >
+              15 Best Blogs To Follow About Web Design
+            </a>
+          </h3>
+          <time
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-label"
+          >
+            Jul 25, 2020
+          </time>
+          <div
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-summary"
+          >
+            Maxime repellendus beatae asperiores. Est sapiente a et consectetur quo voluptate explicabo quis. Dignissimos error esse sapiente aperiam amet eum perspiciatis. Dolor totam voluptatum veritatis ex assumenda ut assumenda accus.
+          </div>
+        </div>
+        <div
+          class="css-qzbx0h"
+        >
+          <h3
+            class="css-9ygwq5-ArticleTeaser"
+            data-testid="article-teaser-heading"
+          >
+            <a
+              class="css-7aa45z-ArticleTeaser"
+              href="/blog/7-of-the-best-examples-of-beautiful-blog-design"
+            >
+              7 of the Best Examples of Beautiful Blog Design
+            </a>
+          </h3>
+          <time
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-label"
+          >
+            Jul 25, 2020
+          </time>
+          <div
+            class="css-1muxnm4-ArticleTeaser"
+            data-testid="article-teaser-summary"
+          >
+            Harum et neque voluptate voluptatem aut quis culpa modi. Enim similique provident et libero quod magni soluta. Repudiandae deserunt architecto itaque repellat perfe.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

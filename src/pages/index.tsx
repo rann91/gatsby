@@ -13,13 +13,13 @@ type Props = PageProps<{
   }
 }>
 
-const Home = ({ data, location: { origin, href } }: Props) => (
+const Home = ({ data, location }: Props) => (
   <Fragment>
     <Seo
       pageTitle={data.strapi.homepage.title}
       meta={data.strapi.homepage.meta}
-      origin={origin}
-      href={href}
+      origin={location.origin}
+      href={location.href}
     />
     <Content
       components={

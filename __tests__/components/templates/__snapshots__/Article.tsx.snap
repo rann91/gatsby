@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article renders correctly 1`] = `
+<div>
+  <article
+    class="css-1uy1wmc"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <div
+        class="css-sia4fg-Article"
+      >
+        <h1
+          class="css-1wf7gym"
+        >
+          10 Quick Tips About Blogging
+        </h1>
+        <time
+          class="css-iwcjxb"
+        >
+          July 25, 2020
+        </time>
+      </div>
+      <div
+        class="css-b8zr0"
+      >
+        <div
+          class="css-i9l3dq"
+        >
+          <div
+            class="css-r01jhj"
+          />
+          <div
+            class="css-1jyusi9"
+          >
+            <div
+              class=" gatsby-image-wrapper"
+              style="position: relative; overflow: hidden;"
+            >
+              <div
+                aria-hidden="true"
+                style="width: 100%; padding-bottom: 66.66666666666667%;"
+              />
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyIERf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5EbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAECEBESISJxof/aAAgBAQAGPwKbkNIVwVUWWr63/8QAGxAAAgMBAQEAAAAAAAAAAAAAAREAITFhUZH/2gAIAQEAAT8h2+gm6hVCAC4+zzruQltwu4DgXHP/2gAMAwEAAgADAAAAEAQP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxATtq//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EEeWb//EABwQAQACAwEBAQAAAAAAAAAAAAERIQBBUXFhof/aAAgBAQABPxDWkQhgeXjmiTVFDSLxtruE/mCUl133uQI9qhD5zFSrKtq7z//Z"
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+              />
+              <picture>
+                <source
+                  sizes="(max-width: 1920px) 100vw, 1920px"
+                  srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w"
+                />
+                <img
+                  alt="Laptop and block note on a desk"
+                  loading="lazy"
+                  sizes="(max-width: 1920px) 100vw, 1920px"
+                  src="/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg"
+                  srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                />
+              </picture>
+              <noscript>
+                &lt;picture&gt;&lt;source srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/a328e26e48bf3ac82340bfbea4a5ce37/9104c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 480w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/a6352/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 960w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 1920w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/af56c/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 2880w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/27fce/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 3840w,
+/static/a328e26e48bf3ac82340bfbea4a5ce37/947df/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg 5472w" src="/static/a328e26e48bf3ac82340bfbea4a5ce37/d8255/laptop_desk_notebook_computer_writing_work_927799_pxhere_com_273164166b.jpg" alt="Laptop and block note on a desk" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+              </noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-sia4fg-Article"
+      >
+        <div
+          class="css-cjphzs-Article"
+        >
+          <h2>
+            What’s a Rich Text element?
+          </h2>
+          <p>
+            The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.
+          </p>
+          <blockquote>
+            <p>
+              The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.
+            </p>
+          </blockquote>
+          <h3>
+            Static and dynamic content editing
+          </h3>
+          <p>
+            A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!
+          </p>
+          <div
+            class="css-19h5ycu gatsby-image-wrapper"
+            style="position: relative; overflow: hidden;"
+          >
+            <div
+              aria-hidden="true"
+              style="width: 100%; padding-bottom: 74.5945945945946%;"
+            />
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAH/2gAMAwEAAhADEAAAAXVyQNnjTb//xAAaEAEAAgMBAAAAAAAAAAAAAAABAhEAAxIx/9oACAEBAAEFAtnmwObvEnbFR4i//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwGKaf/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwF1kP/EABgQAAMBAQAAAAAAAAAAAAAAAAAQIQEx/9oACAEBAAY/Aqqrp0//xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMUH/2gAIAQEAAT8hZSkqKsw0raSF3F6QBIwm1P/aAAwDAQACAAMAAAAQp/8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/ECA2zf/EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QZmFn/8QAGxABAQADAQEBAAAAAAAAAAAAAREAIUExgZH/2gAIAQEAAT8QCJeUmn5l6bDwICzc7ikGJ64mWPRGpzAsrPAqZZpNad/M/9k="
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+            />
+            <picture>
+              <source
+                sizes="(max-width: 740px) 100vw, 740px"
+                srcset="/static/70b0a429095ed777092409020ea8d4ad/29cff/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 185w,
+/static/70b0a429095ed777092409020ea8d4ad/3b31f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 370w,
+/static/70b0a429095ed777092409020ea8d4ad/83a78/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 740w,
+/static/70b0a429095ed777092409020ea8d4ad/b3f9f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1110w,
+/static/70b0a429095ed777092409020ea8d4ad/c6cd0/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1480w,
+/static/70b0a429095ed777092409020ea8d4ad/73508/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 3359w"
+              />
+              <img
+                alt="Red cat sitting"
+                loading="lazy"
+                sizes="(max-width: 740px) 100vw, 740px"
+                src="/static/70b0a429095ed777092409020ea8d4ad/83a78/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg"
+                srcset="/static/70b0a429095ed777092409020ea8d4ad/29cff/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 185w,
+/static/70b0a429095ed777092409020ea8d4ad/3b31f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 370w,
+/static/70b0a429095ed777092409020ea8d4ad/83a78/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 740w,
+/static/70b0a429095ed777092409020ea8d4ad/b3f9f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1110w,
+/static/70b0a429095ed777092409020ea8d4ad/c6cd0/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1480w,
+/static/70b0a429095ed777092409020ea8d4ad/73508/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 3359w"
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+              />
+            </picture>
+            <noscript>
+              &lt;picture&gt;&lt;source srcset="/static/70b0a429095ed777092409020ea8d4ad/29cff/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 185w,
+/static/70b0a429095ed777092409020ea8d4ad/3b31f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 370w,
+/static/70b0a429095ed777092409020ea8d4ad/83a78/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 740w,
+/static/70b0a429095ed777092409020ea8d4ad/b3f9f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1110w,
+/static/70b0a429095ed777092409020ea8d4ad/c6cd0/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1480w,
+/static/70b0a429095ed777092409020ea8d4ad/73508/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 3359w" sizes="(max-width: 740px) 100vw, 740px" /&gt;&lt;img loading="lazy" sizes="(max-width: 740px) 100vw, 740px" srcset="/static/70b0a429095ed777092409020ea8d4ad/29cff/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 185w,
+/static/70b0a429095ed777092409020ea8d4ad/3b31f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 370w,
+/static/70b0a429095ed777092409020ea8d4ad/83a78/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 740w,
+/static/70b0a429095ed777092409020ea8d4ad/b3f9f/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1110w,
+/static/70b0a429095ed777092409020ea8d4ad/c6cd0/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 1480w,
+/static/70b0a429095ed777092409020ea8d4ad/73508/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg 3359w" src="/static/70b0a429095ed777092409020ea8d4ad/83a78/sweet_animal_cute_pet_fur_red_675156_pxhere_com_6b56b8f673.jpg" alt="Red cat sitting" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+            </noscript>
+          </div>
+          <h3>
+            How to customize formatting for each rich text
+          </h3>
+          <p>
+            Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the "When inside of" nested selector system.
+          </p>
+          <ul>
+            <li>
+              The rich text element allows you to create and format headings
+            </li>
+            <li>
+              Headings, paragraphs, blockquotes, figures, images, and figure captions
+            </li>
+            <li>
+              A rich text element can be used with static or dynamic content
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+`;

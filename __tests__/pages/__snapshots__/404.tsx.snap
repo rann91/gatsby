@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 renders correctly 1`] = `
+<div>
+  <div
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-jml5s4-NotFoundPage"
+    >
+      <h1
+        class="css-16rjs26"
+      >
+        Page not found
+      </h1>
+      <p
+        class="css-1pd4dm3"
+      >
+        The page you have requested cannot be found.
+      </p>
+      <div
+        class="css-vurnku"
+      >
+        <a
+          class="css-1mygz8v-NotFoundPage"
+          data-testid="gatsby-link"
+          href="/"
+          target="_self"
+        >
+          Back to home
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

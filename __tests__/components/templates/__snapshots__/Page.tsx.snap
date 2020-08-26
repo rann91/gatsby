@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders correctly 1`] = `
+<div>
+  <section
+    class="css-1ouhmvy-Hero"
+    data-testid="section"
+  >
+    <div
+      class=" gatsby-image-wrapper"
+      style="position: absolute; overflow: hidden; top: 0px; left: 0px; width: 100%; height: 100%;"
+    >
+      <div
+        aria-hidden="true"
+        style="width: 100%; padding-bottom: 66.66666666666667%;"
+      />
+      <img
+        alt=""
+        aria-hidden="true"
+        src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAbbuY5mRoV//xAAaEAACAwEBAAAAAAAAAAAAAAAAAQIDERIh/9oACAEBAAEFAq9T2TH4+sKZ9Cr0/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQMBAT8BR//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAQEAAgMAAAAAAAAAAAAAAAEAAiERMqH/2gAIAQEABj8C0c3Vt5eRI2lL/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFRQWH/2gAIAQEAAT8hB94wezQS+piE2D2LIHFiUo4uU7F5uf/aAAwDAQACAAMAAAAQlO//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QcGf/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/ENXL/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARIUFRMaH/2gAIAQEAAT8QZAIGlnMQHTip9lWRs09TfxWrw8gJaDbtQ8/FUofZ/9k="
+        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+      />
+      <picture>
+        <source
+          sizes="(max-width: 1920px) 100vw, 1920px"
+          srcset="/static/dbd8587b9082466a103eee39353fce12/9104c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 480w,
+/static/dbd8587b9082466a103eee39353fce12/a6352/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 960w,
+/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 1920w,
+/static/dbd8587b9082466a103eee39353fce12/af56c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 2880w,
+/static/dbd8587b9082466a103eee39353fce12/27fce/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 3840w,
+/static/dbd8587b9082466a103eee39353fce12/545e0/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 7360w"
+        />
+        <img
+          alt=""
+          loading="lazy"
+          sizes="(max-width: 1920px) 100vw, 1920px"
+          src="/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg"
+          srcset="/static/dbd8587b9082466a103eee39353fce12/9104c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 480w,
+/static/dbd8587b9082466a103eee39353fce12/a6352/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 960w,
+/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 1920w,
+/static/dbd8587b9082466a103eee39353fce12/af56c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 2880w,
+/static/dbd8587b9082466a103eee39353fce12/27fce/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 3840w,
+/static/dbd8587b9082466a103eee39353fce12/545e0/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 7360w"
+          style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+        />
+      </picture>
+      <noscript>
+        &lt;picture&gt;&lt;source srcset="/static/dbd8587b9082466a103eee39353fce12/9104c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 480w,
+/static/dbd8587b9082466a103eee39353fce12/a6352/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 960w,
+/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 1920w,
+/static/dbd8587b9082466a103eee39353fce12/af56c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 2880w,
+/static/dbd8587b9082466a103eee39353fce12/27fce/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 3840w,
+/static/dbd8587b9082466a103eee39353fce12/545e0/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 7360w" sizes="(max-width: 1920px) 100vw, 1920px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/static/dbd8587b9082466a103eee39353fce12/9104c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 480w,
+/static/dbd8587b9082466a103eee39353fce12/a6352/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 960w,
+/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 1920w,
+/static/dbd8587b9082466a103eee39353fce12/af56c/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 2880w,
+/static/dbd8587b9082466a103eee39353fce12/27fce/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 3840w,
+/static/dbd8587b9082466a103eee39353fce12/545e0/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg 7360w" src="/static/dbd8587b9082466a103eee39353fce12/d8255/desk_writing_work_hand_man_working_596254_pxhere_com_3d033b8df6.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+      </noscript>
+    </div>
+    <div
+      class="css-1ab51y2-Hero"
+    />
+    <div
+      class="css-71cnkm-Hero"
+    >
+      <h1
+        class="css-1wf7gym"
+      >
+        About us
+      </h1>
+    </div>
+  </section>
+  <section
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-1d54mlz"
+    >
+      <div
+        class="css-ycxng9-TextContainer"
+        data-testid="text-container"
+      >
+        <div
+          class="css-1mpaekt-HeadingGroup"
+        >
+          <h2
+            class="css-16nj6cn-HeadingGroup"
+            data-testid="title"
+          >
+            We’re a group of creative thinkers who have built a business to change the world.
+          </h2>
+        </div>
+        
+      </div>
+      <hr
+        class="css-1q65tqs"
+      />
+    </div>
+  </section>
+  <div
+    class="css-1ptauik"
+    data-testid="section"
+  >
+    <div
+      class="css-1d54mlz"
+    >
+      <div
+        class="css-ycxng9-TextContainer"
+        data-testid="text-container"
+      >
+        <p
+          class="css-5n2vnh-Text"
+        >
+          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+
+Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+
+She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
+        </p>
+      </div>
+      <hr
+        class="css-1q65tqs"
+      />
+    </div>
+  </div>
+  <section
+    class="css-10nqdfk-ServiceList"
+    data-testid="service-list"
+  >
+    <div
+      class="css-1yrmf69"
+    >
+      <div
+        class="css-1mpaekt-HeadingGroup"
+      >
+        <div
+          class="css-146vepc-HeadingGroup"
+          data-testid="subtitle"
+        >
+          What we are best at
+        </div>
+        <h2
+          class="css-16nj6cn-HeadingGroup"
+          data-testid="title"
+        >
+          Our services
+        </h2>
+      </div>
+      <div
+        class="css-1x8he57-ServiceList"
+      >
+        <div
+          class="css-13dda3r"
+        >
+          <div
+            class="css-5uwokq-Service"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-tmeqbf"
+              />
+              <div
+                class="css-ojfau8"
+              >
+                <img
+                  alt="Service logo"
+                  class="css-1vz0lri-Service"
+                  src="/static/e1f5c103db11513ce0e1488bf71a12c7/support_734bde873c.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-j6wujt-Service"
+          >
+            Support
+          </h3>
+          <p
+            class="css-vurnku"
+          >
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div
+          class="css-13dda3r"
+        >
+          <div
+            class="css-5uwokq-Service"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-tmeqbf"
+              />
+              <div
+                class="css-ojfau8"
+              >
+                <img
+                  alt="Service logo"
+                  class="css-1vz0lri-Service"
+                  src="/static/03ccc4247828dd9f72de92019e7fbe45/strategy_4a02bf0bd6.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-j6wujt-Service"
+          >
+            Strategy
+          </h3>
+          <p
+            class="css-vurnku"
+          >
+            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
+          </p>
+        </div>
+        <div
+          class="css-13dda3r"
+        >
+          <div
+            class="css-5uwokq-Service"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-tmeqbf"
+              />
+              <div
+                class="css-ojfau8"
+              >
+                <img
+                  alt="Service logo"
+                  class="css-1vz0lri-Service"
+                  src="/static/bad3bd60a3d599f881f0e74d19c2f43f/management_7eca47eb5b.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-j6wujt-Service"
+          >
+            Management
+          </h3>
+          <p
+            class="css-vurnku"
+          >
+            Blind texts it is an almost unorthographic life One day however a small line of blind text by the name.
+          </p>
+        </div>
+        <div
+          class="css-13dda3r"
+        >
+          <div
+            class="css-5uwokq-Service"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-tmeqbf"
+              />
+              <div
+                class="css-ojfau8"
+              >
+                <img
+                  alt="Service logo"
+                  class="css-1vz0lri-Service"
+                  src="/static/1d262bcb471c28b6d378459d8ee7bd55/training_c092d67f1d.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-j6wujt-Service"
+          >
+            Training
+          </h3>
+          <p
+            class="css-vurnku"
+          >
+            Blind texts it is an almost unorthographic life One day however a small line of blind text by the name.
+          </p>
+        </div>
+        <div
+          class="css-13dda3r"
+        >
+          <div
+            class="css-5uwokq-Service"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-tmeqbf"
+              />
+              <div
+                class="css-ojfau8"
+              >
+                <img
+                  alt="Service logo"
+                  class="css-1vz0lri-Service"
+                  src="/static/d49c9a3ec392fe1419264e4a74f119cf/consulting_3db53fea72.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-j6wujt-Service"
+          >
+            Consulting
+          </h3>
+          <p
+            class="css-vurnku"
+          >
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div
+          class="css-13dda3r"
+        >
+          <div
+            class="css-5uwokq-Service"
+          >
+            <div
+              class="css-i9l3dq"
+            >
+              <div
+                class="css-tmeqbf"
+              />
+              <div
+                class="css-ojfau8"
+              >
+                <img
+                  alt="Service logo"
+                  class="css-1vz0lri-Service"
+                  src="/static/98dfe375049aea2c3b10efa8dafd9364/events_171bfcf6ed.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <h3
+            class="css-j6wujt-Service"
+          >
+            Events
+          </h3>
+          <p
+            class="css-vurnku"
+          >
+            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
