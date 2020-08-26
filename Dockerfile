@@ -6,6 +6,6 @@ COPY package*.json ./
 RUN npm ci
 COPY --chown=node:node . .
 # RUN npm test
-# RUN npm run build
-# EXPOSE 9000
-CMD ["node", "test.js"]
+RUN npm run build
+EXPOSE 9000
+CMD ["npm", "run", "serve"]
