@@ -1,2 +1,3 @@
 # Gatsby
-Gatsby example project
+
+Gatsby example project.
