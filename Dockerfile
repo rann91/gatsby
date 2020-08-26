@@ -5,7 +5,6 @@ WORKDIR /home/node/app
 COPY package*.json ./
 RUN npm ci
 COPY --chown=node:node . .
-RUN npm run lint
 RUN npm test
 RUN npm run build
 EXPOSE 9000
